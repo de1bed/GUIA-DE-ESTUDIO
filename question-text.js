@@ -13,6 +13,22 @@ const bankQuestion = (file, number) =>
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
+/* Correcciones a pageForms comprobadas contra los escaneos:
+   - la hoja 5 abre la Seccion 3 con una pregunta que la tabla no listaba;
+   - la hoja 43 se titula "Commercial Driver Examination" en el original,
+     no "Class C Examination", y eso alimenta el filtro por seccion. */
+Object.entries(BANK).forEach(([page, data]) => {
+  const form = pageForms[page];
+  if (!form) return;
+  data.questions.forEach(q => {
+    if (!form.numbers.includes(q.n)) form.numbers.push(q.n);
+  });
+  form.section = data.section;
+});
+
+/* El total de espacios deja de estar codificado a mano. */
+const TOTAL_SPACES = Object.values(pageForms).reduce((sum, form) => sum + form.numbers.length, 0);
+
 /* Verificación individual: qué preguntas tienen la clave ya revelada. */
 const revealed = new Set(JSON.parse(localStorage.getItem('rutaCdlRevealed') || '[]'));
 const revealKey = (file, number) => `${file}:${number}`;
@@ -190,7 +206,7 @@ function decorateSourceExam() {
   }</select></label>`);
   $('#sourcePageJump').onchange = event => { sourceExamPage = +event.target.value; renderSourceExam(); };
 
-  $('.answer-sheet').insertAdjacentHTML('afterbegin', `<div class="global-source-progress"><span>PROGRESO GLOBAL</span><strong>${totalAnswered} / 255</strong><i><em style="width:${Math.round(totalAnswered / 255 * 100)}%"></em></i><small>Los números se repiten porque cada sección reinicia su numeración.</small></div>`);
+  $('.answer-sheet').insertAdjacentHTML('afterbegin', `<div class="global-source-progress"><span>PROGRESO GLOBAL</span><strong>${totalAnswered} / ${TOTAL_SPACES}</strong><i><em style="width:${Math.round(totalAnswered / TOTAL_SPACES * 100)}%"></em></i><small>Los números se repiten porque cada sección reinicia su numeración.</small></div>`);
 
   $$('[data-source-answer]').forEach(button => button.addEventListener('click', markActivity, { once: true }));
   updateStats();

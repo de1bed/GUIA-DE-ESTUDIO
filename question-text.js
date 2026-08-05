@@ -13,35 +13,63 @@ const bankQuestion = (file, number) =>
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
-function optionMarkup(question, letter, index, { selected, keyed, disabled, attrs }) {
+/* Verificación individual: qué preguntas tienen la clave ya revelada. */
+const revealed = new Set(JSON.parse(localStorage.getItem('rutaCdlRevealed') || '[]'));
+const revealKey = (file, number) => `${file}:${number}`;
+const isRevealed = (file, number) => revealed.has(revealKey(file, number));
+function toggleReveal(file, number) {
+  const id = revealKey(file, number);
+  revealed.has(id) ? revealed.delete(id) : revealed.add(id);
+  localStorage.setItem('rutaCdlRevealed', JSON.stringify([...revealed]));
+}
+
+function optionMarkup(question, letter, index, { selected, keyed, disabled, attrs, badge }) {
   const option = question ? question.optsEn[index] : null;
   const optionEs = question ? question.optsEs[index] : null;
-  const classes = [selected ? 'selected' : '', keyed ? 'key-answer' : ''].filter(Boolean).join(' ');
+  const classes = [selected ? 'selected' : '', keyed ? 'key-answer' : '', badge === 'bad' ? 'wrong-pick' : ''].filter(Boolean).join(' ');
+  const tag = badge === 'ok' ? '<b class="opt-badge ok">Correcta</b>'
+    : badge === 'bad' ? '<b class="opt-badge bad">Tu respuesta</b>' : '';
   const body = option
     ? `<span class="opt-text"><b>${esc(option)}</b><em>${esc(optionEs)}</em></span>`
     : '';
-  return `<button class="${classes}" ${attrs} ${disabled ? 'disabled' : ''}><i>${letter}</i>${body}</button>`;
+  return `<button class="${classes}" ${attrs} ${disabled ? 'disabled' : ''}><i>${letter}</i>${body}${tag}</button>`;
 }
 
 function questionMarkup(file, number, { answers, key, graded, unanswerable }) {
   const question = bankQuestion(file, number);
   const isBlank = unanswerable.includes(Number(number));
-  const rowState = graded && key[number] ? (answers[number] === key[number] ? 'row-correct' : 'row-wrong') : '';
+  const correct = key[number];
+  const picked = answers[number];
+  /* Se revela por la casilla individual o por el botón de revisión general. */
+  const show = Boolean(correct) && (graded || isRevealed(file, number));
+  const rowState = show ? (picked === correct ? 'row-correct' : picked ? 'row-wrong' : 'row-key') : '';
+
   const options = ['A', 'B', 'C'].map((letter, index) => optionMarkup(question, letter, index, {
-    selected: answers[number] === letter,
-    keyed: graded && key[number] === letter,
+    selected: picked === letter,
+    keyed: show && correct === letter,
     disabled: isBlank,
     attrs: `data-source-answer="${number}" data-source-letter="${letter}"`,
+    badge: !show ? null : correct === letter ? 'ok' : picked === letter ? 'bad' : null,
   })).join('');
 
   const heading = question
     ? `<p class="q-en">${esc(question.en)}</p><p class="q-es">${esc(question.es)}</p>`
     : `<p class="q-pending">Enunciado aún no transcrito · léelo en el escaneo de la izquierda.</p>`;
 
+  const verdict = !show ? '' : `<p class="q-verdict ${picked === correct ? 'ok' : 'bad'}">${
+    picked === correct ? `✓ Correcta. La clave es <b>${correct}</b>.`
+      : picked ? `✗ Marcaste <b>${picked}</b>. La correcta es <b>${correct}</b>.`
+        : `La respuesta correcta es <b>${correct}</b>.`
+  }</p>`;
+
+  const verify = isBlank || !correct ? '' :
+    `<button class="q-verify" data-verify="${number}">${show ? 'Ocultar respuesta' : 'Verificar respuesta'}</button>`;
+
   return `<article class="q-item ${rowState} ${question ? '' : 'q-compact'}">
     <header><b>${number}</b>${isBlank ? '<span class="q-blank">El original imprime “??” y no incluye pregunta</span>' : heading}</header>
     <div class="q-opts">${options}</div>
     ${question?.figure ? '<small class="q-figure">Esta pregunta depende de la figura impresa: consulta el escaneo.</small>' : ''}
+    ${verdict}${verify}
   </article>`;
 }
 
@@ -93,6 +121,10 @@ function renderSourceExam() {
     localStorage.setItem('rutaCdlSourceAnswers', JSON.stringify(sourceAnswers));
     renderSourceExam();
   };
+  $$('[data-verify]').forEach(button => button.onclick = () => {
+    toggleReveal(sourceExamPage, button.dataset.verify);
+    renderSourceExam();
+  });
   decorateSourceExam();
 }
 

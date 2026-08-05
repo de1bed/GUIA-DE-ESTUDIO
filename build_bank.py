@@ -23,6 +23,7 @@ for path in sorted(BANK_DIR.glob("*.json")):
             "optsEn": q["opts_en"],
             "optsEs": q["opts_es"],
             **({"figure": True} if q.get("figure") else {}),
+            **({"note": q["note"]} if q.get("note") else {}),
         })
     bank[str(page["file"])] = {
         "folio": page["folio"],

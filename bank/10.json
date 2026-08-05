@@ -1,0 +1,35 @@
+{
+  "file": 10,
+  "folio": 19,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 46,
+      "en": "What should you do when your vehicle hydroplanes?",
+      "es": "¿Qué debe hacer cuando su vehículo hidroplanea?",
+      "opts_en": ["Start stab braking.", "Release the accelerator.", "Accelerate slightly."],
+      "opts_es": ["Comenzar el frenado tipo “stab”.", "Soltar el acelerador.", "Acelerar ligeramente."]
+    },
+    {
+      "n": 48,
+      "en": "When you are passing another vehicle, pedestrian, or bicyclist, you should assume that they:",
+      "es": "Cuando rebasa a otro vehículo, peatón o ciclista, debe suponer que:",
+      "opts_en": ["May move into your traffic lane.", "Know you want to pass.", "See your vehicle."],
+      "opts_es": ["Podrían meterse en su carril.", "Saben que usted quiere rebasar.", "Ven su vehículo."]
+    },
+    {
+      "n": 49,
+      "en": "Which of these systems should receive extra attention during a winter weather inspection?",
+      "es": "¿A cuál de estos sistemas debe prestar atención adicional en una inspección de invierno?",
+      "opts_en": ["Exhaust.", "Suspension.", "Steering."],
+      "opts_es": ["El escape.", "La suspensión.", "La dirección."]
+    },
+    {
+      "n": 50,
+      "en": "You are driving on a straight, level highway at 50 mph with no vehicles in front of you. Suddenly a tire blows out on your vehicle. What should you do first?",
+      "es": "Conduce por una carretera recta y plana a 50 mph sin vehículos delante. De repente revienta una llanta. ¿Qué debe hacer primero?",
+      "opts_en": ["Stay off the brake until the vehicle has slowed down.", "Begin light braking.", "Begin emergency braking."],
+      "opts_es": ["No usar el freno hasta que el vehículo haya reducido la velocidad.", "Comenzar a frenar suavemente.", "Comenzar un frenado de emergencia."]
+    }
+  ]
+}

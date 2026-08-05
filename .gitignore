@@ -1,4 +1,5 @@
 .codex-review/
 portal-*.png
+assets/reference/
 __pycache__/
 *.pyc

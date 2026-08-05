@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#071b2e">
-  <title>Ruta CDL | Centro de aprendizaje</title>
+  <title>MTS Operator Learning Lab | Guía CDL</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
@@ -14,30 +14,35 @@
   <link rel="stylesheet" href="history.css">
   <link rel="stylesheet" href="responsive-final.css">
   <link rel="stylesheet" href="visual-lab.css">
+  <link rel="stylesheet" href="mts-redesign.css">
+  <link rel="stylesheet" href="mission.css">
+  <link rel="stylesheet" href="experience-order.css">
+  <link rel="stylesheet" href="sequence-v2.css">
+  <link rel="stylesheet" href="navigation-fix.css">
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="#inicio" aria-label="Ruta CDL, inicio">
-      <span class="brand-mark">CA</span><span><strong>Ruta CDL</strong><small>Centro de aprendizaje</small></span>
+    <a class="brand" href="#inicio" aria-label="MTS Operator Learning Lab, inicio">
+      <img class="mts-brand-logo" src="assets/brand/mts-logo-official.jpg" alt="MTS San Diego"><span><strong>Operator Learning Lab</strong><small>Preparación CDL bilingüe</small></span>
     </a>
     <nav aria-label="Navegación principal">
-      <a href="#biblioteca">Biblioteca</a><a href="#traduccion">Español</a><a href="#infografias">Infografías</a><a href="#academia">Academia</a><a href="#practica">Práctica</a><a href="#progreso">Progreso</a>
+      <a href="#academia">Ruta de aprendizaje</a><a href="#practica">Practicar</a><a href="#infografias">Visuales</a><a href="#biblioteca">Fuentes</a><a href="#progreso">Progreso</a>
     </nav>
-    <div class="top-actions"><button id="languageButton" class="language-button">ES <span>↔</span> EN</button><button class="avatar" title="Ver mi progreso" aria-label="Ver mi progreso">DR</button></div>
+    <div class="top-actions"><button id="languageButton" class="language-button">ES <span>↔</span> EN</button><button class="avatar" title="Ver mi progreso" aria-label="Ver mi progreso">P</button></div>
   </header>
 
   <main>
     <section class="hero" id="inicio">
       <div class="hero-grid"></div>
       <div class="hero-copy">
-        <p class="eyebrow"><span></span> Preparación comercial · California</p>
-        <h1>Aprende la ruta.<br><em>Domina el examen.</em></h1>
-        <p class="hero-lede">Tu centro bilingüe para estudiar conducción comercial, frenos de aire y seguridad vial con el material fuente siempre a la vista.</p>
-        <div class="hero-actions"><a class="primary" href="#practica">Continuar estudiando <span>→</span></a><a class="secondary" href="#biblioteca">Abrir biblioteca</a></div>
-        <div class="trust-row"><span>✓ Original preservado</span><span>✓ Estudio bilingüe</span><span>✓ Progreso local</span></div>
+        <p class="eyebrow"><span></span> MTS San Diego · Formación de operadores</p>
+        <h1>Prepárate para operar.<br><em>Aprende haciendo.</em></h1>
+        <p class="hero-lede">Una experiencia bilingüe para dominar conocimiento CDL, frenos de aire y seguridad de pasajeros con práctica guiada, imágenes de autobuses MTS y fuentes siempre visibles.</p>
+        <div class="hero-actions"><a class="primary" href="#academia">Comenzar mi ruta <span>→</span></a><a class="secondary" href="#practica">Ir al simulador</a></div>
+        <div class="trust-row"><span>✓ 255 reactivos</span><span>✓ 26 páginas bilingües</span><span>✓ Progreso verificable</span></div>
       </div>
       <div class="hero-dashboard" aria-label="Resumen de estudio">
-        <figure class="hero-bus"><img src="assets/visuals/mts-city-bus-study.png" alt="Autobús urbano de piso bajo, estilo MTS San Diego, en carril de inspección"><figcaption>AUTOBÚS URBANO · INSPECCIÓN Y SEGURIDAD</figcaption></figure>
+        <figure class="hero-bus"><img src="assets/visuals/mts-stopping-distance-v2.png" alt="Autobús urbano MTS en una escena educativa de San Diego"><figcaption>VISUAL EDUCATIVO · AUTOBÚS URBANO MTS</figcaption></figure>
         <div class="mini-head"><span>Tu progreso real</span><span class="live-dot">GUARDADO LOCALMENTE</span></div>
         <div class="daily-progress"><div class="ring"><strong id="heroPercent">0%</strong></div><div><small>COBERTURA DEL CUESTIONARIO</small><h3 id="heroProgressTitle">Comienza cuando quieras</h3><p id="heroProgressCopy">0 de 255 espacios respondidos.</p></div></div>
         <div class="today-list">
@@ -111,13 +116,15 @@
     </section>
 
     <section class="section visual-lab" id="infografias">
-      <div class="section-heading"><div><p class="eyebrow dark"><span></span> Laboratorio visual</p><h2>Entiende el sistema, no solo memorices.</h2><p>Explora tres modelos interactivos y selecciona cada componente para ver su función durante la operación.</p></div><span class="document-count">3 INFOGRAFÍAS INTERACTIVAS</span></div>
-      <div class="visual-tabs"><button class="active" data-visual="brakes">Flujo de frenos de aire</button><button data-visual="distance">Distancia de parada</button><button data-visual="inspection">Zonas de inspección</button></div>
+      <div class="section-heading"><div><p class="eyebrow dark"><span></span> Laboratorio visual MTS</p><h2>Ve el autobús. Toma la decisión.</h2><p>Tres infografías con vehículos urbanos MTS y capas interactivas verificadas contra el material CDL.</p></div><span class="document-count">3 EXPERIENCIAS VISUALES</span></div>
+      <div class="visual-tabs"><button class="active" data-visual="inspection">Inspección exterior</button><button data-visual="distance">Distancia de parada</button><button data-visual="passengers">Seguridad de pasajeros</button></div>
       <div class="visual-stage" id="visualStage" aria-live="polite"></div>
+      <p class="visual-source-note">Contenido didáctico basado en los manuales incluidos. Vehículos y marca referenciados con la <a href="https://www.sdmts.com/inside-mts/media-center/photo-library" target="_blank">biblioteca oficial de MTS</a>. El uso comercial de marca y fotografías requiere aprobación escrita de MTS.</p>
     </section>
 
     <section class="section academy-section" id="academia">
-      <div class="section-heading compact"><div><p class="eyebrow amber"><span></span> Academia</p><h2>Muchas rutas. Un solo objetivo.</h2><p>Elige la forma de aprender que mejor funcione para ti hoy.</p></div></div>
+      <div class="section-heading compact"><div><p class="eyebrow amber"><span></span> Tu ruta de aprendizaje</p><h2>Avanza estación por estación.</h2><p>Cada parada entrena una habilidad distinta. Practica, recibe retroalimentación y construye dominio.</p></div><div class="journey-score"><small>DOMINIO ACTUAL</small><strong id="journeyPercent">0%</strong></div></div>
+      <div class="journey-legend"><span><i class="ready"></i>Disponible</span><span><i class="practice"></i>Práctica activa</span><span><i class="mastered"></i>Dominado</span></div>
       <div class="learning-grid">
         <article class="learning-card featured"><span class="card-number">01</span><span class="big-icon">◎</span><div><p>LECTURA INMERSIVA</p><h3>Original + español, lado a lado</h3><span>Compara el documento fuente con una capa de apoyo en español, sin tocar el original.</span></div><button data-mode="reader">Explorar <b>→</b></button></article>
         <article class="learning-card"><span class="card-number">02</span><span class="big-icon">◫</span><div><p>MICROLECCIONES</p><h3>Una regla a la vez</h3><span>Sesiones cortas con ejemplos, contexto y comprobación inmediata.</span></div><button data-mode="lesson">Comenzar <b>→</b></button></article>
@@ -127,6 +134,7 @@
         <article class="learning-card"><span class="card-number">06</span><span class="big-icon">◌</span><div><p>ESCENARIOS</p><h3>Decide en contexto</h3><span>Practica decisiones de seguridad en situaciones reales de operación.</span></div><button data-mode="scenario">Resolver <b>→</b></button></article>
         <article class="learning-card"><span class="card-number">07</span><span class="big-icon">◖</span><div><p>ESCUCHA Y REPITE</p><h3>Vocabulario CDL</h3><span>Escucha términos en inglés y asócialos con su significado técnico.</span></div><button data-mode="audio">Escuchar <b>→</b></button></article>
         <article class="learning-card"><span class="card-number">08</span><span class="big-icon">⌁</span><div><p>PLAN ADAPTATIVO</p><h3>Tu próxima mejor sesión</h3><span>Recibe una ruta según tus respuestas y conceptos más débiles.</span></div><button data-mode="plan">Crear plan <b>→</b></button></article>
+        <article class="learning-card mission-card"><span class="card-number">09</span><span class="big-icon">▶</span><div><p>MISIÓN OPERATIVA</p><h3>Un turno con decisiones reales</h3><span>Completa un recorrido de seis etapas, protege tus vidas y acumula XP.</span></div><button data-mode="mission">Iniciar misión <b>→</b></button></article>
       </div>
       <div id="academyStage" class="academy-stage"></div>
     </section>
@@ -158,9 +166,10 @@
     </section>
   </main>
 
-  <footer><div class="brand footer-brand"><span class="brand-mark">CA</span><span><strong>Ruta CDL</strong><small>Aprende con confianza.</small></span></div><p>Herramienta independiente de estudio. No es un sitio oficial ni está afiliado al California DMV o a MTS.</p><a href="#inicio">Volver arriba ↑</a></footer>
+  <footer><div class="brand footer-brand"><img class="mts-brand-logo" src="assets/brand/mts-logo-official.jpg" alt="MTS San Diego"><span><strong>Operator Learning Lab</strong><small>Concepto de formación</small></span></div><p>Propuesta de herramienta educativa para MTS. El contenido histórico debe contrastarse con los manuales y políticas vigentes. Marca y fotografías oficiales sujetas a aprobación de MTS.</p><a href="#inicio">Volver arriba ↑</a></footer>
   <script src="data/questionnaire-spanish.js"></script>
   <script src="app.js"></script>
   <script src="overrides.js"></script>
+  <script src="visual-v2.js"></script>
 </body>
 </html>

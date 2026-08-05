@@ -1,0 +1,2 @@
+main{display:flex;flex-direction:column}.hero{order:1}.notice-wrap{order:2}.academy-section{order:3}.practice-section{order:4}.visual-lab{order:5}.library-section{order:6}.source-lab{order:7}.translation-section{order:8}.bilingual-section{order:9}.progress-section{order:10}
+.notice-wrap{background:#fff;padding-top:18px;padding-bottom:18px}.academy-section{padding-top:90px}.practice-section{scroll-margin-top:82px}.visual-lab,.library-section,.source-lab,.translation-section,.bilingual-section,.progress-section,.academy-section{scroll-margin-top:82px}

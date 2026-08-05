@@ -1,0 +1,2 @@
+body{padding-top:82px}.topbar{position:fixed;top:0;left:0;right:0;width:100%;z-index:100}.hero{min-height:calc(720px - 82px)}
+@media(max-width:650px){body{padding-top:74px}.topbar{height:74px}.hero{min-height:auto}}

@@ -26,8 +26,45 @@ Object.entries(BANK).forEach(([page, data]) => {
   form.section = data.section;
 });
 
-/* El total de espacios deja de estar codificado a mano. */
+/* Los totales dejan de estar codificados a mano: se derivan de los datos.
+   Estaban escritos como 255 y 253 en el HTML y dentro de updateStats, y
+   quedaron desfasados al recuperar la pregunta que faltaba en la hoja 5. */
 const TOTAL_SPACES = Object.values(pageForms).reduce((sum, form) => sum + form.numbers.length, 0);
+const TOTAL_KEYS = Object.values(pageForms).reduce((sum, form) => sum + Object.keys(form.key || {}).length, 0);
+const SHEET_COUNT = Object.keys(pageForms).length;
+const BOOKLET_SHEETS = folioOf(SHEET_COUNT);
+
+/* Sincroniza los rótulos fijos del portal con los datos reales. */
+function syncTotals() {
+  const answered = Object.entries(pageForms).reduce(
+    (sum, [page, form]) => sum + form.numbers.filter(n => (sourceAnswers[`p${page}`] || {})[n]).length, 0);
+  const percent = Math.min(100, Math.round(answered / TOTAL_SPACES * 100));
+
+  const set = (selector, text) => { const el = $(selector); if (el) el.textContent = text; };
+  set('#heroPercent', `${percent}%`);
+  set('#heroAnswered', `${answered}/${TOTAL_SPACES}`);
+  set('#heroProgressCopy', `${answered} de ${TOTAL_SPACES} espacios respondidos.`);
+  const ring = $('.ring');
+  if (ring) ring.style.background = `conic-gradient(var(--amber) 0 ${percent}%,#dfe5e7 ${percent}%)`;
+
+  set('[data-jump="source"] small', `${SHEET_COUNT} hojas · ${TOTAL_SPACES} espacios`);
+  set('[data-jump="custom"] small', `10, 25, 50 o ${TOTAL_KEYS} preguntas`);
+  set('[data-practice="source"]', `Cuestionario completo · ${TOTAL_SPACES}`);
+
+  /* La insignia decía "26 de 26 páginas · FIDELIDAD VERIFICADA", que sugiere
+     un documento completo. El folleto tiene 51 hojas y solo se escanearon
+     las impares. */
+  const badge = $('.fidelity-badge');
+  if (badge) {
+    badge.querySelector('small').textContent = 'ESCANEOS DISPONIBLES';
+    badge.querySelector('strong').textContent = `${SHEET_COUNT} de ${BOOKLET_SHEETS} hojas`;
+    badge.title = 'El PDF fuente solo contiene las hojas impares del folleto original.';
+  }
+}
+
+/* updateStats calcula el porcentaje del encabezado con el total antiguo. */
+const updateStatsBase = updateStats;
+updateStats = () => { updateStatsBase(); syncTotals(); };
 
 /* Verificación individual: qué preguntas tienen la clave ya revelada. */
 const revealed = new Set(JSON.parse(localStorage.getItem('rutaCdlRevealed') || '[]'));
@@ -212,4 +249,5 @@ function decorateSourceExam() {
   updateStats();
 }
 
+syncTotals();
 if (typeof sourceExamPage !== 'undefined' && $('#sourceExamShell')?.innerHTML.trim()) renderSourceExam();

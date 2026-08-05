@@ -1,0 +1,1168 @@
+[
+  {
+    "box": [
+      [
+        525.0,
+        137.0
+      ],
+      [
+        1268.0,
+        127.0
+      ],
+      [
+        1268.0,
+        157.0
+      ],
+      [
+        525.0,
+        167.0
+      ]
+    ],
+    "text": "PASSENGER TRANSPORT ENDORSEMENTTEST",
+    "confidence": "0.8595424013005363"
+  },
+  {
+    "box": [
+      [
+        574.0,
+        170.0
+      ],
+      [
+        1219.0,
+        164.0
+      ],
+      [
+        1219.0,
+        197.0
+      ],
+      [
+        575.0,
+        203.0
+      ]
+    ],
+    "text": "(From the 2003Commercial DriverHandbook)",
+    "confidence": "0.9063590968527445"
+  },
+  {
+    "box": [
+      [
+        338.0,
+        209.0
+      ],
+      [
+        1414.0,
+        197.0
+      ],
+      [
+        1414.0,
+        227.0
+      ],
+      [
+        338.0,
+        239.0
+      ]
+    ],
+    "text": "During the writen test you NoT use any reference malerials or noles;visit or",
+    "confidence": "0.8488581018014387"
+  },
+  {
+    "box": [
+      [
+        335.0,
+        244.0
+      ],
+      [
+        1421.0,
+        230.0
+      ],
+      [
+        1421.0,
+        262.0
+      ],
+      [
+        335.0,
+        276.0
+      ]
+    ],
+    "text": "lalk with any otherperson(s)o:leave the test area withyour test before it has",
+    "confidence": "0.8724895387123792"
+  },
+  {
+    "box": [
+      [
+        337.0,
+        281.0
+      ],
+      [
+        995.0,
+        272.0
+      ],
+      [
+        995.0,
+        299.0
+      ],
+      [
+        337.0,
+        308.0
+      ]
+    ],
+    "text": "been graded.To do so will resull in test failure.",
+    "confidence": "0.8938379633426666"
+  },
+  {
+    "box": [
+      [
+        596.0,
+        349.0
+      ],
+      [
+        1194.0,
+        342.0
+      ],
+      [
+        1194.0,
+        371.0
+      ],
+      [
+        597.0,
+        378.0
+      ]
+    ],
+    "text": "PASSINGGRADE4ERRORS ORLESS",
+    "confidence": "0.864994466304779"
+  },
+  {
+    "box": [
+      [
+        337.0,
+        425.0
+      ],
+      [
+        1249.0,
+        415.0
+      ],
+      [
+        1249.0,
+        447.0
+      ],
+      [
+        337.0,
+        456.0
+      ]
+    ],
+    "text": "1.If you have riders on the bus,you should neverfuel your bus:",
+    "confidence": "0.8638239446140471"
+  },
+  {
+    "box": [
+      [
+        452.0,
+        458.0
+      ],
+      [
+        1002.0,
+        456.0
+      ],
+      [
+        1002.0,
+        486.0
+      ],
+      [
+        452.0,
+        488.0
+      ]
+    ],
+    "text": "Withoul a fire extinguisher beside you..",
+    "confidence": "0.9018034484328293"
+  },
+  {
+    "box": [
+      [
+        452.0,
+        494.0
+      ],
+      [
+        731.0,
+        496.0
+      ],
+      [
+        731.0,
+        523.0
+      ],
+      [
+        452.0,
+        521.0
+      ]
+    ],
+    "text": "Ina closed building",
+    "confidence": "0.8831939786672592"
+  },
+  {
+    "box": [
+      [
+        451.0,
+        530.0
+      ],
+      [
+        887.0,
+        528.0
+      ],
+      [
+        887.0,
+        558.0
+      ],
+      [
+        451.0,
+        560.0
+      ]
+    ],
+    "text": "With any of the windows open..",
+    "confidence": "0.8604662149183212"
+  },
+  {
+    "box": [
+      [
+        333.0,
+        564.0
+      ],
+      [
+        1148.0,
+        557.0
+      ],
+      [
+        1149.0,
+        593.0
+      ],
+      [
+        333.0,
+        600.0
+      ]
+    ],
+    "text": "2.Baggage or freight carried on a bus must be secured:",
+    "confidence": "0.8979133519259366"
+  },
+  {
+    "box": [
+      [
+        449.0,
+        602.0
+      ],
+      [
+        1161.0,
+        596.0
+      ],
+      [
+        1161.0,
+        626.0
+      ],
+      [
+        449.0,
+        632.0
+      ]
+    ],
+    "text": "Ina separate compartment away from passengers",
+    "confidence": "0.8738277710002401"
+  },
+  {
+    "box": [
+      [
+        450.0,
+        638.0
+      ],
+      [
+        842.0,
+        635.0
+      ],
+      [
+        842.0,
+        664.0
+      ],
+      [
+        450.0,
+        667.0
+      ]
+    ],
+    "text": "IN front of the standee line...",
+    "confidence": "0.8958470579236746"
+  },
+  {
+    "box": [
+      [
+        451.0,
+        670.0
+      ],
+      [
+        1203.0,
+        663.0
+      ],
+      [
+        1203.0,
+        698.0
+      ],
+      [
+        451.0,
+        705.0
+      ]
+    ],
+    "text": "So any door or window can be used in an emergency",
+    "confidence": "0.8351483881473541"
+  },
+  {
+    "box": [
+      [
+        334.0,
+        706.0
+      ],
+      [
+        1443.0,
+        698.0
+      ],
+      [
+        1443.0,
+        734.0
+      ],
+      [
+        334.0,
+        741.0
+      ]
+    ],
+    "text": "3. You are driving at night and you must dim your headlights from high to low.",
+    "confidence": "0.8893422374996958"
+  },
+  {
+    "box": [
+      [
+        392.0,
+        742.0
+      ],
+      [
+        925.0,
+        738.0
+      ],
+      [
+        925.0,
+        771.0
+      ],
+      [
+        392.0,
+        775.0
+      ]
+    ],
+    "text": "What should you do with your speed?",
+    "confidence": "0.8853372948037254"
+  },
+  {
+    "box": [
+      [
+        451.0,
+        780.0
+      ],
+      [
+        933.0,
+        775.0
+      ],
+      [
+        933.0,
+        805.0
+      ],
+      [
+        451.0,
+        810.0
+      ]
+    ],
+    "text": "Drop5mph until youreyesadjust.",
+    "confidence": "0.846793157439078"
+  },
+  {
+    "box": [
+      [
+        449.0,
+        814.0
+      ],
+      [
+        1223.0,
+        806.0
+      ],
+      [
+        1223.0,
+        838.0
+      ],
+      [
+        449.0,
+        846.0
+      ]
+    ],
+    "text": "Nothing.How well you can see should not affect speed",
+    "confidence": "0.9110201675936861"
+  },
+  {
+    "box": [
+      [
+        451.0,
+        850.0
+      ],
+      [
+        625.0,
+        852.0
+      ],
+      [
+        624.0,
+        879.0
+      ],
+      [
+        451.0,
+        877.0
+      ]
+    ],
+    "text": "Slow down..",
+    "confidence": "0.8726932307084402"
+  },
+  {
+    "box": [
+      [
+        336.0,
+        885.0
+      ],
+      [
+        735.0,
+        883.0
+      ],
+      [
+        735.0,
+        910.0
+      ],
+      [
+        336.0,
+        912.0
+      ]
+    ],
+    "text": "4.A standee line on a bus.",
+    "confidence": "0.8492075381455598"
+  },
+  {
+    "box": [
+      [
+        448.0,
+        920.0
+      ],
+      [
+        1081.0,
+        912.0
+      ],
+      [
+        1082.0,
+        940.0
+      ],
+      [
+        448.0,
+        949.0
+      ]
+    ],
+    "text": "Isrequiredwhen carryingless than15niders",
+    "confidence": "0.8620551468395605"
+  },
+  {
+    "box": [
+      [
+        447.0,
+        952.0
+      ],
+      [
+        1308.0,
+        943.0
+      ],
+      [
+        1308.0,
+        976.0
+      ],
+      [
+        447.0,
+        985.0
+      ]
+    ],
+    "text": "Indicates where you should stand when you are talking to the",
+    "confidence": "0.8998599892756978"
+  },
+  {
+    "box": [
+      [
+        450.0,
+        990.0
+      ],
+      [
+        632.0,
+        988.0
+      ],
+      [
+        633.0,
+        1015.0
+      ],
+      [
+        450.0,
+        1017.0
+      ]
+    ],
+    "text": "passengers.",
+    "confidence": "0.9103165666262308"
+  },
+  {
+    "box": [
+      [
+        448.0,
+        1017.0
+      ],
+      [
+        1359.0,
+        1012.0
+      ],
+      [
+        1359.0,
+        1045.0
+      ],
+      [
+        448.0,
+        1050.0
+      ]
+    ],
+    "text": "Is the line that all rides must stay behind while the bus is moving",
+    "confidence": "0.8859864219146616"
+  },
+  {
+    "box": [
+      [
+        335.0,
+        1053.0
+      ],
+      [
+        1287.0,
+        1046.0
+      ],
+      [
+        1287.0,
+        1079.0
+      ],
+      [
+        335.0,
+        1086.0
+      ]
+    ],
+    "text": "5. Which of these actions will result in the best control on a curve?",
+    "confidence": "0.8974295922688076"
+  },
+  {
+    "box": [
+      [
+        454.0,
+        1088.0
+      ],
+      [
+        1422.0,
+        1081.0
+      ],
+      [
+        1422.0,
+        1113.0
+      ],
+      [
+        454.0,
+        1120.0
+      ]
+    ],
+    "text": "Slow to a safe speed before entering a curve, then accelerate slightly",
+    "confidence": "0.8884241497012931"
+  },
+  {
+    "box": [
+      [
+        454.0,
+        1123.0
+      ],
+      [
+        614.0,
+        1125.0
+      ],
+      [
+        613.0,
+        1155.0
+      ],
+      [
+        454.0,
+        1153.0
+      ]
+    ],
+    "text": "through it..",
+    "confidence": "0.8448174412433918"
+  },
+  {
+    "box": [
+      [
+        454.0,
+        1158.0
+      ],
+      [
+        1375.0,
+        1151.0
+      ],
+      [
+        1375.0,
+        1183.0
+      ],
+      [
+        454.0,
+        1190.0
+      ]
+    ],
+    "text": "Maintain constanl speed through a curve,allowing the bus to lean",
+    "confidence": "0.878042970253871"
+  },
+  {
+    "box": [
+      [
+        456.0,
+        1195.0
+      ],
+      [
+        572.0,
+        1195.0
+      ],
+      [
+        572.0,
+        1222.0
+      ],
+      [
+        456.0,
+        1222.0
+      ]
+    ],
+    "text": "slightly..",
+    "confidence": "0.807048347863284"
+  },
+  {
+    "box": [
+      [
+        454.0,
+        1227.0
+      ],
+      [
+        1424.0,
+        1220.0
+      ],
+      [
+        1424.0,
+        1250.0
+      ],
+      [
+        454.0,
+        1256.0
+      ]
+    ],
+    "text": "Slow to a safe speed before entering a curve,then coast through it ...",
+    "confidence": "0.8840632350511954"
+  },
+  {
+    "box": [
+      [
+        338.0,
+        1263.0
+      ],
+      [
+        376.0,
+        1263.0
+      ],
+      [
+        376.0,
+        1290.0
+      ],
+      [
+        338.0,
+        1290.0
+      ]
+    ],
+    "text": "6.",
+    "confidence": "0.653968095779419"
+  },
+  {
+    "box": [
+      [
+        389.0,
+        1260.0
+      ],
+      [
+        1054.0,
+        1257.0
+      ],
+      [
+        1055.0,
+        1290.0
+      ],
+      [
+        389.0,
+        1293.0
+      ]
+    ],
+    "text": "When waiting to merge into traffic, you should:",
+    "confidence": "0.89119545246164"
+  },
+  {
+    "box": [
+      [
+        452.0,
+        1296.0
+      ],
+      [
+        1173.0,
+        1292.0
+      ],
+      [
+        1173.0,
+        1322.0
+      ],
+      [
+        452.0,
+        1326.0
+      ]
+    ],
+    "text": "Always wail for a large enough gap before merging",
+    "confidence": "0.8913710081577301"
+  },
+  {
+    "box": [
+      [
+        453.0,
+        1329.0
+      ],
+      [
+        1218.0,
+        1324.0
+      ],
+      [
+        1218.0,
+        1357.0
+      ],
+      [
+        453.0,
+        1362.0
+      ]
+    ],
+    "text": "Pull out slowlyand gradually reach the speed af traffic",
+    "confidence": "0.916936606168747"
+  },
+  {
+    "box": [
+      [
+        454.0,
+        1366.0
+      ],
+      [
+        1428.0,
+        1359.0
+      ],
+      [
+        1428.0,
+        1388.0
+      ],
+      [
+        454.0,
+        1395.0
+      ]
+    ],
+    "text": "Drive on the shoulder of the road until you reach the speed of traffic..",
+    "confidence": "0.8688280206837066"
+  },
+  {
+    "box": [
+      [
+        338.0,
+        1399.0
+      ],
+      [
+        1403.0,
+        1393.0
+      ],
+      [
+        1403.0,
+        1426.0
+      ],
+      [
+        338.0,
+        1432.0
+      ]
+    ],
+    "text": "7.Which of these slalements is true about managing space to the sides of",
+    "confidence": "0.8579880672774903"
+  },
+  {
+    "box": [
+      [
+        393.0,
+        1437.0
+      ],
+      [
+        539.0,
+        1434.0
+      ],
+      [
+        540.0,
+        1463.0
+      ],
+      [
+        393.0,
+        1467.0
+      ]
+    ],
+    "text": "your bus?",
+    "confidence": "0.8256442010402679"
+  },
+  {
+    "box": [
+      [
+        452.0,
+        1467.0
+      ],
+      [
+        1238.0,
+        1462.0
+      ],
+      [
+        1238.0,
+        1497.0
+      ],
+      [
+        452.0,
+        1503.0
+      ]
+    ],
+    "text": "You should keep your bus lo the right side of your lane .",
+    "confidence": "0.8701201672184056"
+  },
+  {
+    "box": [
+      [
+        454.0,
+        1504.0
+      ],
+      [
+        1245.0,
+        1499.0
+      ],
+      [
+        1245.0,
+        1529.0
+      ],
+      [
+        454.0,
+        1533.0
+      ]
+    ],
+    "text": "You should avoid traveling next lo others when possible.",
+    "confidence": "0.9151446348742435"
+  },
+  {
+    "box": [
+      [
+        452.0,
+        1538.0
+      ],
+      [
+        1221.0,
+        1534.0
+      ],
+      [
+        1221.0,
+        1567.0
+      ],
+      [
+        452.0,
+        1571.0
+      ]
+    ],
+    "text": "You should keep your bus to the lef side of yourlane..",
+    "confidence": "0.9047918980771845"
+  },
+  {
+    "box": [
+      [
+        341.0,
+        1576.0
+      ],
+      [
+        373.0,
+        1576.0
+      ],
+      [
+        373.0,
+        1605.0
+      ],
+      [
+        341.0,
+        1605.0
+      ]
+    ],
+    "text": "8.",
+    "confidence": "0.6565327246983846"
+  },
+  {
+    "box": [
+      [
+        394.0,
+        1574.0
+      ],
+      [
+        1295.0,
+        1570.0
+      ],
+      [
+        1295.0,
+        1600.0
+      ],
+      [
+        394.0,
+        1604.0
+      ]
+    ],
+    "text": "Drivers of charter buses should not allow riders on the bus until:",
+    "confidence": "0.8749264140627278"
+  },
+  {
+    "box": [
+      [
+        454.0,
+        1611.0
+      ],
+      [
+        880.0,
+        1607.0
+      ],
+      [
+        880.0,
+        1640.0
+      ],
+      [
+        454.0,
+        1644.0
+      ]
+    ],
+    "text": "All baggage has been loaded.",
+    "confidence": "0.8757635015865852"
+  },
+  {
+    "box": [
+      [
+        455.0,
+        1646.0
+      ],
+      [
+        1202.0,
+        1640.0
+      ],
+      [
+        1202.0,
+        1673.0
+      ],
+      [
+        455.0,
+        1679.0
+      ]
+    ],
+    "text": "All scheduled passengers have arrived at the stalian",
+    "confidence": "0.8853298285097446"
+  },
+  {
+    "box": [
+      [
+        459.0,
+        1684.0
+      ],
+      [
+        689.0,
+        1684.0
+      ],
+      [
+        689.0,
+        1711.0
+      ],
+      [
+        459.0,
+        1711.0
+      ]
+    ],
+    "text": "Departuretime..",
+    "confidence": "0.8454742170870304"
+  },
+  {
+    "box": [
+      [
+        344.0,
+        1719.0
+      ],
+      [
+        1367.0,
+        1713.0
+      ],
+      [
+        1367.0,
+        1743.0
+      ],
+      [
+        344.0,
+        1749.0
+      ]
+    ],
+    "text": "g. Your bus is disabled. The bus, with riders on board,may be towed or",
+    "confidence": "0.8608308048315452"
+  },
+  {
+    "box": [
+      [
+        398.0,
+        1752.0
+      ],
+      [
+        1217.0,
+        1747.0
+      ],
+      [
+        1217.0,
+        1782.0
+      ],
+      [
+        398.0,
+        1788.0
+      ]
+    ],
+    "text": "pushed lo a safe spot to discharge the passengers only if.",
+    "confidence": "0.8723183648060944"
+  },
+  {
+    "box": [
+      [
+        459.0,
+        1790.0
+      ],
+      [
+        909.0,
+        1785.0
+      ],
+      [
+        909.0,
+        1815.0
+      ],
+      [
+        459.0,
+        1819.0
+      ]
+    ],
+    "text": "The distanceis lessthan1mile",
+    "confidence": "0.9077804746298954"
+  },
+  {
+    "box": [
+      [
+        459.0,
+        1825.0
+      ],
+      [
+        1048.0,
+        1821.0
+      ],
+      [
+        1049.0,
+        1851.0
+      ],
+      [
+        459.0,
+        1855.0
+      ]
+    ],
+    "text": "A peace oficer or rescue crewis present",
+    "confidence": "0.8608647465705872"
+  },
+  {
+    "box": [
+      [
+        459.0,
+        1862.0
+      ],
+      [
+        1073.0,
+        1856.0
+      ],
+      [
+        1074.0,
+        1886.0
+      ],
+      [
+        459.0,
+        1892.0
+      ]
+    ],
+    "text": "Getting off the bus soonerwould be unsafe",
+    "confidence": "0.8553084447270348"
+  },
+  {
+    "box": [
+      [
+        349.0,
+        1896.0
+      ],
+      [
+        1378.0,
+        1889.0
+      ],
+      [
+        1378.0,
+        1922.0
+      ],
+      [
+        349.0,
+        1929.0
+      ]
+    ],
+    "text": "10.How manyfolding seats are allowed in a bus that is not carrying farm",
+    "confidence": "0.8724710883365737"
+  },
+  {
+    "box": [
+      [
+        401.0,
+        1933.0
+      ],
+      [
+        536.0,
+        1933.0
+      ],
+      [
+        536.0,
+        1963.0
+      ],
+      [
+        401.0,
+        1963.0
+      ]
+    ],
+    "text": "workers?",
+    "confidence": "0.8685508635309007"
+  },
+  {
+    "box": [
+      [
+        1330.0,
+        2091.0
+      ],
+      [
+        1523.0,
+        2086.0
+      ],
+      [
+        1524.0,
+        2138.0
+      ],
+      [
+        1331.0,
+        2143.0
+      ]
+    ],
+    "text": "Paoe39",
+    "confidence": "0.7027726471424103"
+  }
+]

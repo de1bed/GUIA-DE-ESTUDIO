@@ -1,0 +1,1234 @@
+[
+  {
+    "box": [
+      [
+        595.0,
+        159.0
+      ],
+      [
+        1162.0,
+        153.0
+      ],
+      [
+        1162.0,
+        182.0
+      ],
+      [
+        596.0,
+        187.0
+      ]
+    ],
+    "text": "COMMERCIAL DRIVER EXAMINATION",
+    "confidence": "0.8886130591233571"
+  },
+  {
+    "box": [
+      [
+        559.0,
+        194.0
+      ],
+      [
+        1198.0,
+        189.0
+      ],
+      [
+        1198.0,
+        219.0
+      ],
+      [
+        559.0,
+        224.0
+      ]
+    ],
+    "text": "(Fromthe2003Commercial DniverHandbook)",
+    "confidence": "0.9002020603571182"
+  },
+  {
+    "box": [
+      [
+        322.0,
+        230.0
+      ],
+      [
+        1099.0,
+        225.0
+      ],
+      [
+        1100.0,
+        255.0
+      ],
+      [
+        322.0,
+        260.0
+      ]
+    ],
+    "text": "Directions: Study the handbook before you fake the lesl",
+    "confidence": "0.8649222877408776"
+  },
+  {
+    "box": [
+      [
+        320.0,
+        265.0
+      ],
+      [
+        1442.0,
+        252.0
+      ],
+      [
+        1443.0,
+        287.0
+      ],
+      [
+        320.0,
+        300.0
+      ]
+    ],
+    "text": "Each question has three answer choices.Choose one answer and mark an X in",
+    "confidence": "0.8907034912624875"
+  },
+  {
+    "box": [
+      [
+        319.0,
+        298.0
+      ],
+      [
+        1397.0,
+        292.0
+      ],
+      [
+        1397.0,
+        325.0
+      ],
+      [
+        319.0,
+        331.0
+      ]
+    ],
+    "text": "the box across from the answer.Do not talk whiletaking the test,use any",
+    "confidence": "0.9052653701768981"
+  },
+  {
+    "box": [
+      [
+        319.0,
+        335.0
+      ],
+      [
+        1433.0,
+        325.0
+      ],
+      [
+        1433.0,
+        358.0
+      ],
+      [
+        319.0,
+        368.0
+      ]
+    ],
+    "text": "books ornotes, orleave the test area before yourtest has been graded.lt",
+    "confidence": "0.867195134361585"
+  },
+  {
+    "box": [
+      [
+        319.0,
+        372.0
+      ],
+      [
+        1298.0,
+        363.0
+      ],
+      [
+        1298.0,
+        393.0
+      ],
+      [
+        319.0,
+        402.0
+      ]
+    ],
+    "text": "may result in a test failure and you may be suspended or revoke.",
+    "confidence": "0.8790221709471483"
+  },
+  {
+    "box": [
+      [
+        321.0,
+        444.0
+      ],
+      [
+        606.0,
+        444.0
+      ],
+      [
+        606.0,
+        470.0
+      ],
+      [
+        321.0,
+        470.0
+      ]
+    ],
+    "text": "PASSINGGRADE.",
+    "confidence": "0.8680103123188019"
+  },
+  {
+    "box": [
+      [
+        631.0,
+        442.0
+      ],
+      [
+        1432.0,
+        435.0
+      ],
+      [
+        1432.0,
+        464.0
+      ],
+      [
+        632.0,
+        471.0
+      ]
+    ],
+    "text": "6 OR FEWERERRORSFORORIGINAL APPLICANTS",
+    "confidence": "0.90471685391206"
+  },
+  {
+    "box": [
+      [
+        630.0,
+        477.0
+      ],
+      [
+        1436.0,
+        469.0
+      ],
+      [
+        1436.0,
+        498.0
+      ],
+      [
+        631.0,
+        506.0
+      ]
+    ],
+    "text": "3 ORFEWERERRORSFORRENEWAL APPLICANTS",
+    "confidence": "0.8975168901520807"
+  },
+  {
+    "box": [
+      [
+        320.0,
+        551.0
+      ],
+      [
+        1182.0,
+        548.0
+      ],
+      [
+        1182.0,
+        580.0
+      ],
+      [
+        320.0,
+        583.0
+      ]
+    ],
+    "text": "1. When sharing the road with a light rail train or trolley.you:",
+    "confidence": "0.8939499896306258"
+  },
+  {
+    "box": [
+      [
+        438.0,
+        587.0
+      ],
+      [
+        1042.0,
+        584.0
+      ],
+      [
+        1043.0,
+        617.0
+      ],
+      [
+        438.0,
+        620.0
+      ]
+    ],
+    "text": "May not drive in the lane next to the trolley.",
+    "confidence": "0.9057332987480975"
+  },
+  {
+    "box": [
+      [
+        440.0,
+        623.0
+      ],
+      [
+        1407.0,
+        617.0
+      ],
+      [
+        1407.0,
+        650.0
+      ],
+      [
+        440.0,
+        656.0
+      ]
+    ],
+    "text": "Should monitor all traffic signals closely because they can change for",
+    "confidence": "0.9083430490023653"
+  },
+  {
+    "box": [
+      [
+        439.0,
+        660.0
+      ],
+      [
+        589.0,
+        663.0
+      ],
+      [
+        588.0,
+        692.0
+      ],
+      [
+        439.0,
+        689.0
+      ]
+    ],
+    "text": "the trolley.",
+    "confidence": "0.8286399474510779"
+  },
+  {
+    "box": [
+      [
+        436.0,
+        695.0
+      ],
+      [
+        1278.0,
+        688.0
+      ],
+      [
+        1278.0,
+        721.0
+      ],
+      [
+        436.0,
+        727.0
+      ]
+    ],
+    "text": "May lurn in front of an approaching trolley at an uncontrolled",
+    "confidence": "0.8846317425606742"
+  },
+  {
+    "box": [
+      [
+        436.0,
+        729.0
+      ],
+      [
+        605.0,
+        731.0
+      ],
+      [
+        604.0,
+        761.0
+      ],
+      [
+        436.0,
+        759.0
+      ]
+    ],
+    "text": "intersection.",
+    "confidence": "0.891079021351678"
+  },
+  {
+    "box": [
+      [
+        316.0,
+        765.0
+      ],
+      [
+        1270.0,
+        760.0
+      ],
+      [
+        1270.0,
+        793.0
+      ],
+      [
+        316.0,
+        798.0
+      ]
+    ],
+    "text": "2.Which of.the fo!owing is true about the use of your tum signals?",
+    "confidence": "0.8907341298772328"
+  },
+  {
+    "box": [
+      [
+        432.0,
+        799.0
+      ],
+      [
+        1170.0,
+        797.0
+      ],
+      [
+        1170.0,
+        829.0
+      ],
+      [
+        432.0,
+        831.0
+      ]
+    ],
+    "text": "You should never use both electric and hand signals",
+    "confidence": "0.8926011106142631"
+  },
+  {
+    "box": [
+      [
+        436.0,
+        836.0
+      ],
+      [
+        1262.0,
+        831.0
+      ],
+      [
+        1262.0,
+        864.0
+      ],
+      [
+        436.0,
+        869.0
+      ]
+    ],
+    "text": "if you signal for a lane change.other drivers must lel you in",
+    "confidence": "0.8898217062796315"
+  },
+  {
+    "box": [
+      [
+        434.0,
+        871.0
+      ],
+      [
+        1152.0,
+        866.0
+      ],
+      [
+        1152.0,
+        898.0
+      ],
+      [
+        434.0,
+        903.0
+      ]
+    ],
+    "text": "It is a good habit to always signal forlane changes.",
+    "confidence": "0.8922680818809653"
+  },
+  {
+    "box": [
+      [
+        319.0,
+        907.0
+      ],
+      [
+        347.0,
+        907.0
+      ],
+      [
+        347.0,
+        933.0
+      ],
+      [
+        319.0,
+        933.0
+      ]
+    ],
+    "text": "3.",
+    "confidence": "0.659614086151123"
+  },
+  {
+    "box": [
+      [
+        372.0,
+        904.0
+      ],
+      [
+        963.0,
+        902.0
+      ],
+      [
+        963.0,
+        934.0
+      ],
+      [
+        372.0,
+        936.0
+      ]
+    ],
+    "text": "You must notify DMv within 5 days if you:",
+    "confidence": "0.8552381722700029"
+  },
+  {
+    "box": [
+      [
+        436.0,
+        941.0
+      ],
+      [
+        855.0,
+        939.0
+      ],
+      [
+        855.0,
+        965.0
+      ],
+      [
+        436.0,
+        968.0
+      ]
+    ],
+    "text": "Are ciled for a traffic violation.",
+    "confidence": "0.8741888778550284"
+  },
+  {
+    "box": [
+      [
+        435.0,
+        974.0
+      ],
+      [
+        929.0,
+        970.0
+      ],
+      [
+        929.0,
+        1002.0
+      ],
+      [
+        435.0,
+        1005.0
+      ]
+    ],
+    "text": "Paint your vehicle a different color.",
+    "confidence": "0.8875558141030764"
+  },
+  {
+    "box": [
+      [
+        438.0,
+        1008.0
+      ],
+      [
+        822.0,
+        1008.0
+      ],
+      [
+        822.0,
+        1038.0
+      ],
+      [
+        438.0,
+        1038.0
+      ]
+    ],
+    "text": "Sell or transfer your vehicle",
+    "confidence": "0.8951895693937938"
+  },
+  {
+    "box": [
+      [
+        318.0,
+        1042.0
+      ],
+      [
+        1266.0,
+        1040.0
+      ],
+      [
+        1266.0,
+        1072.0
+      ],
+      [
+        318.0,
+        1074.0
+      ]
+    ],
+    "text": "4.You must yield to a pedestrian using a white cane or guide dog:",
+    "confidence": "0.874680653666005"
+  },
+  {
+    "box": [
+      [
+        437.0,
+        1077.0
+      ],
+      [
+        1230.0,
+        1075.0
+      ],
+      [
+        1230.0,
+        1105.0
+      ],
+      [
+        437.0,
+        1107.0
+      ]
+    ],
+    "text": "Only when the dog is leading the person across a streel..",
+    "confidence": "0.9040337657106334"
+  },
+  {
+    "box": [
+      [
+        439.0,
+        1111.0
+      ],
+      [
+        1166.0,
+        1109.0
+      ],
+      [
+        1166.0,
+        1141.0
+      ],
+      [
+        439.0,
+        1143.0
+      ]
+    ],
+    "text": "Only when the pedestrian is obeying traffic controls.",
+    "confidence": "0.8969114268267596"
+  },
+  {
+    "box": [
+      [
+        438.0,
+        1146.0
+      ],
+      [
+        1269.0,
+        1146.0
+      ],
+      [
+        1269.0,
+        1176.0
+      ],
+      [
+        438.0,
+        1176.0
+      ]
+    ],
+    "text": "Always,even if thepedestrianisnotobeyingtraffic controls",
+    "confidence": "0.9112608307286313"
+  },
+  {
+    "box": [
+      [
+        319.0,
+        1178.0
+      ],
+      [
+        1208.0,
+        1179.0
+      ],
+      [
+        1208.0,
+        1212.0
+      ],
+      [
+        319.0,
+        1211.0
+      ]
+    ],
+    "text": "5.If it starts to rain on a hol day.the road is the most slippery:",
+    "confidence": "0.8494584631564012"
+  },
+  {
+    "box": [
+      [
+        438.0,
+        1215.0
+      ],
+      [
+        775.0,
+        1217.0
+      ],
+      [
+        775.0,
+        1244.0
+      ],
+      [
+        438.0,
+        1241.0
+      ]
+    ],
+    "text": "Forthe first few minutes",
+    "confidence": "0.8439186429977417"
+  },
+  {
+    "box": [
+      [
+        437.0,
+        1248.0
+      ],
+      [
+        1012.0,
+        1247.0
+      ],
+      [
+        1012.0,
+        1277.0
+      ],
+      [
+        437.0,
+        1278.0
+      ]
+    ],
+    "text": "After it has been raining for a few hours..",
+    "confidence": "0.8707264404405247"
+  },
+  {
+    "box": [
+      [
+        434.0,
+        1282.0
+      ],
+      [
+        832.0,
+        1284.0
+      ],
+      [
+        832.0,
+        1314.0
+      ],
+      [
+        434.0,
+        1312.0
+      ]
+    ],
+    "text": "After it has stopped raining..",
+    "confidence": "0.8781346255733121"
+  },
+  {
+    "box": [
+      [
+        321.0,
+        1318.0
+      ],
+      [
+        1230.0,
+        1318.0
+      ],
+      [
+        1230.0,
+        1348.0
+      ],
+      [
+        321.0,
+        1348.0
+      ]
+    ],
+    "text": "6.If you park along the right-hand curb facing uphill you should:",
+    "confidence": "0.8777413336616574"
+  },
+  {
+    "box": [
+      [
+        434.0,
+        1351.0
+      ],
+      [
+        1046.0,
+        1350.0
+      ],
+      [
+        1046.0,
+        1384.0
+      ],
+      [
+        434.0,
+        1385.0
+      ]
+    ],
+    "text": "Keep your back wheels away form the curb",
+    "confidence": "0.8935719248725147"
+  },
+  {
+    "box": [
+      [
+        436.0,
+        1385.0
+      ],
+      [
+        919.0,
+        1385.0
+      ],
+      [
+        919.0,
+        1421.0
+      ],
+      [
+        436.0,
+        1421.0
+      ]
+    ],
+    "text": "Turn your front wheels to the right.",
+    "confidence": "0.8955316495251011"
+  },
+  {
+    "box": [
+      [
+        435.0,
+        1420.0
+      ],
+      [
+        901.0,
+        1419.0
+      ],
+      [
+        901.0,
+        1453.0
+      ],
+      [
+        435.0,
+        1454.0
+      ]
+    ],
+    "text": "Turn your front wheels lo the left.",
+    "confidence": "0.9030304882261488"
+  },
+  {
+    "box": [
+      [
+        318.0,
+        1454.0
+      ],
+      [
+        1123.0,
+        1453.0
+      ],
+      [
+        1123.0,
+        1489.0
+      ],
+      [
+        318.0,
+        1490.0
+      ]
+    ],
+    "text": "7. Driving along the right-rear side of another vehicle is:",
+    "confidence": "0.9252262448271116"
+  },
+  {
+    "box": [
+      [
+        434.0,
+        1490.0
+      ],
+      [
+        1318.0,
+        1489.0
+      ],
+      [
+        1318.0,
+        1521.0
+      ],
+      [
+        434.0,
+        1522.0
+      ]
+    ],
+    "text": "Dangerous because you're probably in one of the driver's blind",
+    "confidence": "0.8955764855657306"
+  },
+  {
+    "box": [
+      [
+        435.0,
+        1528.0
+      ],
+      [
+        519.0,
+        1528.0
+      ],
+      [
+        519.0,
+        1556.0
+      ],
+      [
+        435.0,
+        1556.0
+      ]
+    ],
+    "text": "spots",
+    "confidence": "0.8077162702878317"
+  },
+  {
+    "box": [
+      [
+        433.0,
+        1561.0
+      ],
+      [
+        1336.0,
+        1559.0
+      ],
+      [
+        1336.0,
+        1591.0
+      ],
+      [
+        433.0,
+        1593.0
+      ]
+    ],
+    "text": "A good defensive driving technique to avoid drivers'blind sports",
+    "confidence": "0.9038228631019593"
+  },
+  {
+    "box": [
+      [
+        432.0,
+        1597.0
+      ],
+      [
+        1242.0,
+        1595.0
+      ],
+      [
+        1242.0,
+        1628.0
+      ],
+      [
+        432.0,
+        1630.0
+      ]
+    ],
+    "text": "Agood way to maintain a space cushion on your left side.",
+    "confidence": "0.8606845328682348"
+  },
+  {
+    "box": [
+      [
+        324.0,
+        1635.0
+      ],
+      [
+        355.0,
+        1635.0
+      ],
+      [
+        355.0,
+        1660.0
+      ],
+      [
+        324.0,
+        1660.0
+      ]
+    ],
+    "text": "8.",
+    "confidence": "0.6645739674568176"
+  },
+  {
+    "box": [
+      [
+        372.0,
+        1632.0
+      ],
+      [
+        622.0,
+        1635.0
+      ],
+      [
+        621.0,
+        1666.0
+      ],
+      [
+        372.0,
+        1663.0
+      ]
+    ],
+    "text": "This signmeans:",
+    "confidence": "0.8698449954390526"
+  },
+  {
+    "box": [
+      [
+        437.0,
+        1670.0
+      ],
+      [
+        771.0,
+        1669.0
+      ],
+      [
+        771.0,
+        1696.0
+      ],
+      [
+        437.0,
+        1697.0
+      ]
+    ],
+    "text": "Medical sevices ahead",
+    "confidence": "0.8562132309783589"
+  },
+  {
+    "box": [
+      [
+        437.0,
+        1704.0
+      ],
+      [
+        906.0,
+        1703.0
+      ],
+      [
+        906.0,
+        1733.0
+      ],
+      [
+        437.0,
+        1734.0
+      ]
+    ],
+    "text": "There is a\"T\"intersection ahead.",
+    "confidence": "0.8977922020536481"
+  },
+  {
+    "box": [
+      [
+        435.0,
+        1741.0
+      ],
+      [
+        936.0,
+        1741.0
+      ],
+      [
+        936.0,
+        1771.0
+      ],
+      [
+        435.0,
+        1771.0
+      ]
+    ],
+    "text": "Ancth.road crossesyours ahead.",
+    "confidence": "0.8391074768958553"
+  },
+  {
+    "box": [
+      [
+        318.0,
+        1806.0
+      ],
+      [
+        1374.0,
+        1807.0
+      ],
+      [
+        1374.0,
+        1846.0
+      ],
+      [
+        318.0,
+        1845.0
+      ]
+    ],
+    "text": "9. Driving slowly in front of traffic in the far left (fast) lane on any freeway:",
+    "confidence": "0.9108292892938707"
+  },
+  {
+    "box": [
+      [
+        438.0,
+        1843.0
+      ],
+      [
+        1132.0,
+        1845.0
+      ],
+      [
+        1132.0,
+        1881.0
+      ],
+      [
+        438.0,
+        1879.0
+      ]
+    ],
+    "text": "Can frustrate olher drivers and make them angry",
+    "confidence": "0.9179866003493468"
+  },
+  {
+    "box": [
+      [
+        440.0,
+        1884.0
+      ],
+      [
+        892.0,
+        1884.0
+      ],
+      [
+        892.0,
+        1913.0
+      ],
+      [
+        440.0,
+        1913.0
+      ]
+    ],
+    "text": "Cannol resull in a traffic citation",
+    "confidence": "0.8608554932806227"
+  },
+  {
+    "box": [
+      [
+        437.0,
+        1918.0
+      ],
+      [
+        1130.0,
+        1916.0
+      ],
+      [
+        1130.0,
+        1949.0
+      ],
+      [
+        437.0,
+        1951.0
+      ]
+    ],
+    "text": "Saves lives by causing others lo slow down, too.",
+    "confidence": "0.8685891007890507"
+  },
+  {
+    "box": [
+      [
+        326.0,
+        1954.0
+      ],
+      [
+        1055.0,
+        1952.0
+      ],
+      [
+        1056.0,
+        1985.0
+      ],
+      [
+        326.0,
+        1987.0
+      ]
+    ],
+    "text": "10. If the road is wet from a heavy rain, you should:",
+    "confidence": "0.8834375308619605"
+  },
+  {
+    "box": [
+      [
+        437.0,
+        1991.0
+      ],
+      [
+        1065.0,
+        1989.0
+      ],
+      [
+        1066.0,
+        2019.0
+      ],
+      [
+        437.0,
+        2021.0
+      ]
+    ],
+    "text": "Use the\"wo second'following distance rule",
+    "confidence": "0.8951222236667361"
+  },
+  {
+    "box": [
+      [
+        439.0,
+        2026.0
+      ],
+      [
+        1040.0,
+        2025.0
+      ],
+      [
+        1040.0,
+        2055.0
+      ],
+      [
+        439.0,
+        2056.0
+      ]
+    ],
+    "text": "Drive one car-length behind the car ahead",
+    "confidence": "0.8980969531195504"
+  },
+  {
+    "box": [
+      [
+        435.0,
+        2063.0
+      ],
+      [
+        1317.0,
+        2058.0
+      ],
+      [
+        1317.0,
+        2088.0
+      ],
+      [
+        435.0,
+        2092.0
+      ]
+    ],
+    "text": "increase the dislance between your vehicle and the car ahead",
+    "confidence": "0.8730335841413404"
+  },
+  {
+    "box": [
+      [
+        1340.0,
+        2105.0
+      ],
+      [
+        1556.0,
+        2096.0
+      ],
+      [
+        1558.0,
+        2153.0
+      ],
+      [
+        1343.0,
+        2162.0
+      ]
+    ],
+    "text": "Poe 43",
+    "confidence": "0.6257404386997223"
+  }
+]

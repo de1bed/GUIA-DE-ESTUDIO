@@ -19,6 +19,12 @@
   <link rel="stylesheet" href="experience-order.css">
   <link rel="stylesheet" href="sequence-v2.css">
   <link rel="stylesheet" href="navigation-fix.css">
+  <link rel="stylesheet" href="question-text.css">
+  <link rel="stylesheet" href="mobile.css">
+  <link rel="stylesheet" href="translation-view.css">
+  <link rel="stylesheet" href="visual-extra.css">
+  <link rel="stylesheet" href="export-pdf.css">
+  <link rel="stylesheet" href="router.css">
 </head>
 <body>
   <header class="topbar">
@@ -54,7 +60,7 @@
     </section>
 
     <section class="notice-wrap">
-      <div class="source-notice"><span class="notice-icon">i</span><div><strong>Contenido fuente y vigencia</strong><p>Los tres PDFs se muestran sin alteraciones. El cuestionario escaneado indica que proviene del manual comercial de 2003; contrasta las reglas con el manual comercial incluido y la normativa vigente.</p></div><button id="noticeClose" aria-label="Cerrar aviso">×</button></div>
+      <div class="source-notice"><span class="notice-icon">i</span><div><strong>Contenido fuente y vigencia</strong><p>Los PDFs originales se muestran sin alteraciones. El cuestionario en español es una traducción de estudio generada a partir de los escaneos, no un documento oficial. El cuestionario escaneado indica que proviene del manual comercial de 2003; contrasta las reglas con el manual comercial incluido y la normativa vigente.</p></div><button id="noticeClose" aria-label="Cerrar aviso">×</button></div>
     </section>
 
     <section class="section library-section" id="biblioteca">
@@ -112,7 +118,7 @@
         <article class="compare-pane"><header><div><span class="lang-code en">EN</span><strong id="compareEnglishTitle">Commercial Driver Handbook</strong></div><a id="compareEnglishOpen" target="_blank">Abrir ↗</a></header><object id="compareEnglish" type="application/pdf"></object></article>
         <article class="compare-pane"><header><div><span class="lang-code es">ES</span><strong id="compareSpanishTitle">Manual del Conductor Comercial</strong></div><a id="compareSpanishOpen" target="_blank">Abrir ↗</a></header><object id="compareSpanish" type="application/pdf"></object></article>
       </div>
-      <p class="comparison-footnote">* La edición oficial española del manual general se publica como “Resumen del Manual del Automovilista”; no se presenta como traducción página por página de la edición inglesa.</p>
+      <p class="comparison-footnote">* La edición oficial española del manual general se publica como "Resumen del Manual del Automovilista"; no se presenta como traducción página por página de la edición inglesa.</p>
     </section>
 
     <section class="section visual-lab" id="infografias">
@@ -168,8 +174,16 @@
 
   <footer><div class="brand footer-brand"><img class="mts-brand-logo" src="assets/brand/mts-logo-official.jpg" alt="MTS San Diego"><span><strong>Operator Learning Lab</strong><small>Concepto de formación</small></span></div><p>Propuesta de herramienta educativa para MTS. El contenido histórico debe contrastarse con los manuales y políticas vigentes. Marca y fotografías oficiales sujetas a aprobación de MTS.</p><a href="#inicio">Volver arriba ↑</a></footer>
   <script src="data/questionnaire-spanish.js"></script>
+  <script src="data/question-bank.js"></script>
+  <script src="data/answer-audit.js"></script>
   <script src="app.js"></script>
   <script src="overrides.js"></script>
+  <script src="question-text.js"></script>
+  <script src="mobile-nav.js"></script>
+  <script src="translation-view.js"></script>
+  <script src="visual-extra.js"></script>
   <script src="visual-v2.js"></script>
+  <script src="export-pdf.js"></script>
+  <script src="router.js"></script>
 </body>
 </html>

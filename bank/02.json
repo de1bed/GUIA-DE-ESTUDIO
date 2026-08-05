@@ -1,0 +1,84 @@
+{
+  "file": 2,
+  "folio": 3,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 22,
+      "en": "Which of the following may be a sign of tire failure?",
+      "es": "¿Cuál de los siguientes puede ser una señal de falla de una llanta?",
+      "opts_en": ["A loud hissing noise.", "Gentle thumping.", "Wheels fishtailing."],
+      "opts_es": ["Un silbido fuerte.", "Un golpeteo suave.", "Las ruedas colean (fishtailing)."]
+    },
+    {
+      "n": 23,
+      "en": "Which of these statements is not true?",
+      "es": "¿Cuál de estas afirmaciones no es verdadera?",
+      "opts_en": ["Alcohol goes directly from the stomach to the blood stream.", "A drinker can control how fast his or her body absorbs and gets rid of alcohol.", "BAC is determined by how fast you drink, how much you drink, and how much you weigh."],
+      "opts_es": ["El alcohol pasa directamente del estómago al torrente sanguíneo.", "Quien bebe puede controlar qué tan rápido su cuerpo absorbe y elimina el alcohol.", "La concentración de alcohol en sangre depende de qué tan rápido bebe, cuánto bebe y cuánto pesa."]
+    },
+    {
+      "n": 24,
+      "en": "Retarders:",
+      "es": "Los retardadores:",
+      "opts_en": ["Allow you to disconnect the steering axle brakes.", "Cannot be used on interstate highways.", "Can cause the drive wheels to skid when they have poor traction."],
+      "opts_es": ["Permiten desconectar los frenos del eje de dirección.", "No pueden usarse en carreteras interestatales.", "Pueden hacer que las ruedas motrices patinen cuando tienen poca tracción."]
+    },
+    {
+      "n": 25,
+      "en": "You are checking your brakes and suspension system during a pre-trip inspection. Which of these statements is true?",
+      "es": "Está revisando los frenos y el sistema de suspensión durante una inspección previa al viaje. ¿Cuál de estas afirmaciones es verdadera?",
+      "opts_en": ["Just one missing leaf spring is not dangerous.", "Cracked spring hangers that are still tight are not dangerous.", "Brake shoes should not have oil, grease, or brake fluid on them."],
+      "opts_es": ["Que falte una sola hoja del muelle no es peligroso.", "Los soportes del muelle agrietados pero aún apretados no son peligrosos.", "Las zapatas de freno no deben tener aceite, grasa ni líquido de frenos."]
+    },
+    {
+      "n": 26,
+      "en": "What should you do if a car coming toward you at night keeps its high beams on?",
+      "es": "¿Qué debe hacer si un auto que viene hacia usted de noche mantiene las luces altas encendidas?",
+      "opts_en": ["Flash your high beams quickly at the other driver.", "Look to the right edge of your lane or right side of the road.", "Slow down and look straight ahead in your lane."],
+      "opts_es": ["Destellar rápidamente sus luces altas al otro conductor.", "Mirar hacia el borde derecho de su carril o el lado derecho del camino.", "Reducir la velocidad y mirar al frente dentro de su carril."]
+    },
+    {
+      "n": 27,
+      "en": "Whenever you double your speed, it will take about _____ times as much distance to stop.",
+      "es": "Cada vez que duplica su velocidad, necesitará aproximadamente _____ veces más distancia para detenerse.",
+      "opts_en": ["Two.", "Three.", "Four."],
+      "opts_es": ["Dos.", "Tres.", "Cuatro."]
+    },
+    {
+      "n": 28,
+      "en": "What is the best advice for drivers to follow when a heavy fog occurs?",
+      "es": "¿Cuál es el mejor consejo que deben seguir los conductores cuando hay niebla densa?",
+      "opts_en": ["Do not drive slowly, or other drivers may hit you.", "Alternate your low and high beams to improve your vision.", "Park at a rest area or truck stop until the fog has lifted."],
+      "opts_es": ["No conducir despacio, o los demás conductores podrían chocarlo.", "Alternar las luces bajas y altas para mejorar la visión.", "Estacionarse en un área de descanso o parada de camiones hasta que la niebla se disipe."]
+    },
+    {
+      "n": 29,
+      "en": "If a straight vehicle (no trailer or articulation) goes into a front-wheel skid, it will:",
+      "es": "Si un vehículo rígido (sin remolque ni articulación) entra en un derrape de las ruedas delanteras:",
+      "opts_en": ["Slide sideways and spin out.", "Travel straight ahead even if you turn the steering wheel.", "Travel straight ahead until you turn the steering wheel."],
+      "opts_es": ["Se deslizará de lado y girará sin control.", "Seguirá derecho aunque gire el volante.", "Seguirá derecho hasta que gire el volante."]
+    },
+    {
+      "n": 30,
+      "en": "Which of these statements is true about transported hazardous materials?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre el transporte de materiales peligrosos?",
+      "opts_en": ["Hazardous materials can be a risk to health and safety.", "All trucks with any amount of hazardous materials must display placards.", "All public roads allow properly loaded trucks to carry hazardous materials."],
+      "opts_es": ["Los materiales peligrosos pueden ser un riesgo para la salud y la seguridad.", "Todo camión con cualquier cantidad de material peligroso debe llevar rótulos.", "Todas las vías públicas permiten que camiones bien cargados transporten materiales peligrosos."]
+    },
+    {
+      "n": 31,
+      "en": "When do strong winds affect driving the most?",
+      "es": "¿Cuándo afectan más los vientos fuertes a la conducción?",
+      "opts_en": ["On open highways.", "On bridges or overpasses.", "When exiting tunnels."],
+      "opts_es": ["En carreteras abiertas.", "En puentes o pasos elevados.", "Al salir de túneles."]
+    },
+    {
+      "n": 32,
+      "en": "Optional safety equipment may include emergency phone numbers, tire chains, and:",
+      "es": "El equipo de seguridad opcional puede incluir números de teléfono de emergencia, cadenas para llantas y:",
+      "opts_en": ["Tire changing equipment.", "Red reflective triangles.", "Charged fire extinguisher."],
+      "opts_es": ["Equipo para cambiar llantas.", "Triángulos reflectantes rojos.", "Un extintor cargado."]
+    }
+  ]
+}

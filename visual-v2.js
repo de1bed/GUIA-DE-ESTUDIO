@@ -23,13 +23,13 @@ function renderVisualV2(mode='inspection'){
   if(lesson.steps)$$('[data-distance-step]').forEach(button=>button.onclick=()=>{const step=lesson.steps.find(item=>item[0]===button.dataset.distanceStep);$$('[data-distance-step]').forEach(item=>item.classList.toggle('active',item===button));$('#visualLearningPanel').innerHTML=`<small>ETAPA ${step[0]} DE 4</small><strong>${step[1]}</strong><p>${step[2]}</p>`});
 }
 
-$$('[data-visual]').forEach(button=>button.onclick=()=>renderVisualV2(button.dataset.visual));
+$$('[data-visual]').forEach(button=>{if(visualLessons[button.dataset.visual])button.onclick=()=>renderVisualV2(button.dataset.visual)});
 renderVisualV2('inspection');
 
 function updateJourneyProgress(){
   const answered=Object.values(sourceAnswers).filter(value=>value&&typeof value==='object').reduce((sum,value)=>sum+Object.keys(value).length,0);
   const mastered=Object.values(cardMastery).filter(Boolean).length;
-  const percent=Math.min(100,Math.round((answered/255*.75+mastered/cardDeck.length*.25)*100));
+  const percent=Math.min(100,Math.round((answered/256*.75+mastered/cardDeck.length*.25)*100));
   const output=$('#journeyPercent');if(output)output.textContent=`${percent}%`;
 }
 updateJourneyProgress();

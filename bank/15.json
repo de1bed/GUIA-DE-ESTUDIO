@@ -1,0 +1,98 @@
+{
+  "file": 15,
+  "folio": 29,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 21,
+      "en": "Why will your vehicle's speed naturally increase on downgrades?",
+      "es": "¿Por qué aumenta naturalmente la velocidad de su vehículo en las bajadas?",
+      "opts_en": ["The engine runs smoother.", "Gravity.", "Lack of traction."],
+      "opts_es": ["El motor funciona más suave.", "La gravedad.", "La falta de tracción."]
+    },
+    {
+      "n": 22,
+      "en": "You should avoid driving through deep puddles or flowing water. But if you can't, which of these steps can help keep your brakes working?",
+      "es": "Debe evitar conducir por charcos profundos o agua corriente. Pero si no puede, ¿cuál de estos pasos ayuda a mantener los frenos funcionando?",
+      "opts_en": ["Pressing both the brake pedal and accelerator firmly after coming out of the water.", "Gently putting on the brakes while driving through water.", "Turning on your brake heaters."],
+      "opts_es": ["Pisar con firmeza el pedal del freno y el acelerador al salir del agua.", "Aplicar suavemente los frenos mientras cruza el agua.", "Encender los calentadores de freno."]
+    },
+    {
+      "n": 23,
+      "en": "Which piece of emergency equipment should be in your vehicle?",
+      "es": "¿Qué equipo de emergencia debe llevar en su vehículo?",
+      "opts_en": ["Circuit breakers.", "First aid kit.", "Warning devices for parked vehicles."],
+      "opts_es": ["Interruptores automáticos.", "Botiquín de primeros auxilios.", "Dispositivos de advertencia para vehículos estacionados."]
+    },
+    {
+      "n": 24,
+      "en": "Convex (curved) mirrors:",
+      "es": "Los espejos convexos (curvos):",
+      "opts_en": ["Make objects appear larger than they really are.", "Make objects appear closer than they really are.", "Show a wider area than flat mirrors show."],
+      "opts_es": ["Hacen que los objetos parezcan más grandes de lo que son.", "Hacen que los objetos parezcan más cercanos de lo que están.", "Muestran un área más amplia que los espejos planos."]
+    },
+    {
+      "n": 25,
+      "en": "\"Implied consent\" means you:",
+      "es": "El “consentimiento implícito” significa que usted:",
+      "opts_en": ["Understand that you may drink alcohol now and then before driving.", "Have given your consent to be tested for alcohol in your blood.", "Have given your consent to a vehicle inspection for alcohol."],
+      "opts_es": ["Entiende que puede beber alcohol de vez en cuando antes de conducir.", "Ha dado su consentimiento para que le hagan una prueba de alcohol en sangre.", "Ha dado su consentimiento para una inspección del vehículo en busca de alcohol."]
+    },
+    {
+      "n": 26,
+      "en": "Which of these is not part of the engine compartment pre-trip inspection?",
+      "es": "¿Cuál de estos no forma parte de la inspección previa al viaje del compartimiento del motor?",
+      "opts_en": ["Engine oil level.", "Valve clearance.", "Checking for worn electrical wiring insulation."],
+      "opts_es": ["El nivel de aceite del motor.", "La holgura de las válvulas.", "Revisar el aislamiento desgastado del cableado eléctrico."]
+    },
+    {
+      "n": 27,
+      "en": "When you are parked at the side of the road at night, you must:",
+      "es": "Cuando esté estacionado a un costado del camino de noche, debe:",
+      "opts_en": ["Put out your emergency warning devices within 30 minutes.", "Use your taillights to give warning to other drivers.", "Turn on your 4-way emergency flashers to warn others."],
+      "opts_es": ["Colocar los dispositivos de advertencia de emergencia en un plazo de 30 minutos.", "Usar las luces traseras para advertir a otros conductores.", "Encender las intermitentes de emergencia para advertir a los demás."]
+    },
+    {
+      "n": 28,
+      "en": "You should signal continuously while turning because:",
+      "es": "Debe mantener la señal encendida durante todo el giro porque:",
+      "opts_en": ["You need both hands on the steering wheel to turn safely.", "It is illegal to turn off your signal before completing a turn.", "Most vehicles have self-canceling signals."],
+      "opts_es": ["Necesita ambas manos en el volante para girar con seguridad.", "Es ilegal apagar la señal antes de completar el giro.", "La mayoría de los vehículos tiene señales que se cancelan solas."]
+    },
+    {
+      "n": 29,
+      "en": "Which of these is a good thing to do when driving at night?",
+      "es": "¿Cuál de estas es una buena práctica al conducir de noche?",
+      "opts_en": ["Drive slowly enough to stop within the range of your headlights.", "Look directly at oncoming headlights only briefly.", "Keep your instrument lights bright."],
+      "opts_es": ["Conducir lo bastante despacio para detenerse dentro del alcance de sus faros.", "Mirar directamente a los faros que se aproximan solo brevemente.", "Mantener muy iluminadas las luces del tablero."]
+    },
+    {
+      "n": 30,
+      "en": "Stab braking:",
+      "es": "El frenado tipo “stab”:",
+      "opts_en": ["Involves applying the brakes and then releasing them after the wheels lock up.", "Should be used on vehicles without antilock brake systems.", "Should only be used with hydraulic brakes."],
+      "opts_es": ["Consiste en aplicar los frenos y luego soltarlos después de que las ruedas se bloquean.", "Debe usarse en vehículos sin sistema antibloqueo de frenos.", "Solo debe usarse con frenos hidráulicos."]
+    },
+    {
+      "n": 31,
+      "en": "A car suddenly \"cuts\" in front of you creating a hazard. Which of these actions should you not take?",
+      "es": "Un auto se le “mete” de repente delante creando un peligro. ¿Cuál de estas acciones no debe tomar?",
+      "opts_en": ["Honk and stay close behind the car.", "Slow down to prevent a crash.", "Signal and change lanes to avoid the car, if possible."],
+      "opts_es": ["Tocar el claxon y quedarse pegado detrás del auto.", "Reducir la velocidad para evitar un choque.", "Señalizar y cambiar de carril para evitar el auto, si es posible."]
+    },
+    {
+      "n": 32,
+      "en": "What is the proper way to hold a steering wheel?",
+      "es": "¿Cuál es la forma correcta de sujetar el volante?",
+      "opts_en": ["Both hands close together, near the top of the wheel.", "Both hands close together, near the bottom of the wheel.", "Both hands, on opposite sides of the wheel."],
+      "opts_es": ["Ambas manos juntas, cerca de la parte superior del volante.", "Ambas manos juntas, cerca de la parte inferior del volante.", "Ambas manos en lados opuestos del volante."]
+    },
+    {
+      "n": 33,
+      "en": "Placards must be:",
+      "es": "Los rótulos deben:",
+      "opts_en": ["Displayed on all vehicles transporting any amount of hazardous materials.", "Placed only on the front and rear of a vehicle.", "Placed on all four sides of a vehicle."],
+      "opts_es": ["Mostrarse en todo vehículo que transporte cualquier cantidad de materiales peligrosos.", "Colocarse solo en el frente y la parte trasera del vehículo.", "Colocarse en los cuatro lados del vehículo."]
+    }
+  ]
+}

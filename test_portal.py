@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 
 root = Path(__file__).resolve().parent
-url = (root / "index.html").as_uri() + "?mode=source"
+url = (root / "index.html").as_uri() + "?mode=source#practica"
 options = Options()
 options.add_argument("--headless=new")
 options.add_argument("--window-size=1440,1000")
@@ -26,9 +26,9 @@ try:
 
     assert not driver.find_element(By.ID, "sourceExamShell").get_attribute("hidden")
     assert driver.find_element(By.ID, "quizShell").get_attribute("hidden") == "true"
-    assert "Página 1" in driver.find_element(By.CSS_SELECTOR, ".source-exam-head strong").text
-    assert len(driver.find_elements(By.CSS_SELECTOR, ".answer-row")) == 10
-    assert "0 / 255" in driver.find_element(By.CSS_SELECTOR, ".global-source-progress").text
+    assert "Hoja 1" in driver.find_element(By.CSS_SELECTOR, ".source-exam-head strong").text
+    assert len(driver.find_elements(By.CSS_SELECTOR, ".q-item")) == 10
+    assert "0 / 256" in driver.find_element(By.CSS_SELECTOR, ".global-source-progress").text
     assert len(driver.find_elements(By.CSS_SELECTOR, "#sourcePageJump option")) == 26
 
     click('[data-source-answer="1"][data-source-letter="A"]')
@@ -37,8 +37,8 @@ try:
     assert len(driver.find_elements(By.CSS_SELECTOR, ".row-correct")) == 1
 
     click("#sourceExamNext")
-    assert "Página 2" in driver.find_element(By.CSS_SELECTOR, ".source-exam-head strong").text
-    assert len(driver.find_elements(By.CSS_SELECTOR, ".answer-row")) == 11
+    assert "Hoja 3" in driver.find_element(By.CSS_SELECTOR, ".source-exam-head strong").text
+    assert len(driver.find_elements(By.CSS_SELECTOR, ".q-item")) == 11
 
     click('[data-mode="cards"]')
     assert driver.find_element(By.ID, "studyFlashcard").is_displayed()
@@ -68,8 +68,9 @@ try:
     assert "2 / 10" in driver.find_element(By.ID, "customExamShell").text
 
     assert len(driver.find_elements(By.CSS_SELECTOR, "#translationPageSelect option")) == 26
-    assert "CONOCIMIENTOS" in driver.find_element(By.ID, "translatedPage").text
+    driver.execute_script("navigate('traduccion')")
+    assert "conocimientos" in driver.find_element(By.ID, "translatedPage").text.lower()
 
-    print("PASS: 255-slot source exam, 253-key custom bank, Spanish reader, activities, and timer")
+    print("PASS: 256-slot source exam, verified custom bank, Spanish reader, activities, and timer")
 finally:
     driver.quit()

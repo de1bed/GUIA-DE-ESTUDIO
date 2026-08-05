@@ -1,0 +1,77 @@
+{
+  "file": 21,
+  "folio": 41,
+  "section": "Class C Examination",
+  "questions": [
+    {
+      "n": 1,
+      "en": "You are involved in a minor accident at an intersection. There are no injuries and very little vehicle damage. You should:",
+      "es": "Se ve involucrado en un accidente menor en una intersección. No hay heridos y el daño al vehículo es mínimo. Debe:",
+      "opts_en": ["Leave your vehicle in the traffic lane until law enforcement arrives.", "Move your vehicle out of the traffic lane, if possible.", "Not move your vehicle for any reason."],
+      "opts_es": ["Dejar el vehículo en el carril de circulación hasta que llegue la policía.", "Retirar el vehículo del carril de circulación, si es posible.", "No mover el vehículo por ningún motivo."]
+    },
+    {
+      "n": 2,
+      "en": "What is the benefit of a space cushion around your vehicle?",
+      "es": "¿Cuál es el beneficio de mantener un colchón de espacio alrededor de su vehículo?",
+      "opts_en": ["Other drivers can \"cut\" in front of you, improving traffic flow.", "If another driver makes a mistake, you have time to react.", "It inflates to protect you from injury in case of an accident."],
+      "opts_es": ["Otros conductores pueden meterse delante de usted, mejorando el flujo del tráfico.", "Si otro conductor comete un error, usted tiene tiempo de reaccionar.", "Se infla para protegerlo de lesiones en caso de accidente."]
+    },
+    {
+      "n": 3,
+      "en": "You are on a two-way street with two lanes in each direction. To turn left, start the turn in the:",
+      "es": "Está en una calle de doble sentido con dos carriles en cada dirección. Para girar a la izquierda, inicie el giro desde:",
+      "opts_en": ["Any lane open to you for traffic in your direction.", "The left lane for traffic in your direction.", "The right lane for traffic in your direction."],
+      "opts_es": ["Cualquier carril disponible en su sentido de circulación.", "El carril izquierdo de su sentido de circulación.", "El carril derecho de su sentido de circulación."]
+    },
+    {
+      "n": 4,
+      "en": "A flashing red traffic light at an intersection means:",
+      "es": "Un semáforo rojo intermitente en una intersección significa:",
+      "opts_en": ["Slow down before entering.", "Stop before entering.", "Stop and wait for the green light."],
+      "opts_es": ["Reducir la velocidad antes de entrar.", "Detenerse antes de entrar.", "Detenerse y esperar la luz verde."]
+    },
+    {
+      "n": 5,
+      "en": "A solid yellow line next to a broken yellow line means that vehicles:",
+      "es": "Una línea amarilla continua junto a una línea amarilla discontinua significa que los vehículos:",
+      "opts_en": ["In both directions may pass.", "Next to the broken line may pass.", "Next to the solid line may pass."],
+      "opts_es": ["En ambos sentidos pueden rebasar.", "Del lado de la línea discontinua pueden rebasar.", "Del lado de la línea continua pueden rebasar."]
+    },
+    {
+      "n": 6,
+      "en": "It is illegal for a person 21 years of age or older to drive with a blood alcohol concentration (BAC) that is ____ or higher.",
+      "es": "Es ilegal que una persona de 21 años o más conduzca con una concentración de alcohol en sangre (BAC) de ____ o mayor.",
+      "opts_en": ["0.08% - Eight hundredths of one percent.", "0.10% - One tenth of one percent.", "0.05% - Five hundredths of one percent."],
+      "opts_es": ["0.08 % — ocho centésimas de un por ciento.", "0.10 % — una décima de un por ciento.", "0.05 % — cinco centésimas de un por ciento."]
+    },
+    {
+      "n": 7,
+      "en": "When you don't see any other vehicles around you while driving:",
+      "es": "Cuando no ve otros vehículos a su alrededor mientras conduce:",
+      "opts_en": ["You may legally exceed the posted speed limit.", "It is good habit to signal for turns and lane changes anyway.", "You are not required to wear your seat belt."],
+      "opts_es": ["Puede exceder legalmente el límite de velocidad señalizado.", "Es buen hábito señalizar los giros y cambios de carril de todos modos.", "No está obligado a usar el cinturón de seguridad."]
+    },
+    {
+      "n": 8,
+      "en": "Which of these statements is true about slippery road surfaces?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre las superficies resbalosas?",
+      "opts_en": ["Driving on wet leaves on the road will give you extra traction.", "On cold days, shade from buildings/trees can hide spots of ice.", "The pavement is less slippery when it first starts to rain on a hot day than it is afterwards."],
+      "opts_es": ["Conducir sobre hojas mojadas le da tracción adicional.", "En días fríos, la sombra de edificios o árboles puede ocultar placas de hielo.", "El pavimento es menos resbaloso cuando empieza a llover en un día caluroso que después."]
+    },
+    {
+      "n": 9,
+      "en": "Driving under the influence of any medication which impairs your driving is permitted:",
+      "es": "Conducir bajo los efectos de cualquier medicamento que afecte su capacidad de conducir está permitido:",
+      "opts_en": ["Under no circumstances.", "If you don't feel drowsy.", "If it is prescribed by a physician."],
+      "opts_es": ["Bajo ninguna circunstancia.", "Si no se siente somnoliento.", "Si se lo recetó un médico."]
+    },
+    {
+      "n": 10,
+      "en": "Which of the following is true about double parking?",
+      "es": "¿Cuál de las siguientes es verdadera sobre estacionarse en doble fila?",
+      "opts_en": ["It is illegal under all circumstances.", "It is illegal only if you leave your car.", "It is legal if you are making a delivery."],
+      "opts_es": ["Es ilegal en toda circunstancia.", "Es ilegal solo si deja el auto solo.", "Es legal si está haciendo una entrega."]
+    }
+  ]
+}

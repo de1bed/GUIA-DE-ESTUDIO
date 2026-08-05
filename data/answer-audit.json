@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "fuente": "DL-650 Commercial Driver Handbook (ed. 2019-2021, archivo 2023)",
+    "metodo": "Busqueda del pasaje que respalda cada clave con audit_keys.py; cada entrada cita pagina y frase literal.",
+    "aviso": "El cuestionario proviene del manual de 2003. Cuando el manual vigente dice algo distinto queda marcado como 'cambio', no como error de la clave."
+  },
+  "entradas": [
+    {
+      "archivo": 4, "n": 14, "clave": "C", "veredicto": "confirmado", "pagina": 102,
+      "cita": "The valve is usually set to open at 150 psi.",
+      "nota": "Coincide literalmente con la clave."
+    },
+    {
+      "archivo": 4, "n": 15, "clave": "B", "veredicto": "compatible", "pagina": 41,
+      "cita": "Build the air pressure to governor cut-out (usually around 120-140 psi).",
+      "nota": "El manual vigente da un rango en lugar de una cifra; 125 cae dentro."
+    },
+    {
+      "archivo": 7, "n": 14, "clave": "B", "veredicto": "confirmado", "pagina": 112,
+      "cita": "The air brake lag distance at 55 mph on dry pavement adds about 32 feet.",
+      "nota": "Coincide palabra por palabra con el enunciado y la clave."
+    },
+    {
+      "archivo": 13, "n": 6, "clave": "B", "veredicto": "cambio", "pagina": 103,
+      "cita": "A warning signal you can see must come on when the air pressure in the tanks falls between 55 and 75 psi.",
+      "nota": "El original lleva escrito a mano 'NEW LAW' justo aqui. El manual vigente fija un rango de 55 a 75 psi en vez de 60; la clave sigue cayendo dentro, pero el criterio cambio."
+    },
+    {
+      "archivo": 13, "n": 9, "clave": "A", "veredicto": "confirmado", "pagina": 74,
+      "cita": "When your speed has been reduced to approximately 5 mph below your \"safe\" speed, release the brakes.",
+      "nota": "Coincide literalmente con la clave."
+    },
+    {
+      "archivo": 2, "n": 27, "clave": "C", "veredicto": "confirmado", "pagina": 52,
+      "cita": "When you double your speed from 20 to 40 mph, the impact is 4 times greater. The braking distance is also 4 times longer.",
+      "nota": "Confirma las cuatro veces tanto para la distancia como para la fuerza de impacto."
+    },
+    {
+      "archivo": 5, "n": 12, "clave": "C", "veredicto": "confirmado", "pagina": 52,
+      "cita": "When you double your speed from 20 to 40 mph, the impact is 4 times greater.",
+      "nota": "Misma frase; aqui la pregunta es por el poder destructivo."
+    },
+    {
+      "archivo": 12, "n": 34, "clave": "C", "veredicto": "confirmado", "pagina": 52,
+      "cita": "The braking distance is also 4 times longer.",
+      "nota": "Repeticion de la pregunta de la hoja 3."
+    },
+    {
+      "archivo": 16, "n": 47, "clave": "C", "veredicto": "confirmado", "pagina": 52,
+      "cita": "The braking distance is also 4 times longer.",
+      "nota": "Repeticion de la pregunta de la hoja 3."
+    }
+  ]
+}

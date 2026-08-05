@@ -1,0 +1,67 @@
+/* Accesos para descargar o imprimir el cuestionario */
+
+.pdf-export {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pdf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 40px;
+  padding: 9px 15px;
+  border: 0;
+  border-radius: 9px;
+  background: var(--navy, #102637);
+  color: #fff;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background .15s;
+}
+
+.pdf-btn:hover { background: #1a3a52; }
+
+.pdf-btn.ghost {
+  background: transparent;
+  border: 1px solid var(--line, #d8e0e6);
+  color: var(--ink, #102637);
+}
+
+.pdf-btn.ghost:hover { background: #f2f6f8; border-color: var(--navy, #102637); }
+
+.pdf-btn i { font-style: normal; font-size: 14px; line-height: 1; }
+
+.pdf-export.compact .pdf-btn {
+  min-height: 36px;
+  padding: 7px 11px;
+  font-size: 11px;
+}
+
+/* En la cabecera oscura de la sección los botones necesitan contraste propio. */
+#traduccion .section-heading .pdf-btn {
+  background: var(--amber, #f4b941);
+  color: #102637;
+}
+
+#traduccion .section-heading .pdf-btn:hover { background: #ffc95c; }
+
+#traduccion .section-heading .pdf-btn.ghost {
+  background: transparent;
+  border-color: rgba(16, 38, 55, .25);
+  color: var(--ink, #102637);
+}
+
+.scan-nav .pdf-export { margin-left: auto; }
+
+@media (max-width: 760px) {
+  .pdf-export { width: 100%; }
+  .pdf-export .pdf-btn { flex: 1; justify-content: center; min-height: 46px; }
+  .scan-nav .pdf-export { margin-left: 0; order: 3; }
+}

@@ -1,0 +1,77 @@
+{
+  "file": 19,
+  "folio": 37,
+  "section": "Passenger Transport Endorsement",
+  "questions": [
+    {
+      "n": 1,
+      "en": "You are driving at night and you must dim your headlights from high to low. What should you do with your speed?",
+      "es": "Conduce de noche y debe bajar los faros de luces altas a bajas. ¿Qué debe hacer con su velocidad?",
+      "opts_en": ["Drop 5 mph until your eyes adjust.", "Slow down.", "Nothing. How well you can see should not affect your speed."],
+      "opts_es": ["Bajar 5 mph hasta que sus ojos se adapten.", "Reducir la velocidad.", "Nada. Lo bien que vea no debe afectar su velocidad."]
+    },
+    {
+      "n": 2,
+      "en": "A bus may carry baggage and freight only if it is:",
+      "es": "Un autobús puede llevar equipaje y carga solo si está:",
+      "opts_en": ["Stored in a separate baggage or freight compartment.", "Owned by a passenger riding the bus.", "Secured and out of the way of any exit."],
+      "opts_es": ["Guardado en un compartimiento separado de equipaje o carga.", "En posesión de un pasajero que viaja en el autobús.", "Asegurado y despejando cualquier salida."]
+    },
+    {
+      "n": 3,
+      "en": "When you arrive at a bus stop, you should announce the reason for stopping and the:",
+      "es": "Cuando llega a una parada, debe anunciar el motivo de la parada y:",
+      "opts_en": ["Departure time, estimated arrival at the next destination, and passenger boarding time.", "Location, estimated arrival at the next destination, and the bus number.", "Location, departure time, and the bus number."],
+      "opts_es": ["La hora de salida, la llegada estimada al siguiente destino y la hora de abordaje.", "La ubicación, la llegada estimada al siguiente destino y el número del autobús.", "La ubicación, la hora de salida y el número del autobús."]
+    },
+    {
+      "n": 4,
+      "en": "You must sign the previous driver's inspection report only when:",
+      "es": "Debe firmar el informe de inspección del conductor anterior solo cuando:",
+      "opts_en": ["Some of the repairs have not been made.", "The driver who filled out the report is present.", "The defects reported have been repaired."],
+      "opts_es": ["Algunas de las reparaciones no se hayan realizado.", "El conductor que llenó el informe esté presente.", "Los defectos reportados hayan sido reparados."]
+    },
+    {
+      "n": 5,
+      "en": "Carrying hazardous materials on a bus is:",
+      "es": "Transportar materiales peligrosos en un autobús es:",
+      "opts_en": ["Permitted if the material's container is placarded.", "Permitted if they meet the union's conditions.", "Never permitted."],
+      "opts_es": ["Permitido si el envase del material lleva rótulos.", "Permitido si cumplen las condiciones del sindicato.", "Nunca permitido."]
+    },
+    {
+      "n": 6,
+      "en": "Buses may have recapped or regrooved tires:",
+      "es": "Los autobuses pueden llevar llantas recauchutadas o reranuradas:",
+      "opts_en": ["Anywhere except the front wheels.", "On any or all the wheels.", "Only on the outside of duals."],
+      "opts_es": ["En cualquier lugar excepto las ruedas delanteras.", "En cualquiera o en todas las ruedas.", "Solo en la parte exterior de las llantas dobles."]
+    },
+    {
+      "n": 7,
+      "en": "You are driving a bus. You:",
+      "es": "Está conduciendo un autobús. Usted:",
+      "opts_en": ["Can only talk with riders when cruising on a highway.", "Should only allow riders to talk to you if they stay in their seat.", "Should never talk unnecessarily with riders."],
+      "opts_es": ["Solo puede hablar con los pasajeros cuando circula por carretera.", "Solo debe permitir que los pasajeros le hablen si permanecen en su asiento.", "Nunca debe hablar innecesariamente con los pasajeros."]
+    },
+    {
+      "n": 8,
+      "en": "You should check your mirrors:",
+      "es": "Debe revisar los espejos:",
+      "opts_en": ["Immediately after starting a lane change.", "As you prepare to stop.", "Regularly as part of your scan for potential hazards."],
+      "opts_es": ["Inmediatamente después de iniciar un cambio de carril.", "Cuando se prepara para detenerse.", "Con regularidad, como parte de su exploración en busca de peligros."]
+    },
+    {
+      "n": 9,
+      "en": "You are approaching railroad tracks. A bus driver must stop ____ to ____ feet before the nearest track.",
+      "es": "Se aproxima a unas vías de ferrocarril. El conductor de autobús debe detenerse entre ____ y ____ pies antes de la vía más cercana.",
+      "opts_en": ["5; 20.", "10; 35.", "15; 50."],
+      "opts_es": ["5; 20.", "10; 35.", "15; 50."]
+    },
+    {
+      "n": 10,
+      "en": "When are you allowed to drive with an emergency exit door open?",
+      "es": "¿Cuándo se le permite conducir con una puerta de salida de emergencia abierta?",
+      "opts_en": ["You may never drive with an emergency exit door open.", "When you will only be moving a short distance.", "If the temperature in the cabin is uncomfortably hot."],
+      "opts_es": ["Nunca debe conducir con una puerta de salida de emergencia abierta.", "Cuando solo vaya a recorrer una distancia corta.", "Si la temperatura en la cabina es incómodamente alta."]
+    }
+  ]
+}

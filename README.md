@@ -8,7 +8,9 @@ Abre `index.html` en un navegador moderno. No requiere instalación, compilació
 
 ## Contenido
 
-- Visor para los tres PDFs fuente.
+- Visor para los tres PDFs fuente, cada uno con su versión en español.
+- Cuestionario traducido al español (`Cuestionario impreso - Espanol.pdf`), generado
+  con `python build_spanish_pdf.py` a partir de las transcripciones de `bank/`.
 - Explorador de las 26 páginas originales del cuestionario.
 - Capa de estudio en español junto al documento original.
 - 255 espacios de respuesta y 253 claves verificadas.

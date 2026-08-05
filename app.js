@@ -1,5 +1,5 @@
 const documents=[
- {title:'Cuestionario impreso · Inglés',meta:'Documento escaneado · 26 páginas',tag:'FUENTE PRINCIPAL',short:'TEST',file:'Cuestionario impreso - Ingles.pdf'},
+ {title:'Cuestionario impreso · Inglés',meta:'Documento escaneado · 26 páginas',tag:'FUENTE PRINCIPAL',short:'TEST',file:'Cuestionario impreso - Ingles.pdf',spanishTitle:'Cuestionario impreso · Español',spanishMeta:'Traducción de estudio · 26 hojas · 254 preguntas',spanishFile:'Cuestionario impreso - Espanol.pdf'},
  {title:'Commercial Driver Handbook',meta:'Inglés · edición 2019–2021 / archivo 2023 · 208 páginas',tag:'MANUAL COMERCIAL',short:'CDL',file:'DL-650-2019-2021-Aug-2023-passes-accessibility.pdf',spanishTitle:'Manual del Conductor Comercial',spanishMeta:'Español oficial DMV · 208 páginas',spanishFile:'Commercial-Driver-Handbook-Spanish-Official.pdf'},
  {title:"California Driver’s Handbook",meta:'Inglés · edición 2025 · 92 páginas',tag:'MANUAL GENERAL',short:'CA',file:'8-11-25-DL-600-R6-2025-WWW.pdf',spanishTitle:'Resumen del Manual del Automovilista',spanishMeta:'Español oficial DMV · edición 2025 · 68 páginas',spanishFile:'California-Driver-Handbook-2025-Spanish-Official.pdf'}
 ];

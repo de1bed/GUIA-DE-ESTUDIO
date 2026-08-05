@@ -1,0 +1,78 @@
+{
+  "file": 12,
+  "folio": 23,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 34,
+      "en": "Whenever you double your speed, it will take about ____ times as much distance to stop.",
+      "es": "Cada vez que duplica su velocidad, necesitará aproximadamente ____ veces más distancia para detenerse.",
+      "opts_en": ["Two.", "Three.", "Four."],
+      "opts_es": ["Dos.", "Tres.", "Cuatro."]
+    },
+    {
+      "n": 35,
+      "en": "If a straight vehicle (no trailer or articulation) goes into a front-wheel skid, it will:",
+      "es": "Si un vehículo rígido (sin remolque ni articulación) entra en un derrape de las ruedas delanteras:",
+      "opts_en": ["Slide sideways and spin out.", "Travel straight ahead even if you turn the steering wheel.", "Travel straight ahead until you turn the steering wheel."],
+      "opts_es": ["Se deslizará de lado y girará sin control.", "Seguirá derecho aunque gire el volante.", "Seguirá derecho hasta que gire el volante."]
+    },
+    {
+      "n": 36,
+      "en": "Optional safety equipment may include emergency phone numbers, tire chains, and:",
+      "es": "El equipo de seguridad opcional puede incluir números de teléfono de emergencia, cadenas para llantas y:",
+      "opts_en": ["Tire changing equipment.", "Red reflective triangles.", "Charged fire extinguisher."],
+      "opts_es": ["Equipo para cambiar llantas.", "Triángulos reflectantes rojos.", "Un extintor cargado."]
+    },
+    {
+      "n": 37,
+      "en": "If you have a heavy load that is slowing you down on an upgrade, you should:",
+      "es": "Si lleva una carga pesada que lo hace ir más lento en una subida, debe:",
+      "opts_en": ["Exit the road until traffic is lighter.", "Drive on the shoulder so others can pass easily.", "Shift into a lower gear."],
+      "opts_es": ["Salir de la carretera hasta que haya menos tráfico.", "Circular por el acotamiento para que los demás rebasen con facilidad.", "Cambiar a una marcha más baja."]
+    },
+    {
+      "n": 38,
+      "en": "You are stopped. You want to start driving uphill. You should:",
+      "es": "Está detenido. Quiere comenzar a conducir cuesta arriba. Debe:",
+      "opts_en": ["Partly engage the clutch and then release the parking brake.", "Engage the clutch and accelerate quickly.", "Keep the trailer brake hand valve applied until you reach 20 mph."],
+      "opts_es": ["Acoplar parcialmente el embrague y luego soltar el freno de estacionamiento.", "Acoplar el embrague y acelerar rápidamente.", "Mantener aplicada la válvula manual del freno del remolque hasta llegar a 20 mph."]
+    },
+    {
+      "n": 39,
+      "en": "How many missing or broken leaves in any leaf spring will cause a commercial vehicle to be placed out of service?",
+      "es": "¿Cuántas hojas faltantes o rotas en un muelle de hojas hacen que un vehículo comercial quede fuera de servicio?",
+      "opts_en": ["One-fourth of the total number.", "One-third of the total number.", "One-half of the total number."],
+      "opts_es": ["Un cuarto del total.", "Un tercio del total.", "La mitad del total."]
+    },
+    {
+      "n": 40,
+      "en": "The Commercial Driver Handbook suggests several things to do when you pass a vehicle. Which of these is not one of them?",
+      "es": "El Manual del Conductor Comercial sugiere varias cosas al rebasar un vehículo. ¿Cuál de estas no es una de ellas?",
+      "opts_en": ["Lightly tap on your horn, if needed.", "At night, turn on your high beams while you pass the vehicle.", "Assume the other driver does not see you."],
+      "opts_es": ["Tocar el claxon suavemente si es necesario.", "De noche, encender las luces altas mientras rebasa el vehículo.", "Suponer que el otro conductor no lo ve."]
+    },
+    {
+      "n": 41,
+      "en": "Controlled braking:",
+      "es": "El frenado controlado:",
+      "opts_en": ["Involves locking the wheels for short periods of time.", "Is used to keep a vehicle in a straight line when braking.", "Should only be used with hydraulic brakes."],
+      "opts_es": ["Implica bloquear las ruedas por periodos cortos de tiempo.", "Se usa para mantener el vehículo en línea recta al frenar.", "Solo debe usarse con frenos hidráulicos."]
+    },
+    {
+      "n": 42,
+      "en": "You wish to turn right from a two-lane, two-way street into another. Your vehicle is so long that you must swing wide to complete the turn. Which of these figures shows how you should make the turn?",
+      "es": "Desea girar a la derecha de una calle de dos carriles y doble sentido hacia otra. Su vehículo es tan largo que debe abrirse para completar el giro. ¿Cuál de estas figuras muestra cómo debe hacer el giro?",
+      "opts_en": ["Figure A.", "Figure B.", "Figure C."],
+      "opts_es": ["Figura A.", "Figura B.", "Figura C."],
+      "figure": true
+    },
+    {
+      "n": 43,
+      "en": "Which of these is not proper use of vehicle lights?",
+      "es": "¿Cuál de estos no es un uso adecuado de las luces del vehículo?",
+      "opts_en": ["Turning on your headlights during the day when visibility is reduced.", "Flashing your brake lights to warn someone behind you that you are slowing down.", "Flashing your brake lights to stop someone tailgating."],
+      "opts_es": ["Encender los faros durante el día cuando la visibilidad es reducida.", "Destellar las luces de freno para advertir a quien viene detrás que está desacelerando.", "Destellar las luces de freno para detener a alguien que le sigue muy de cerca."]
+    }
+  ]
+}

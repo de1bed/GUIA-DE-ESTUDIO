@@ -13,6 +13,11 @@ const bankQuestion = (file, number) =>
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
+/* Verificaciones de la clave contra el manual, cuando existen. */
+const AUDIT = (window.ANSWER_AUDIT?.entradas || []);
+const auditOf = (file, number) =>
+  AUDIT.find(e => e.archivo === Number(file) && e.n === Number(number));
+
 /* Correcciones a pageForms comprobadas contra los escaneos:
    - la hoja 5 abre la Seccion 3 con una pregunta que la tabla no listaba;
    - la hoja 43 se titula "Commercial Driver Examination" en el original,
@@ -118,11 +123,23 @@ function questionMarkup(file, number, { answers, key, graded, unanswerable }) {
   const verify = isBlank || !correct ? '' :
     `<button class="q-verify" data-verify="${number}">${show ? 'Ocultar respuesta' : 'Verificar respuesta'}</button>`;
 
+  /* Si la clave se contrasto contra el manual, se cita el pasaje. */
+  const audit = show ? auditOf(file, number) : null;
+  const source = !audit ? '' : `<figure class="q-source ${audit.veredicto}">
+    <figcaption>${{
+      confirmado: '✓ Confirmado en el manual',
+      compatible: '≈ Compatible con el manual vigente',
+      cambio: '⚠ La norma cambió desde 2003',
+    }[audit.veredicto] || 'Contrastado'} · Commercial Driver Handbook, pág. ${audit.pagina}</figcaption>
+    <blockquote>${esc(audit.cita)}</blockquote>
+    <small>${esc(audit.nota)}</small>
+  </figure>`;
+
   return `<article class="q-item ${rowState} ${question ? '' : 'q-compact'}">
     <header><b>${number}</b>${isBlank ? '<span class="q-blank">El original imprime “??” y no incluye pregunta</span>' : heading}</header>
     <div class="q-opts">${options}</div>
     ${question?.figure ? '<small class="q-figure">Esta pregunta depende de la figura impresa: consulta el escaneo.</small>' : ''}
-    ${verdict}${verify}
+    ${verdict}${source}${verify}
   </article>`;
 }
 

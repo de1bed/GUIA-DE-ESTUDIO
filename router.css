@@ -1,0 +1,128 @@
+/* Vistas separadas en lugar de una sola pagina continua */
+
+main > section[hidden] { display: none !important; }
+
+.view-crumb {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 14px 30px 0;
+}
+
+.view-crumb[hidden] { display: none; }
+
+.view-crumb button {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--line, #d8e0e6);
+  border-radius: 10px;
+  background: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.view-crumb strong {
+  font-family: "Fraunces", serif;
+  font-size: 19px;
+  color: var(--ink, #102637);
+}
+
+/* Portada: rejilla de acceso a cada area */
+.view-hub {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 50px 30px 70px;
+}
+
+.view-hub h2 {
+  font-family: "Fraunces", serif;
+  font-size: 26px;
+  color: #fff;
+  margin: 0 0 20px;
+}
+
+.hub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+}
+
+.hub-grid a {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  padding: 20px 16px;
+  border: 1px solid rgba(255, 255, 255, .18);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, .06);
+  color: #e7eef3;
+  text-decoration: none;
+  transition: background .15s, border-color .15s;
+}
+
+.hub-grid a:hover,
+.hub-grid a:focus-visible {
+  background: rgba(255, 255, 255, .13);
+  border-color: rgba(255, 255, 255, .4);
+}
+
+.hub-grid i {
+  font-style: normal;
+  font-size: 21px;
+  color: var(--amber, #f4b941);
+}
+
+.hub-grid strong { font-size: 14px; font-weight: 600; }
+
+/* Estado activo en la barra superior */
+.topbar nav a.active {
+  color: var(--amber, #f4b941);
+  font-weight: 600;
+}
+
+/* Barra inferior de navegacion: solo telefono */
+.tabbar { display: none; }
+
+@media (max-width: 1000px) {
+  .tabbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 82;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background: #0d2233;
+    border-top: 1px solid rgba(255, 255, 255, .12);
+    padding-bottom: env(safe-area-inset-bottom, 0);
+  }
+
+  .tabbar a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    min-height: 56px;
+    color: #93a7b5;
+    text-decoration: none;
+    font-size: 10px;
+  }
+
+  .tabbar a i { font-style: normal; font-size: 17px; line-height: 1; }
+
+  .tabbar a.active { color: var(--amber, #f4b941); }
+
+  /* Deja sitio a la barra inferior y al boton de volver arriba. */
+  body { padding-bottom: 58px; }
+
+  .to-top { bottom: 70px; }
+
+  .view-crumb { padding: 12px 16px 0; }
+
+  .view-hub { padding: 34px 16px 50px; }
+}

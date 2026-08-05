@@ -1,0 +1,135 @@
+/* Infografías de cifras y de preguntas con figura */
+
+.figure-groups { display: grid; gap: 22px; margin-top: 18px; }
+
+.figure-group > h4 {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0 0 11px;
+  font-family: "Fraunces", serif;
+  font-size: 16px;
+  color: var(--ink, #102637);
+}
+
+.figure-group > h4 span {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #e5ebf0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 11px;
+  color: #4a5a66;
+}
+
+.number-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 10px;
+}
+
+.number-card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 15px 14px;
+  border: 1px solid var(--line, #d8e0e6);
+  border-radius: 11px;
+  background: #fff;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+  transition: border-color .15s, transform .15s;
+}
+
+.number-card:hover { border-color: var(--blue, #2463a9); transform: translateY(-2px); }
+
+.number-card b {
+  font-family: "Fraunces", serif;
+  font-size: 25px;
+  line-height: 1.05;
+  color: var(--blue, #2463a9);
+}
+
+.number-card span {
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--ink, #102637);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.number-card small { font-size: 10px; color: var(--muted, #6b7a86); }
+
+.figure-list { display: grid; gap: 12px; margin-top: 18px; }
+
+.figure-card {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 15px;
+  padding: 14px;
+  border: 1px solid var(--line, #d8e0e6);
+  border-radius: 12px;
+  background: #fff;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+}
+
+.figure-card:hover { border-color: var(--blue, #2463a9); }
+
+.figure-card img {
+  width: 110px;
+  height: 140px;
+  object-fit: cover;
+  object-position: top;
+  border: 1px solid #e2e8ec;
+  border-radius: 7px;
+  background: #f4f7f8;
+}
+
+.figure-card strong {
+  display: block;
+  font-size: 14px;
+  line-height: 1.35;
+  color: var(--ink, #102637);
+}
+
+.figure-card em {
+  display: block;
+  margin: 3px 0 9px;
+  font-size: 11.5px;
+  color: #9aa8b2;
+}
+
+.figure-card ul { list-style: none; margin: 0 0 8px; padding: 0; display: grid; gap: 3px; }
+
+.figure-card li { font-size: 12px; color: #3d4d59; }
+
+.figure-card li b {
+  display: inline-grid;
+  place-items: center;
+  width: 17px;
+  height: 17px;
+  margin-right: 6px;
+  border-radius: 4px;
+  background: #e5ebf0;
+  font-size: 10px;
+}
+
+.figure-card small { font-size: 10.5px; color: var(--amber-dark, #8a6d1f); }
+
+/* Resalta la pregunta a la que se salta desde una tarjeta. */
+@keyframes q-flash {
+  from { box-shadow: 0 0 0 3px rgba(36, 99, 169, .45); }
+  to { box-shadow: 0 0 0 3px rgba(36, 99, 169, 0); }
+}
+
+.q-item.q-flash { animation: q-flash 1.4s ease-out; }
+
+@media (max-width: 700px) {
+  .figure-card { grid-template-columns: 76px 1fr; gap: 11px; }
+  .figure-card img { width: 76px; height: 100px; }
+  .number-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+}

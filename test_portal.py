@@ -28,8 +28,8 @@ try:
     assert driver.find_element(By.ID, "quizShell").get_attribute("hidden") == "true"
     assert "Hoja 1" in driver.find_element(By.CSS_SELECTOR, ".source-exam-head strong").text
     assert len(driver.find_elements(By.CSS_SELECTOR, ".q-item")) == 10
-    assert "0 / 256" in driver.find_element(By.CSS_SELECTOR, ".global-source-progress").text
-    assert len(driver.find_elements(By.CSS_SELECTOR, "#sourcePageJump option")) == 26
+    assert "0 / 500" in driver.find_element(By.CSS_SELECTOR, ".global-source-progress").text
+    assert len(driver.find_elements(By.CSS_SELECTOR, "#sourcePageJump option")) == 52
 
     click('[data-source-answer="1"][data-source-letter="A"]')
     click("#gradeSource")
@@ -37,7 +37,7 @@ try:
     assert len(driver.find_elements(By.CSS_SELECTOR, ".row-correct")) == 1
 
     click("#sourceExamNext")
-    assert "Hoja 3" in driver.find_element(By.CSS_SELECTOR, ".source-exam-head strong").text
+    assert "Hoja 2" in driver.find_element(By.CSS_SELECTOR, ".source-exam-head strong").text
     assert len(driver.find_elements(By.CSS_SELECTOR, ".q-item")) == 11
 
     click('[data-mode="cards"]')
@@ -60,17 +60,17 @@ try:
     assert end < start
 
     click('[data-practice="custom"]')
-    assert "253 respuestas verificadas" in driver.find_element(By.ID, "customExamShell").text
+    assert "271 respuestas verificadas" in driver.find_element(By.ID, "customExamShell").text
     click('[data-exam-size="10"]')
     assert "1 / 10" in driver.find_element(By.ID, "customExamShell").text
     click('[data-custom-answer="A"]')
     click("#customNext")
     assert "2 / 10" in driver.find_element(By.ID, "customExamShell").text
 
-    assert len(driver.find_elements(By.CSS_SELECTOR, "#translationPageSelect option")) == 26
+    assert len(driver.find_elements(By.CSS_SELECTOR, "#translationPageSelect option")) == 52
     driver.execute_script("navigate('traduccion')")
     assert "conocimientos" in driver.find_element(By.ID, "translatedPage").text.lower()
 
-    print("PASS: 256-slot source exam, verified custom bank, Spanish reader, activities, and timer")
+    print("PASS: 500-question source exam, verified custom bank, Spanish reader, activities, and timer")
 finally:
     driver.quit()

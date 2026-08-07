@@ -87,19 +87,19 @@ function paintTranslation() {
 }
 
 function selectTranslationPage(page) {
-  translationPage = Math.max(1, Math.min(26, +page));
+  translationPage = Math.max(1, Math.min(52, +page));
   const code = String(translationPage).padStart(2, '0');
   const folio = 2 * translationPage - 1;
-  $('#translationPageCount').textContent = `${code} / 26`;
+  $('#translationPageCount').textContent = `${code} / 52`;
   $('#translationSourcePage').textContent = folio;
   $('#translationPageSelect').value = translationPage;
-  $('#translationSourceImage').src = `assets/questionnaire/page-${code}.jpg`;
+  $('#translationSourceImage').src = `assets/questionnaire-v2/page-${code}.jpg`;
   $('#translationSourceImage').alt = `Hoja ${folio} del cuestionario original en inglés`;
   paintTranslation();
 }
 
 /* El selector muestra el folio real, no el número de archivo. */
-$('#translationPageSelect').innerHTML = Array.from({ length: 26 }, (_, i) =>
+$('#translationPageSelect').innerHTML = Array.from({ length: 52 }, (_, i) =>
   `<option value="${i + 1}">Hoja ${2 * (i + 1) - 1}</option>`).join('');
 
 /* Contador de coincidencias junto al buscador. */

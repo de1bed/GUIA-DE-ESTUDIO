@@ -1,6 +1,6 @@
 """Genera el cuestionario en español a partir del banco de preguntas.
 
-Las preguntas de bank/NN.json se transcribieron leyendo los escaneos uno por
+Las preguntas de bank-v2/NN.json se transcribieron leyendo los escaneos uno por
 uno, no con OCR. Este script solo las maqueta: conserva el folio, la sección
 y la numeración del original.
 
@@ -20,8 +20,8 @@ from reportlab.platypus import (
     Paragraph, Spacer, Table, TableStyle,
 )
 
-BANK_DIR = pathlib.Path("bank")
-OUT = pathlib.Path("Cuestionario impreso - Espanol.pdf")
+BANK_DIR = pathlib.Path("bank-v2")
+OUT = pathlib.Path("Mandatory Class B Practice Test - Espanol.pdf")
 
 INK = colors.HexColor("#102637")
 MUTED = colors.HexColor("#6b7a86")
@@ -177,7 +177,7 @@ def build():
         str(OUT), pagesize=letter,
         leftMargin=inch * 0.8, rightMargin=inch * 0.8,
         topMargin=inch * 0.9, bottomMargin=inch * 0.75,
-        title="Cuestionario impreso · Español",
+        title="Mandatory Class B Practice Test · Español",
         author="Ruta CDL — traducción de estudio",
         subject="Traducción al español del cuestionario de conocimientos comerciales",
     )
@@ -188,17 +188,15 @@ def build():
         onPage=furniture)])
 
     story = [
-        Paragraph("Cuestionario de conocimientos comerciales", S["cover_title"]),
+        Paragraph("Mandatory Class B Practice Test", S["cover_title"]),
         Paragraph("Traducción de estudio al español · California", S["cover_sub"]),
         Paragraph(
             f"Contiene las <b>{len(pages)} hojas</b> escaneadas del folleto original y sus "
             f"<b>{total} preguntas</b>, cada una con su enunciado en español, la frase original "
             "en inglés como referencia y las tres opciones tal como se imprimen.", S["cover_body"]),
         Paragraph(
-            "El folleto original tiene <b>51 hojas</b>, pero el PDF fuente solo contiene las "
-            "impares (1, 3, 5 … 51). Las hojas pares nunca se escanearon, y por eso la "
-            "numeración de las preguntas salta. Se conserva el folio impreso en cada hoja en "
-            "lugar de renumerarlas.", S["cover_body"]),
+            "El PDF fuente contiene las <b>52 hojas consecutivas</b> del folleto. Se conserva "
+            "el folio impreso, la sección, la numeración y el orden de cada pregunta.", S["cover_body"]),
         Paragraph(
             "Las preguntas se transcribieron leyendo los escaneos uno por uno. Donde el original "
             "trae una anotación manuscrita o depende de una figura impresa, queda señalado bajo "

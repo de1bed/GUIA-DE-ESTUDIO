@@ -34,9 +34,9 @@
       "n": 26,
       "en": "What is the best advice for drivers to follow when a heavy fog occurs?",
       "es": "¿Cuál es el mejor consejo que deben seguir los conductores cuando hay niebla densa?",
-      "opts_en": ["Do not drive too slowly, or other drivers may hit you.", "Alternate your low and high beams to improve your vision."],
-      "opts_es": ["No conducir demasiado despacio, o los demás conductores podrían chocarlo.", "Alternar las luces bajas y altas para mejorar la visión."],
-      "note": "El original solo imprime dos opciones en esta pregunta; falta la tercera. En la hoja 3 la misma pregunta lleva una tercera opción: “Estacionarse en un área de descanso o parada de camiones hasta que la niebla se disipe”."
+      "opts_en": ["Do not drive too slowly, or other drivers may hit you.", "Alternate your low and high beams to improve your vision.", "Park at a rest area or truck stop until the fog has lifted."],
+      "opts_es": ["No conducir demasiado despacio, o los demás conductores podrían chocarlo.", "Alternar las luces bajas y altas para mejorar la visión.", "Estacionarse en un área de descanso o parada de camiones hasta que la niebla se disipe."],
+      "note": "El escaneo de esta hoja solo muestra dos opciones; la tercera se recuperó de la misma pregunta completa en la hoja 3."
     },
     {
       "n": 27,

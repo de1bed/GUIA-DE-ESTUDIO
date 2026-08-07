@@ -1,13 +1,13 @@
 """Arma data/question-bank.js a partir de las transcripciones por página.
 
-Cada archivo bank/NN.json corresponde al escaneo assets/questionnaire/page-NN.jpg
-e incluye el folio real impreso a mano en el original.
+Cada archivo bank-v2/NN.json corresponde al escaneo
+assets/questionnaire-v2/page-NN.jpg e incluye el folio real del original.
 """
 import json
 import pathlib
 import sys
 
-BANK_DIR = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "bank")
+BANK_DIR = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "bank-v2")
 OUT = pathlib.Path("data/question-bank.js")
 
 bank = {}
@@ -24,8 +24,10 @@ for path in sorted(BANK_DIR.glob("*.json")):
             "optsEs": q["opts_es"],
             **({"figure": True} if q.get("figure") else {}),
             **({"note": q["note"]} if q.get("note") else {}),
+            **({"key": q["key"]} if q.get("key") else {}),
         })
-    bank[str(page["file"])] = {
+    file_number = page.get("file", page["folio"])
+    bank[str(file_number)] = {
         "folio": page["folio"],
         "section": page["section"],
         "questions": entries,

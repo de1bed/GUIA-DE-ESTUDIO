@@ -4,9 +4,8 @@
 
 const BANK = window.QUESTION_BANK || {};
 
-/* El folio impreso a mano en el original no coincide con el número de archivo:
-   el PDF solo contiene las hojas impares del folleto (1, 3, 5 … 51). */
-const folioOf = file => 2 * file - 1;
+/* En el folleto completo, el número de archivo coincide con el folio. */
+const folioOf = file => Number(file);
 const bankPage = file => BANK[String(file)];
 const bankQuestion = (file, number) =>
   (bankPage(file)?.questions || []).find(q => q.n === Number(number));
@@ -16,20 +15,24 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;',
 /* Verificaciones de la clave contra el manual, cuando existen. */
 const AUDIT = (window.ANSWER_AUDIT?.entradas || []);
 const auditOf = (file, number) =>
-  AUDIT.find(e => e.archivo === Number(file) && e.n === Number(number));
+  AUDIT.find(e => (2 * e.archivo - 1) === Number(file) && e.n === Number(number));
 
 /* Correcciones a pageForms comprobadas contra los escaneos:
    - la hoja 5 abre la Seccion 3 con una pregunta que la tabla no listaba;
    - la hoja 43 se titula "Commercial Driver Examination" en el original,
      no "Class C Examination", y eso alimenta el filtro por seccion. */
+Object.keys(pageForms).forEach(page => delete pageForms[page]);
 Object.entries(BANK).forEach(([page, data]) => {
-  const form = pageForms[page];
-  if (!form) return;
-  data.questions.forEach(q => {
-    if (!form.numbers.includes(q.n)) form.numbers.push(q.n);
-  });
-  form.section = data.section;
+  pageForms[page] = {
+    section: data.section,
+    numbers: data.questions.map(q => q.n),
+    key: Object.fromEntries(data.questions.filter(q => q.key).map(q => [q.n, q.key])),
+  };
 });
+verifiedQuestionBank = Object.entries(pageForms).flatMap(([page, form]) =>
+  form.numbers.filter(number => form.key[number]).map(number => ({
+    page: +page, number, section: form.section, correct: form.key[number],
+  })));
 
 /* Los totales dejan de estar codificados a mano: se derivan de los datos.
    Estaban escritos como 255 y 253 en el HTML y dentro de updateStats, y
@@ -37,7 +40,7 @@ Object.entries(BANK).forEach(([page, data]) => {
 const TOTAL_SPACES = Object.values(pageForms).reduce((sum, form) => sum + form.numbers.length, 0);
 const TOTAL_KEYS = Object.values(pageForms).reduce((sum, form) => sum + Object.keys(form.key || {}).length, 0);
 const SHEET_COUNT = Object.keys(pageForms).length;
-const BOOKLET_SHEETS = folioOf(SHEET_COUNT);
+const BOOKLET_SHEETS = SHEET_COUNT;
 
 /* Sincroniza los rótulos fijos del portal con los datos reales. */
 function syncTotals() {
@@ -56,14 +59,11 @@ function syncTotals() {
   set('[data-jump="custom"] small', `10, 25, 50 o ${TOTAL_KEYS} preguntas`);
   set('[data-practice="source"]', `Cuestionario completo · ${TOTAL_SPACES}`);
 
-  /* La insignia decía "26 de 26 páginas · FIDELIDAD VERIFICADA", que sugiere
-     un documento completo. El folleto tiene 51 hojas y solo se escanearon
-     las impares. */
   const badge = $('.fidelity-badge');
   if (badge) {
-    badge.querySelector('small').textContent = 'ESCANEOS DISPONIBLES';
+    badge.querySelector('small').textContent = 'FIDELIDAD VERIFICADA';
     badge.querySelector('strong').textContent = `${SHEET_COUNT} de ${BOOKLET_SHEETS} hojas`;
-    badge.title = 'El PDF fuente solo contiene las hojas impares del folleto original.';
+    badge.title = 'Las 52 hojas consecutivas del folleto completo están disponibles.';
   }
 }
 
@@ -158,12 +158,11 @@ function renderSourceExam() {
 
   $('#sourceExamShell').innerHTML = `<div class="source-exam-head">
       <div><strong>${form.section} · Hoja ${folio} del folleto</strong>
-      <small>Escaneo ${sourceExamPage} de 26 · preguntas ${form.numbers[0]}–${form.numbers.at(-1)} tal como aparecen impresas</small></div>
-      <div><button id="sourceExamPrev">←</button><span>${String(sourceExamPage).padStart(2, '0')} / 26</span><button id="sourceExamNext">→</button></div>
+      <small>Escaneo ${sourceExamPage} de ${SHEET_COUNT} · preguntas ${form.numbers[0]}–${form.numbers.at(-1)} tal como aparecen impresas</small></div>
+      <div><button id="sourceExamPrev">←</button><span>${String(sourceExamPage).padStart(2, '0')} / ${SHEET_COUNT}</span><button id="sourceExamNext">→</button></div>
     </div>
-    <div class="missing-note">Hoja ${folio + 1} ausente del PDF original: solo se escanearon las páginas impares del folleto.</div>
     <div class="source-exam-body">
-      <div class="source-exam-page"><img src="assets/questionnaire/page-${String(sourceExamPage).padStart(2, '0')}.jpg" alt="Hoja ${folio} del cuestionario original"></div>
+      <div class="source-exam-page"><img src="assets/questionnaire-v2/page-${String(sourceExamPage).padStart(2, '0')}.jpg" alt="Hoja ${folio} del cuestionario original"></div>
       <aside class="answer-sheet">
         <p class="eyebrow dark"><span></span> HOJA DE RESPUESTAS</p>
         <h3>${form.section}</h3>
@@ -178,7 +177,7 @@ function renderSourceExam() {
     </div>`;
 
   $('#sourceExamPrev').onclick = () => { sourceExamPage = Math.max(1, sourceExamPage - 1); renderSourceExam(); };
-  $('#sourceExamNext').onclick = () => { sourceExamPage = Math.min(26, sourceExamPage + 1); renderSourceExam(); };
+  $('#sourceExamNext').onclick = () => { sourceExamPage = Math.min(SHEET_COUNT, sourceExamPage + 1); renderSourceExam(); };
   $$('[data-source-answer]').forEach(button => button.onclick = () => {
     sourceAnswers[pageKey] ??= {};
     sourceAnswers[pageKey][button.dataset.sourceAnswer] = button.dataset.sourceLetter;
@@ -220,7 +219,7 @@ function renderCustomExamQuestion() {
     </div>
     <div class="custom-exam-body">
       <article><header><strong>Hoja ${folio} · Pregunta ${item.number}</strong><small>${item.section} · documento original</small></header>
-        <div><img src="assets/questionnaire/page-${String(item.page).padStart(2, '0')}.jpg" alt="Hoja ${folio} del cuestionario original"></div>
+        <div><img src="assets/questionnaire-v2/page-${String(item.page).padStart(2, '0')}.jpg" alt="Hoja ${folio} del cuestionario original"></div>
       </article>
       <aside>
         <p class="eyebrow dark"><span></span> PREGUNTA ${item.number}</p>

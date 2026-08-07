@@ -29,7 +29,7 @@ renderVisualV2('inspection');
 function updateJourneyProgress(){
   const answered=Object.values(sourceAnswers).filter(value=>value&&typeof value==='object').reduce((sum,value)=>sum+Object.keys(value).length,0);
   const mastered=Object.values(cardMastery).filter(Boolean).length;
-  const percent=Math.min(100,Math.round((answered/256*.75+mastered/cardDeck.length*.25)*100));
+  const percent=Math.min(100,Math.round((answered/TOTAL_SPACES*.75+mastered/cardDeck.length*.25)*100));
   const output=$('#journeyPercent');if(output)output.textContent=`${percent}%`;
 }
 updateJourneyProgress();

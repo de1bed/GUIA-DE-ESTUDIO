@@ -5,7 +5,7 @@
 const XBANK = window.QUESTION_BANK || {};
 const xEsc = s => String(s).replace(/[&<>"]/g, c =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-const xFolio = file => 2 * file - 1;
+const xFolio = file => Number(file);
 
 /* Una pregunta es "de cifra" cuando sus tres opciones son valores.
    Se mide sobre el texto en inglés, que es mas uniforme, y se muestra el
@@ -76,7 +76,7 @@ function renderFigures() {
     </div></div>
     <div class="figure-list">${figureCards.map(q => `
       <button class="figure-card" data-goto-sheet="${q.file}" data-goto-n="${q.n}">
-        <img loading="lazy" src="assets/questionnaire/page-${String(q.file).padStart(2, '0')}.jpg" alt="Hoja ${q.folio}">
+        <img loading="lazy" src="assets/questionnaire-v2/page-${String(q.file).padStart(2, '0')}.jpg" alt="Hoja ${q.folio}">
         <div>
           <strong>${xEsc(q.es)}</strong>
           <em>${xEsc(q.en)}</em>

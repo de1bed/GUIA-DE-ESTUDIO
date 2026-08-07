@@ -3,8 +3,8 @@ from pathlib import Path
 
 from pypdf import PdfReader
 
-SOURCE = Path("Cuestionario impreso - Ingles.pdf")
-OUTPUT = Path("assets/questionnaire")
+SOURCE = Path("Mandatory Class B Practice Test.pdf")
+OUTPUT = Path("assets/questionnaire-v2")
 OUTPUT.mkdir(parents=True, exist_ok=True)
 
 reader = PdfReader(str(SOURCE))

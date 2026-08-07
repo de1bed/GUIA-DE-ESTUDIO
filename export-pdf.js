@@ -2,8 +2,8 @@
    los manuales tienen su PDF descargable en la biblioteca. La página no
    cambia: solo se añaden los accesos. */
 
-const PDF_ES = 'Cuestionario impreso - Espanol.pdf';
-const PDF_EN = 'Cuestionario impreso - Ingles.pdf';
+const PDF_ES = 'Mandatory Class B Practice Test - Espanol.pdf';
+const PDF_EN = 'Mandatory Class B Practice Test.pdf';
 
 function exportButtons({ compact = false } = {}) {
   return `<span class="pdf-export ${compact ? 'compact' : ''}">

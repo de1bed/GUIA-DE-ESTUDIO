@@ -9,17 +9,12 @@ Abre `index.html` en un navegador moderno. No requiere instalación, compilació
 ## Contenido
 
 - Visor para los tres PDFs fuente, cada uno con su versión en español.
-- Cuestionario traducido al español (`Cuestionario impreso - Espanol.pdf`), generado
-  con `python build_spanish_pdf.py` a partir de las transcripciones de `bank/`.
-- Explorador de las 26 hojas escaneadas del cuestionario.
+- Cuestionario completo `Mandatory Class B Practice Test.pdf` con sus 52 hojas consecutivas.
+- Traducción bilingüe (`Mandatory Class B Practice Test - Espanol.pdf`), generada
+  con `python build_spanish_pdf.py` a partir de las transcripciones de `bank-v2/`.
+- Explorador de las 52 hojas escaneadas del cuestionario.
 - Capa de estudio en español junto al documento original.
-- 256 espacios de respuesta y 253 claves; 254 preguntas con enunciado y
-  opciones transcritos (las dos restantes se imprimen como `??` en el original).
-
-> **Sobre la fuente:** el folleto original tiene 51 hojas, pero el PDF solo
-> contiene las impares (1, 3, 5 … 51). Las 25 hojas pares nunca se escanearon,
-> por eso la numeración de las preguntas salta. El portal rotula cada hoja con
-> su folio real en lugar de renumerarlas.
+- 500 preguntas con enunciado, opciones y traducción; 271 claves disponibles.
 - Exámenes personalizados, calificación, revisión e historial local.
 - Tarjetas, escenarios, relaciones, secuencias, audio e infografías interactivas.
 - Diseño adaptable para escritorio y dispositivos móviles.

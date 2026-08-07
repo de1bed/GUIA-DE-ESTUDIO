@@ -1,0 +1,41 @@
+{
+  "folio": 26,
+  "section": "Air Brake Test",
+  "questions": [
+    {
+      "n": 16,
+      "en": "The air compressor governor controls:",
+      "es": "El gobernador del compresor de aire controla:",
+      "opts_en": ["The speed of the air compressor.", "Air pressure applied to the brakes.", "When air is pumped into the brakes."],
+      "opts_es": ["La velocidad del compresor de aire.", "La presión de aire aplicada a los frenos.", "Cuándo se bombea aire a los frenos."]
+    },
+    {
+      "n": 17,
+      "en": "The air brake system for a straight truck or bus should not leak at a rate of more than ____ psi per minute with the engine off and the brakes released.",
+      "es": "El sistema de frenos de aire de un camión rígido o autobús no debe tener fugas de más de ____ psi por minuto con el motor apagado y los frenos liberados.",
+      "opts_en": ["1.", "3.", "2."],
+      "opts_es": ["1.", "3.", "2."]
+    },
+    {
+      "n": 18,
+      "en": "If air pressure does not build up to normal within the correct amount of time:",
+      "es": "Si la presión de aire no llega a lo normal en el tiempo correcto:",
+      "opts_en": ["You should be ready to use your parking brake to help stop.", "The alcohol container may be low.", "Your air pressure may drop too low during driving."],
+      "opts_es": ["Debe estar listo para usar el freno de estacionamiento para ayudar a detenerse.", "El depósito de alcohol puede estar bajo.", "La presión de aire puede caer demasiado mientras conduce."]
+    },
+    {
+      "n": 19,
+      "en": "Your truck or bus has a dual air brake system. If a low air pressure warning comes on for only one system, what should you do?",
+      "es": "Su camión o autobús tiene un sistema doble de frenos de aire. Si se enciende la advertencia de baja presión de un solo sistema, ¿qué debe hacer?",
+      "opts_en": ["Reduce your speed and drive to the nearest garage for repairs.", "Reduce your speed and test the remaining system while driving.", "Stop and safely park. Continue only after the system is fixed."],
+      "opts_es": ["Reducir la velocidad y conducir al taller más cercano para repararlo.", "Reducir la velocidad y probar el sistema restante mientras conduce.", "Detenerse y estacionarse con seguridad; continuar solo cuando el sistema esté reparado."]
+    },
+    {
+      "n": 20,
+      "en": "How should you check that your service brakes are working properly?",
+      "es": "¿Cómo debe comprobar que los frenos de servicio funcionan correctamente?",
+      "opts_en": ["Park on a slight incline, drain off air pressure, set the parking brakes, and check for movement.", "Park on level ground, chock the wheels, engage the parking brake, and shut the engine off.", "Wait for normal air pressure, release the parking brake, move the truck forward slowly, and firmly step on the brake."],
+      "opts_es": ["Estacionar en una pendiente leve, purgar la presión, aplicar los frenos de estacionamiento y comprobar si hay movimiento.", "Estacionar en terreno plano, calzar las ruedas, aplicar el freno de estacionamiento y apagar el motor.", "Esperar a la presión normal, soltar el freno de estacionamiento, avanzar despacio y pisar el freno con firmeza."]
+    }
+  ]
+}

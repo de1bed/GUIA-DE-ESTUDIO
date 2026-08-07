@@ -1,0 +1,78 @@
+{
+  "folio": 28,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 11,
+      "en": "Which of these statements is true about mirror adjustment?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre el ajuste de los espejos?",
+      "opts_en": ["You should adjust your mirrors before you start a trip.", "The mirrors can be adjusted correctly even if the trailer is not straight.", "You can adjust the mirrors while you are driving."],
+      "opts_es": ["Debe ajustar los espejos antes de comenzar el viaje.", "Los espejos pueden ajustarse correctamente aunque el remolque no esté alineado.", "Puede ajustar los espejos mientras conduce."]
+    },
+    {
+      "n": 12,
+      "en": "You can see this sign on a vehicle ahead of you. What does the sign mean?",
+      "es": "Ve este letrero en un vehículo delante de usted. ¿Qué significa?",
+      "opts_en": ["Slow moving vehicle.", "Hazardous materials on board.", "Student driver."],
+      "opts_es": ["Vehículo de movimiento lento.", "Materiales peligrosos a bordo.", "Conductor en formación."],
+      "figure": true
+    },
+    {
+      "n": 13,
+      "en": "You are driving a heavy vehicle. You must exit a highway using an off ramp that curves downhill. You should:",
+      "es": "Conduce un vehículo pesado y debe salir de la carretera por una rampa que baja en curva. Debe:",
+      "opts_en": ["Slow down to a safe speed before the curve.", "Slow to the posted speed limit for the off ramp.", "Wait until you are in the curve before downshifting."],
+      "opts_es": ["Reducir a una velocidad segura antes de la curva.", "Reducir al límite de velocidad señalizado de la rampa.", "Esperar a estar dentro de la curva para bajar de marcha."]
+    },
+    {
+      "n": 14,
+      "en": "You are required to stop at a railroad grade crossing when:",
+      "es": "Está obligado a detenerse en un cruce a nivel de ferrocarril cuando:",
+      "opts_en": ["The crossing is located in a city or town with frequent train traffic.", "There are no flagmen, warning signals, or gates at the crossing.", "The cargo makes a stop mandatory under state or federal regulations."],
+      "opts_es": ["El cruce está en una ciudad o pueblo con tráfico frecuente de trenes.", "No hay señaleros, señales de advertencia ni barreras en el cruce.", "La carga obliga a detenerse según la normativa estatal o federal."]
+    },
+    {
+      "n": 15,
+      "en": "The purpose of retarders is to:",
+      "es": "El propósito de los retardadores es:",
+      "opts_en": ["Apply extra braking power to the non-drive axles.", "Help prevent skids and reduce brake wear.", "Help slow the vehicle while driving and reduce brake wear."],
+      "opts_es": ["Aplicar potencia de frenado adicional a los ejes no motrices.", "Ayudar a evitar derrapes y reducir el desgaste de los frenos.", "Ayudar a frenar el vehículo mientras conduce y reducir el desgaste de los frenos."]
+    },
+    {
+      "n": 16,
+      "en": "You are checking your steering and exhaust systems in a pre-trip inspection. Which of these problems should be fixed before the vehicle is driven?",
+      "es": "Está revisando la dirección y el escape en una inspección previa al viaje. ¿Cuál de estos problemas debe repararse antes de conducir el vehículo?",
+      "opts_en": ["Oil on the tie rod.", "Gray smoke from the exhaust.", "Steering wheel play — more than 10° (2 inches on a 20-inch wheel)."],
+      "opts_es": ["Aceite en la barra de dirección.", "Humo gris del escape.", "Juego del volante mayor a 10° (2 pulgadas en un volante de 20 pulgadas)."]
+    },
+    {
+      "n": 17,
+      "en": "If someone is following you too closely (tailgating), you should:",
+      "es": "Si alguien lo sigue demasiado de cerca, debe:",
+      "opts_en": ["Flash your brake lights.", "Signal the tailgater when it is safe to pass you.", "Increase your following distance."],
+      "opts_es": ["Destellar las luces de freno.", "Indicarle cuándo es seguro rebasarlo.", "Aumentar su distancia de seguimiento."]
+    },
+    {
+      "n": 18,
+      "en": "When a coolant container is part of a pressurized system, which of these is true?",
+      "es": "Cuando el depósito de refrigerante forma parte de un sistema presurizado, ¿cuál de estas es verdadera?",
+      "opts_en": ["You can safely remove the radiator cap and add coolant while the engine is hot.", "You never need to check the antifreeze in such a system.", "You can check the coolant level of a hot engine."],
+      "opts_es": ["Puede quitar con seguridad el tapón del radiador y añadir refrigerante con el motor caliente.", "Nunca hace falta revisar el anticongelante en ese tipo de sistema.", "Puede comprobar el nivel de refrigerante con el motor caliente."]
+    },
+    {
+      "n": 19,
+      "en": "What is counter steering?",
+      "es": "¿Qué es el contravolanteo?",
+      "opts_en": ["Turning the steering wheel counterclockwise to prevent over steering.", "Using the steering axle brakes to prevent over steering.", "Turning the steering wheel back in the other direction after steering to avoid a traffic emergency."],
+      "opts_es": ["Girar el volante en sentido antihorario para evitar sobrevirar.", "Usar los frenos del eje de dirección para evitar sobrevirar.", "Girar el volante de vuelta en la otra dirección después de esquivar una emergencia de tráfico."]
+    },
+    {
+      "n": 20,
+      "en": "You wish to turn right from a two-lane, two-way street into another. Your vehicle is so long that you must swing wide to complete the turn. Which of these figures shows how you should make the turn?",
+      "es": "Desea girar a la derecha de una calle de dos carriles y doble sentido hacia otra. Su vehículo es tan largo que debe abrirse para completar el giro. ¿Cuál de estas figuras muestra cómo debe hacer el giro?",
+      "opts_en": ["Figure A.", "Figure B.", "Figure C."],
+      "opts_es": ["Figura A.", "Figura B.", "Figura C."],
+      "figure": true
+    }
+  ]
+}

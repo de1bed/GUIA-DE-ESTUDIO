@@ -1,0 +1,76 @@
+{
+  "folio": 36,
+  "section": "Passenger Transport Endorsement",
+  "questions": [
+    {
+      "n": 11,
+      "en": "If a bus breaks down and there are passengers on board, the bus:",
+      "es": "Si un autobús se avería con pasajeros a bordo, el autobús:",
+      "opts_en": ["May be towed to the nearest service garage to discharge the passengers.", "Should not be towed until the passengers are discharged.", "May be towed to the nearest safe spot to discharge the passengers."],
+      "opts_es": ["Puede ser remolcado al taller más cercano para bajar a los pasajeros.", "No debe remolcarse hasta que los pasajeros hayan bajado.", "Puede ser remolcado al lugar seguro más cercano para bajar a los pasajeros."]
+    },
+    {
+      "n": 12,
+      "en": "The total maximum weight of hazardous materials that buses are allowed to carry is ____ pounds.",
+      "es": "El peso máximo total de materiales peligrosos que los autobuses pueden transportar es de ____ libras.",
+      "opts_en": ["100.", "250.", "500."],
+      "opts_es": ["100.", "250.", "500."]
+    },
+    {
+      "n": 13,
+      "en": "Buses must not carry more than ____ pounds of any one class of allowed hazardous materials.",
+      "es": "Los autobuses no deben transportar más de ____ libras de una misma clase de materiales peligrosos permitidos.",
+      "opts_en": ["100.", "250.", "500."],
+      "opts_es": ["100.", "250.", "500."]
+    },
+    {
+      "n": 14,
+      "en": "Buses may have recapped or regrooved tires:",
+      "es": "Los autobuses pueden llevar llantas recauchutadas o reranuradas:",
+      "opts_en": ["Only as the outside tire on a set of duals.", "On any or all the wheels.", "Anywhere except the front wheels."],
+      "opts_es": ["Solo como llanta exterior de un juego de llantas dobles.", "En cualquiera o en todas las ruedas.", "En cualquier lugar excepto las ruedas delanteras."]
+    },
+    {
+      "n": 15,
+      "en": "When you discharge an unruly rider, you should choose a place:",
+      "es": "Cuando haga bajar a un pasajero conflictivo, debe elegir un lugar:",
+      "opts_en": ["Near a police station.", "Convenient to you.", "That is as safe as possible."],
+      "opts_es": ["Cerca de una comisaría.", "Que le resulte cómodo a usted.", "Que sea lo más seguro posible."]
+    },
+    {
+      "n": 16,
+      "en": "You should not let bus riders stand:",
+      "es": "No debe permitir que los pasajeros vayan de pie:",
+      "opts_en": ["Between the wheel wells.", "Within two feet of an emergency exit.", "In front of the standee line."],
+      "opts_es": ["Entre los pasos de rueda.", "A menos de dos pies de una salida de emergencia.", "Delante de la línea de pasajeros de pie."]
+    },
+    {
+      "n": 17,
+      "en": "While driving a bus, you should:",
+      "es": "Mientras conduce un autobús, debe:",
+      "opts_en": ["Scan the road ahead, as well as the interior of your bus.", "Focus your attention on traffic immediately to the left side of your bus.", "Only scan the road 5-7 seconds ahead of you."],
+      "opts_es": ["Explorar el camino por delante y también el interior del autobús.", "Concentrar la atención en el tráfico inmediatamente a la izquierda del autobús.", "Explorar el camino solo de 5 a 7 segundos por delante."]
+    },
+    {
+      "n": 18,
+      "en": "If your bus leans towards the outside in a banked curve, you:",
+      "es": "Si su autobús se inclina hacia afuera en una curva peraltada, usted:",
+      "opts_en": ["Should increase your speed slightly.", "Should quickly and firmly press the brake pedal.", "Are driving too fast."],
+      "opts_es": ["Debe aumentar ligeramente la velocidad.", "Debe pisar el freno rápida y firmemente.", "Está conduciendo demasiado rápido."]
+    },
+    {
+      "n": 19,
+      "en": "Which of these statements is true about speed management and braking?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre el manejo de la velocidad y el frenado?",
+      "opts_en": ["The time it takes to stop increases one second for each 10 mph over 20 mph.", "You need about four times as much stopping distance at 40 mph as you need at 20 mph.", "A bus' total stopping distance is the distance it takes to stop once the brakes are applied."],
+      "opts_es": ["El tiempo para detenerse aumenta un segundo por cada 10 mph por encima de 20 mph.", "Necesita unas cuatro veces más distancia de frenado a 40 mph que a 20 mph.", "La distancia total de frenado de un autobús es la que recorre desde que se aplican los frenos."]
+    },
+    {
+      "n": 20,
+      "en": "Which of the following types of cargo can never be carried on a bus?",
+      "es": "¿Cuál de los siguientes tipos de carga nunca puede llevarse en un autobús?",
+      "opts_en": ["Small arms ammunition labeled ORM-D.", "Irritation materials or tear gas.", "Hospital drugs."],
+      "opts_es": ["Municiones de armas pequeñas etiquetadas ORM-D.", "Materiales irritantes o gas lacrimógeno.", "Medicamentos hospitalarios."]
+    }
+  ]
+}

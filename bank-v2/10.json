@@ -1,0 +1,90 @@
+{
+  "folio": 10,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 21,
+      "en": "Which piece of emergency equipment should be in your vehicle?",
+      "es": "¿Qué equipo de emergencia debe llevar en su vehículo?",
+      "opts_en": ["Circuit breakers.", "First aid kit.", "Warning devices for parked vehicles."],
+      "opts_es": ["Interruptores automáticos.", "Botiquín de primeros auxilios.", "Dispositivos de advertencia para vehículos estacionados."]
+    },
+    {
+      "n": 22,
+      "en": "Which of these statements is true about staying alert to drive?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre mantenerse alerta al conducir?",
+      "opts_en": ["A half-hour coffee break will do more to keep you alert than a half-hour nap.", "If you must stop, pull over to the side of the road for a short nap.", "Sleep is the only thing that can overcome fatigue."],
+      "opts_es": ["Media hora de café lo mantendrá más alerta que media hora de siesta.", "Si debe detenerse, oríllese a un costado del camino para una siesta corta.", "El sueño es lo único que puede vencer la fatiga."]
+    },
+    {
+      "n": 23,
+      "en": "You are performing a pre-trip inspection on your brakes and suspension system. Which of these statements is true?",
+      "es": "Está realizando una inspección previa al viaje de los frenos y la suspensión. ¿Cuál de estas afirmaciones es verdadera?",
+      "opts_en": ["Just one missing leaf spring is not dangerous.", "Spring hangers that are cracked but still tight are not dangerous.", "Brake shoes should not have oil, grease, or brake fluid on them."],
+      "opts_es": ["Que falte una sola hoja del muelle no es peligroso.", "Los soportes del muelle agrietados pero aún apretados no son peligrosos.", "Las zapatas de freno no deben tener aceite, grasa ni líquido de frenos."]
+    },
+    {
+      "n": 24,
+      "en": "A car suddenly \"cuts\" in front of you creating a hazard. Which of these actions should you not take?",
+      "es": "Un auto se le “mete” de repente delante creando un peligro. ¿Cuál de estas acciones no debe tomar?",
+      "opts_en": ["Honk and stay close behind the car.", "Slow down to prevent a crash.", "Signal and change lanes to avoid the car, if possible."],
+      "opts_es": ["Tocar el claxon y quedarse pegado detrás del auto.", "Reducir la velocidad para evitar un choque.", "Señalizar y cambiar de carril para evitar el auto, si es posible."]
+    },
+    {
+      "n": 25,
+      "en": "Which of these items should be tested while the vehicle is stopped?",
+      "es": "¿Cuál de estos elementos debe probarse con el vehículo detenido?",
+      "opts_en": ["Service brake.", "Parking brake.", "Hydraulic brake."],
+      "opts_es": ["El freno de servicio.", "El freno de estacionamiento.", "El freno hidráulico."]
+    },
+    {
+      "n": 26,
+      "en": "When a coolant container is part of a pressurized system, which of these is true?",
+      "es": "Cuando el depósito de refrigerante forma parte de un sistema presurizado, ¿cuál de estas es verdadera?",
+      "opts_en": ["You can safely remove the radiator cap and add coolant while the engine is hot.", "You never need to check the antifreeze in such a system.", "You can check the coolant level of a hot engine."],
+      "opts_es": ["Puede quitar con seguridad el tapón del radiador y añadir refrigerante con el motor caliente.", "Nunca hace falta revisar el anticongelante en ese tipo de sistema.", "Puede comprobar el nivel de refrigerante con el motor caliente."]
+    },
+    {
+      "n": 27,
+      "en": "When you are parked at the side of the road at night, you must:",
+      "es": "Cuando esté estacionado a un costado del camino de noche, debe:",
+      "opts_en": ["Put out your emergency warning devices within 30 minutes.", "Use your taillights to give warning to other drivers.", "Turn on your 4-way emergency flashers to warn others."],
+      "opts_es": ["Colocar los dispositivos de advertencia de emergencia en un plazo de 30 minutos.", "Usar las luces traseras para advertir a otros conductores.", "Encender las intermitentes de emergencia para advertir a los demás."]
+    },
+    {
+      "n": 28,
+      "en": "\"Implied consent\" means that when you sign the application form, you:",
+      "es": "El “consentimiento implícito” significa que, al firmar el formulario de solicitud, usted:",
+      "opts_en": ["Understand that you are allowed to drink alcohol before driving.", "Give your consent to be tested for alcohol in your blood.", "Give your consent to a vehicle inspection for alcohol."],
+      "opts_es": ["Entiende que se le permite beber alcohol antes de conducir.", "Da su consentimiento para que le hagan una prueba de alcohol en sangre.", "Da su consentimiento para una inspección del vehículo en busca de alcohol."]
+    },
+    {
+      "n": 29,
+      "en": "Truck escape ramps:",
+      "es": "Las rampas de escape para camiones:",
+      "opts_en": ["Help avoid damage to vehicles.", "Cannot be used by certain types of heavy vehicles.", "Are not for buses."],
+      "opts_es": ["Ayudan a evitar daños a los vehículos.", "No pueden usarlas ciertos tipos de vehículos pesados.", "No son para autobuses."]
+    },
+    {
+      "n": 30,
+      "en": "Which of these is a good thing to do when driving at night?",
+      "es": "¿Cuál de estas es una buena práctica al conducir de noche?",
+      "opts_en": ["Drive slowly enough to stop within the range of your headlights.", "Look directly at oncoming headlights only briefly.", "Keep your instrument lights bright."],
+      "opts_es": ["Conducir lo bastante despacio para detenerse dentro del alcance de sus faros.", "Mirar directamente a los faros que se aproximan solo brevemente.", "Mantener muy iluminadas las luces del tablero."]
+    },
+    {
+      "n": 31,
+      "en": "What is counter steering?",
+      "es": "¿Qué es el contravolanteo?",
+      "opts_en": ["Turning the steering wheel counterclockwise to prevent over steering.", "Using the steering axle brakes to prevent over steering.", "Turning the steering wheel back in the other direction after steering to avoid a traffic emergency."],
+      "opts_es": ["Girar el volante en sentido antihorario para evitar sobrevirar.", "Usar los frenos del eje de dirección para evitar sobrevirar.", "Girar el volante de vuelta en la otra dirección después de esquivar una emergencia de tráfico."]
+    },
+    {
+      "n": 32,
+      "en": "The distance that you should look ahead of your vehicle while driving is about ____ mile at highway speeds.",
+      "es": "La distancia a la que debe mirar por delante del vehículo al conducir es de unos ____ de milla a velocidad de carretera.",
+      "opts_en": ["1/8.", "1/4.", "1/2."],
+      "opts_es": ["1/8.", "1/4.", "1/2."]
+    }
+  ]
+}

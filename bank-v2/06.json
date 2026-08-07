@@ -1,0 +1,91 @@
+{
+  "folio": 6,
+  "section": "Air Brake Test",
+  "questions": [
+    {
+      "n": 2,
+      "en": "A truck with air brakes going 55 mph would require a stopping distance of:",
+      "es": "Un camión con frenos de aire a 55 mph necesitaría una distancia de frenado de:",
+      "opts_en": ["Less than 100 feet.", "100-300 feet.", "More than 300 feet."],
+      "opts_es": ["Menos de 100 pies.", "Entre 100 y 300 pies.", "Más de 300 pies."]
+    },
+    {
+      "n": 3,
+      "en": "Repeatedly pressing and releasing (fanning) the brake pedal may result in:",
+      "es": "Pisar y soltar repetidamente el pedal del freno (bombearlo) puede provocar:",
+      "opts_en": ["A loss of air pressure.", "A build up of brake pressure.", "No change in brake air pressure."],
+      "opts_es": ["Una pérdida de presión de aire.", "Una acumulación de presión de frenado.", "Ningún cambio en la presión de aire de los frenos."]
+    },
+    {
+      "n": 4,
+      "en": "Your truck has a properly functioning dual air brake system and minimum size air tanks. The air pressure should build from 85 to 100 psi within:",
+      "es": "Su camión tiene un sistema doble de frenos de aire en buen estado y tanques del tamaño mínimo. La presión debe subir de 85 a 100 psi en un plazo de:",
+      "opts_en": ["30 seconds.", "45 seconds.", "60 seconds."],
+      "opts_es": ["30 segundos.", "45 segundos.", "60 segundos."]
+    },
+    {
+      "n": 5,
+      "en": "The braking power of the spring brakes:",
+      "es": "La potencia de frenado de los frenos de resorte:",
+      "opts_en": ["Is not affected by the condition of the service brakes.", "Depends on the service brakes being in adjustment.", "Increases when the service brakes are hot."],
+      "opts_es": ["No se ve afectada por el estado de los frenos de servicio.", "Depende de que los frenos de servicio estén bien ajustados.", "Aumenta cuando los frenos de servicio están calientes."]
+    },
+    {
+      "n": 6,
+      "en": "The application pressure gauge shows how much air pressure you:",
+      "es": "El medidor de presión de aplicación indica cuánta presión de aire:",
+      "opts_en": ["Have in the air tanks.", "Have in the modulating control valve.", "Are applying to the brakes."],
+      "opts_es": ["Tiene en los tanques de aire.", "Tiene en la válvula de control moduladora.", "Está aplicando a los frenos."]
+    },
+    {
+      "n": 7,
+      "en": "During normal driving, spring brakes are usually held back by:",
+      "es": "Durante la conducción normal, los frenos de resorte se mantienen retraídos mediante:",
+      "opts_en": ["Bolts.", "Spring pressure.", "Air pressure."],
+      "opts_es": ["Pernos.", "La presión del resorte.", "La presión de aire."]
+    },
+    {
+      "n": 8,
+      "en": "The air brake lag distance at 55 mph on dry pavement adds about ____ feet to your stopping distance.",
+      "es": "El retraso de los frenos de aire a 55 mph sobre pavimento seco añade unos ____ pies a su distancia de frenado.",
+      "opts_en": ["12.", "52.", "32."],
+      "opts_es": ["12.", "52.", "32."],
+      "note": "El orden de las opciones difiere del de la misma pregunta en la hoja 13."
+    },
+    {
+      "n": 9,
+      "en": "What is emergency controlled braking?",
+      "es": "¿Qué es el frenado controlado de emergencia?",
+      "opts_en": ["You apply the brakes as hard as you can without locking the wheels.", "You brake as hard as you can, release the brakes when the wheels lock, and reapply the brakes when the wheels start rolling.", "You apply the hand valve for one second, then push hard on the brake pedal."],
+      "opts_es": ["Aplicar los frenos con toda la fuerza posible sin llegar a bloquear las ruedas.", "Frenar con toda la fuerza posible, soltar los frenos cuando las ruedas se bloqueen y volver a aplicarlos cuando empiecen a rodar.", "Aplicar la válvula manual un segundo y luego pisar fuerte el pedal del freno."]
+    },
+    {
+      "n": 10,
+      "en": "If your vehicle has an alcohol evaporator, it is there to:",
+      "es": "Si su vehículo tiene un evaporador de alcohol, está ahí para:",
+      "opts_en": ["Rid the wet tank of alcohol that condenses and sits at the bottom.", "Eliminate the need for daily tank draining.", "Reduce the risk of ice in air brake valves in cold weather."],
+      "opts_es": ["Eliminar del tanque húmedo el alcohol que se condensa y se acumula en el fondo.", "Evitar la necesidad de drenar los tanques a diario.", "Reducir el riesgo de hielo en las válvulas de freno en clima frío."]
+    },
+    {
+      "n": 11,
+      "en": "How should you check that your service brakes are working properly?",
+      "es": "¿Cómo debe comprobar que los frenos de servicio funcionan correctamente?",
+      "opts_en": ["Park on a slight incline, drain off air pressure, set the parking brakes, and check for movement.", "Park on level ground, chock the wheels, engage the parking brake, and shut the engine off.", "Wait for normal air pressure, release the parking brake, move the truck forward slowly, and firmly step on the brake."],
+      "opts_es": ["Estacionar en una pendiente leve, purgar la presión, aplicar los frenos de estacionamiento y comprobar si hay movimiento.", "Estacionar en terreno plano, calzar las ruedas, aplicar el freno de estacionamiento y apagar el motor.", "Esperar a la presión normal, soltar el freno de estacionamiento, avanzar despacio y pisar el freno con firmeza."]
+    },
+    {
+      "n": 12,
+      "en": "The use of air brakes on downgrade is only a supplement to the:",
+      "es": "El uso de los frenos de aire en una bajada solo es un complemento de:",
+      "opts_en": ["Use of the spring brakes.", "Use of the front brake-limiting valve.", "Braking effect of the engine."],
+      "opts_es": ["El uso de los frenos de resorte.", "El uso de la válvula limitadora del freno delantero.", "El efecto de frenado del motor."]
+    },
+    {
+      "n": 13,
+      "en": "If you must make an emergency stop, brake so you:",
+      "es": "Si debe hacer una parada de emergencia, frene de modo que:",
+      "opts_en": ["Can steer hard while braking hard.", "Use the hand brake first.", "Can steer your vehicle in a straight line."],
+      "opts_es": ["Pueda girar con fuerza mientras frena con fuerza.", "Use primero el freno de mano.", "Pueda mantener el vehículo en línea recta."]
+    }
+  ]
+}

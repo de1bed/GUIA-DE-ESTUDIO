@@ -1,0 +1,62 @@
+{
+  "folio": 8,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 1,
+      "en": "You are driving a vehicle at 55 mph on dry pavement. About how much total stopping distance will you need to bring it to a stop?",
+      "es": "Conduce un vehículo a 55 mph sobre pavimento seco. ¿Cuánta distancia total de frenado necesitará aproximadamente para detenerlo?",
+      "opts_en": ["Twice the length of the vehicle.", "Half the length of a football field.", "The length of a football field."],
+      "opts_es": ["El doble del largo del vehículo.", "La mitad de un campo de fútbol americano.", "El largo de un campo de fútbol americano."]
+    },
+    {
+      "n": 2,
+      "en": "If someone is following you too closely (tailgating), you should:",
+      "es": "Si alguien lo sigue demasiado de cerca, debe:",
+      "opts_en": ["Flash your brake lights.", "Signal the tailgater when it is safe to pass you.", "Increase your following distance."],
+      "opts_es": ["Destellar las luces de freno.", "Indicarle cuándo es seguro rebasarlo.", "Aumentar su distancia de seguimiento."]
+    },
+    {
+      "n": 3,
+      "en": "Convex (curved) mirrors:",
+      "es": "Los espejos convexos (curvos):",
+      "opts_en": ["Make objects appear larger than they really are.", "Make objects appear closer than they really are.", "Show a wider area than flat mirrors show."],
+      "opts_es": ["Hacen que los objetos parezcan más grandes de lo que son.", "Hacen que los objetos parezcan más cercanos de lo que están.", "Muestran un área más amplia que los espejos planos."]
+    },
+    {
+      "n": 4,
+      "en": "What is the term for a commercial vehicle's habit of swinging wide on turns?",
+      "es": "¿Cómo se llama la tendencia de un vehículo comercial a abrirse en los giros?",
+      "opts_en": ["Offtracking.", "Wide-rounding.", "Sidewinding."],
+      "opts_es": ["Offtracking (desplazamiento de las ruedas traseras).", "Wide-rounding.", "Sidewinding."]
+    },
+    {
+      "n": 5,
+      "en": "You are driving a heavy vehicle. You must exit a highway using an off ramp that curves downhill. You should:",
+      "es": "Conduce un vehículo pesado y debe salir de la carretera por una rampa que baja en curva. Debe:",
+      "opts_en": ["Slow down to a safe speed before the curve.", "Slow to the posted speed limit for the off ramp.", "Wait until you are in the curve before downshifting."],
+      "opts_es": ["Reducir a una velocidad segura antes de la curva.", "Reducir al límite de velocidad señalizado de la rampa.", "Esperar a estar dentro de la curva para bajar de marcha."]
+    },
+    {
+      "n": 6,
+      "en": "To avoid a crash, you had to drive onto the right shoulder. You are now driving at 40 mph on the shoulder. How should you move back onto the pavement?",
+      "es": "Para evitar un choque tuvo que salirse al acotamiento derecho. Ahora circula a 40 mph sobre el acotamiento. ¿Cómo debe volver al pavimento?",
+      "opts_en": ["If the shoulder is clear, stay on it until your vehicle comes to a stop. Then move back onto the pavement when it is safe.", "Brake hard to slow the vehicle, then steer sharply onto the pavement when it is safe.", "Keep moving at your present speed and steer very gently back onto the pavement when it is safe."],
+      "opts_es": ["Si el acotamiento está despejado, permanecer en él hasta detenerse por completo y luego volver al pavimento cuando sea seguro.", "Frenar fuerte para reducir la velocidad y luego girar bruscamente al pavimento cuando sea seguro.", "Mantener la velocidad actual y volver al pavimento girando muy suavemente cuando sea seguro."]
+    },
+    {
+      "n": 7,
+      "en": "During a vehicle inspection, checking which of the following will not help prevent a fire?",
+      "es": "Durante una inspección del vehículo, ¿revisar cuál de los siguientes no ayuda a prevenir un incendio?",
+      "opts_en": ["Cargo ventilation.", "Electrical system insulation.", "Battery fluid level."],
+      "opts_es": ["La ventilación de la carga.", "El aislamiento del sistema eléctrico.", "El nivel de líquido de la batería."]
+    },
+    {
+      "n": 8,
+      "en": "On which fires can you use water?",
+      "es": "¿En qué tipo de incendios puede usar agua?",
+      "opts_en": ["Electrical.", "Gasoline.", "Tires."],
+      "opts_es": ["Eléctricos.", "De gasolina.", "De llantas."]
+    }
+  ]
+}

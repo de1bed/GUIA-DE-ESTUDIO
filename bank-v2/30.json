@@ -1,0 +1,90 @@
+{
+  "folio": 30,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 34,
+      "en": "Containerized loads:",
+      "es": "Las cargas en contenedor:",
+      "opts_en": ["Should come with their own tiedown devices or locks.", "Do not need to be inspected or secured by the driver.", "Are generally used for freight carried part way by rail or ship."],
+      "opts_es": ["Deben venir con sus propios amarres o seguros.", "No necesitan que el conductor las inspeccione ni las asegure.", "Suelen usarse para carga que viaja parte del trayecto por tren o barco."]
+    },
+    {
+      "n": 35,
+      "en": "In your mirror, you see a car approaching from the rear. The next time you check your mirror, you don't see the car. To change lanes, you should:",
+      "es": "En el espejo ve un auto que se acerca por detrás. La siguiente vez que mira el espejo, ya no lo ve. Para cambiar de carril debe:",
+      "opts_en": ["Wait until you are sure the car isn't in your blind spot.", "Ease into the other lane slowly so the car can get out of your way.", "Assume the car left the road and change lanes as normal."],
+      "opts_es": ["Esperar hasta estar seguro de que el auto no está en su punto ciego.", "Entrar despacio al otro carril para que el auto pueda apartarse.", "Suponer que el auto salió de la carretera y cambiar de carril con normalidad."]
+    },
+    {
+      "n": 36,
+      "en": "The distance that you should look ahead of your vehicle while driving is about _____ mile at highway speeds.",
+      "es": "La distancia a la que debe mirar por delante del vehículo al conducir es de unos _____ de milla a velocidad de carretera.",
+      "opts_en": ["1/8.", "1/4.", "1/2."],
+      "opts_es": ["1/8.", "1/4.", "1/2."]
+    },
+    {
+      "n": 37,
+      "en": "What is the term for a commercial vehicle's habit of swinging wide on turns?",
+      "es": "¿Cómo se llama la tendencia de un vehículo comercial a abrirse en los giros?",
+      "opts_en": ["Offtracking.", "Wide-rounding.", "Sidewinding."],
+      "opts_es": ["Offtracking (desplazamiento de las ruedas traseras).", "Wide-rounding.", "Sidewinding."]
+    },
+    {
+      "n": 38,
+      "en": "You must complete a written vehicle inspection report each day. You must sign the report:",
+      "es": "Debe completar un informe escrito de inspección del vehículo cada día. Debe firmar el informe:",
+      "opts_en": ["If the previous driver noted any defects.", "Only when defects are noted that are certified to be repaired.", "Only when the noted defects are certified not needing repair."],
+      "opts_es": ["Si el conductor anterior anotó algún defecto.", "Solo cuando se anoten defectos que se certifiquen como reparados.", "Solo cuando los defectos anotados se certifiquen como que no requieren reparación."]
+    },
+    {
+      "n": 39,
+      "en": "Backing a commercial vehicle is:",
+      "es": "Retroceder con un vehículo comercial es:",
+      "opts_en": ["Not dangerous if you have a helper.", "Not dangerous if you do not have to turn.", "Always dangerous."],
+      "opts_es": ["No peligroso si tiene un ayudante.", "No peligroso si no tiene que girar.", "Siempre peligroso."]
+    },
+    {
+      "n": 40,
+      "en": "When driving in cold weather, your tire tread should:",
+      "es": "Al conducir en clima frío, el dibujo de sus llantas debe:",
+      "opts_en": ["Be checked every 100 miles or every two hours.", "Be double the depth required in normal weather.", "Provide enough traction to steer and push the vehicle through snow."],
+      "opts_es": ["Revisarse cada 100 millas o cada dos horas.", "Tener el doble de profundidad que en clima normal.", "Dar tracción suficiente para dirigir y empujar el vehículo por la nieve."]
+    },
+    {
+      "n": 41,
+      "en": "You do not have a HAZMAT endorsement on your commercial driver license. You may drive a vehicle transporting hazardous materials when:",
+      "es": "No tiene el endoso HAZMAT en su licencia de conducir comercial. Puede conducir un vehículo que transporte materiales peligrosos cuando:",
+      "opts_en": ["The GVWR is 26,001 pounds or less.", "The vehicle does not require placards.", "A person with a HAZMAT endorsement rides with you."],
+      "opts_es": ["El peso bruto vehicular sea de 26,001 libras o menos.", "El vehículo no requiera rótulos.", "Viaje con usted una persona con endoso HAZMAT."]
+    },
+    {
+      "n": 42,
+      "en": "You are driving a vehicle at 55 mph on dry pavement. About how much total stopping distance will you need to bring it to a stop?",
+      "es": "Conduce un vehículo a 55 mph sobre pavimento seco. ¿Cuánta distancia total de frenado necesitará aproximadamente para detenerlo?",
+      "opts_en": ["Twice the length of the vehicle.", "Half the length of a football field.", "The length of a football field."],
+      "opts_es": ["El doble del largo del vehículo.", "La mitad de un campo de fútbol americano.", "El largo de un campo de fútbol americano."]
+    },
+    {
+      "n": 43,
+      "en": "Which of these items should be tested while the vehicle is stopped?",
+      "es": "¿Cuál de estos elementos debe probarse con el vehículo detenido?",
+      "opts_en": ["Service brake.", "Parking brake.", "Hydraulic brake."],
+      "opts_es": ["El freno de servicio.", "El freno de estacionamiento.", "El freno hidráulico."]
+    },
+    {
+      "n": 44,
+      "en": "During a vehicle inspection, checking which of the following will not help prevent a fire?",
+      "es": "Durante una inspección del vehículo, ¿revisar cuál de los siguientes no ayuda a prevenir un incendio?",
+      "opts_en": ["Cargo ventilation.", "Electrical system insulation.", "Battery fluid level."],
+      "opts_es": ["La ventilación de la carga.", "El aislamiento del sistema eléctrico.", "El nivel de líquido de la batería."]
+    },
+    {
+      "n": 45,
+      "en": "Which of the following is not characteristic of a front tire failure?",
+      "es": "¿Cuál de los siguientes no es característico de la falla de una llanta delantera?",
+      "opts_en": ["Steering wheel twisting.", "Vehicle fishtail.", "Difficult steering."],
+      "opts_es": ["El volante se tuerce.", "El vehículo colea.", "Dirección difícil."]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "folio": 46,
+  "section": "Commercial Driver Examination",
+  "questions": [
+    {
+      "n": 10,
+      "en": "You park your car at the curb on a level two-way street. Before getting out of your car, you should:",
+      "es": "Estaciona su auto junto a la acera en una calle plana de doble sentido. Antes de bajar, debe:",
+      "opts_en": ["Look for cars or bicycles on the traffic side of your vehicle.", "Turn your front wheels towards the curb.", "Make sure you are parked at least two feet from the curb."],
+      "opts_es": ["Mirar si vienen autos o bicicletas por el lado del tráfico.", "Girar las ruedas delanteras hacia la acera.", "Asegurarse de estar estacionado a por lo menos dos pies de la acera."]
+    },
+    {
+      "n": 11,
+      "en": "If you approach an intersection without a stop sign or signals, you:",
+      "es": "Si se aproxima a una intersección sin señal de alto ni semáforo, usted:",
+      "opts_en": ["Should always stop before driving through the intersection.", "Must yield the right-of-way to all other vehicles.", "Should slow down and be ready to stop, if necessary."],
+      "opts_es": ["Siempre debe detenerse antes de cruzar la intersección.", "Debe ceder el paso a todos los demás vehículos.", "Debe reducir la velocidad y estar listo para detenerse si es necesario."]
+    },
+    {
+      "n": 12,
+      "en": "When sharing the road with a trolley or light rail vehicle:",
+      "es": "Al compartir la vía con un tranvía o tren ligero:",
+      "opts_en": ["Never turn in front of an approaching trolley or light rail vehicle.", "Always pass a light rail vehicle or trolley slowly on the right.", "Remember they are loud and move slowly like freight trains."],
+      "opts_es": ["Nunca gire delante de un tranvía o tren ligero que se aproxima.", "Rebase siempre despacio por la derecha a un tren ligero o tranvía.", "Recuerde que son ruidosos y avanzan despacio como los trenes de carga."]
+    },
+    {
+      "n": 13,
+      "en": "Who has the right-of-way at an intersection with no crosswalks?",
+      "es": "¿Quién tiene la preferencia de paso en una intersección sin cruces peatonales marcados?",
+      "opts_en": ["Pedestrians always have the right-of-way.", "Vehicles, but they should slow down and be careful.", "Pedestrians, but only with the green \"WALK\" signal."],
+      "opts_es": ["Los peatones siempre tienen la preferencia.", "Los vehículos, pero deben reducir la velocidad y tener cuidado.", "Los peatones, pero solo con la señal verde de “WALK”."]
+    },
+    {
+      "n": 14,
+      "en": "You are driving 55 mph on a two-lane highway, one lane in each direction, and want to pass the car ahead of you. To pass safely, you need to:",
+      "es": "Conduce a 55 mph por una carretera de dos carriles, uno en cada sentido, y quiere rebasar al auto de adelante. Para rebasar con seguridad necesita:",
+      "opts_en": ["Wait until solid double, yellow lines separate the lanes.", "Increase your speed to at least 60 mph.", "Have a large enough gap in the oncoming traffic."],
+      "opts_es": ["Esperar a que una doble línea amarilla continua separe los carriles.", "Aumentar su velocidad a por lo menos 60 mph.", "Contar con un hueco suficientemente amplio en el tráfico que viene de frente."]
+    },
+    {
+      "n": 15,
+      "en": "Even if you know your vehicle can maneuver a sharp curve at the legal speed limit, you should still slow down because:",
+      "es": "Aunque sepa que su vehículo puede tomar una curva cerrada al límite legal de velocidad, debe reducir igual porque:",
+      "opts_en": ["You must legally drive below the speed limit on sharp curves.", "The strong inward pull on your vehicle can be dangerous.", "There may be a stalled car or accident ahead that you can't see."],
+      "opts_es": ["Legalmente debe circular por debajo del límite en curvas cerradas.", "La fuerte tracción hacia el interior sobre su vehículo puede ser peligrosa.", "Puede haber un auto detenido o un accidente adelante que no alcanza a ver."]
+    },
+    {
+      "n": 16,
+      "en": "If five or more vehicles are following you on a narrow two-lane road:",
+      "es": "Si cinco o más vehículos lo siguen en un camino angosto de dos carriles:",
+      "opts_en": ["Move to the right side of your lane and drive slowly.", "Pull off the road when it is safe and let them pass.", "Continue driving because you have the right-of-way."],
+      "opts_es": ["Muévase al lado derecho de su carril y conduzca despacio.", "Oríllese cuando sea seguro y déjelos pasar.", "Siga conduciendo porque usted tiene la preferencia."]
+    },
+    {
+      "n": 17,
+      "en": "If you are unable to see the road ahead while driving because of heavy fog and your wipers do not help, you should:",
+      "es": "Si no puede ver el camino por niebla densa y los limpiaparabrisas no ayudan, debe:",
+      "opts_en": ["Slow down and continue driving.", "Turn on your high beams and continue driving.", "Pull off the road completely until visibility improves."],
+      "opts_es": ["Reducir la velocidad y seguir conduciendo.", "Encender las luces altas y seguir conduciendo.", "Salirse por completo del camino hasta que mejore la visibilidad."]
+    },
+    {
+      "n": 18,
+      "en": "You are crossing an intersection and an emergency vehicle is approaching with a siren and flashing lights. You should:",
+      "es": "Está cruzando una intersección y se aproxima un vehículo de emergencia con sirena y luces intermitentes. Debe:",
+      "opts_en": ["Stop immediately in the intersection until it passes.", "Pull to the right in the intersection and stop.", "Continue through the intersection, pull to the right, and stop."],
+      "opts_es": ["Detenerse de inmediato dentro de la intersección hasta que pase.", "Orillarse a la derecha dentro de la intersección y detenerse.", "Terminar de cruzar la intersección, orillarse a la derecha y detenerse."]
+    }
+  ]
+}

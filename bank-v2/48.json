@@ -1,0 +1,70 @@
+{
+  "folio": 48,
+  "section": "Commercial Driver Examination",
+  "questions": [
+    {
+      "n": 10,
+      "en": "You want to turn left ahead. In the middle of the road there is a lane marked as shown. You must:",
+      "es": "Quiere girar a la izquierda más adelante. En medio de la vía hay un carril marcado como se muestra. Debe:",
+      "opts_en": ["Turn from your current traffic lane after signaling.", "Merge completely into this lane before you make your left turn.", "Not enter this lane for any reason."],
+      "opts_es": ["Girar desde su carril actual después de señalizar.", "Incorporarse por completo a ese carril antes de girar a la izquierda.", "No entrar a ese carril por ningún motivo."],
+      "figure": true
+    },
+    {
+      "n": 11,
+      "en": "At dawn or dusk, or in rain or snow, it can be hard to see and be seen. A good way to let other drivers know you are there is to turn:",
+      "es": "Al amanecer o al anochecer, o con lluvia o nieve, puede costar ver y ser visto. Una buena forma de avisar a los demás conductores es encender:",
+      "opts_en": ["Up the instrument panel lights.", "On your parking lights.", "On your low-beam headlights."],
+      "opts_es": ["Más las luces del tablero.", "Las luces de estacionamiento.", "Los faros en luz baja."]
+    },
+    {
+      "n": 12,
+      "en": "If you always insist on letting other drivers go ahead of you at intersections, you are most likely:",
+      "es": "Si siempre insiste en dejar pasar a los demás conductores en las intersecciones, lo más probable es que esté:",
+      "opts_en": ["Causing traffic delays.", "Improving traffic flow.", "Effectively using defensive driving techniques."],
+      "opts_es": ["Provocando retrasos en el tráfico.", "Mejorando el flujo del tráfico.", "Aplicando bien técnicas de conducción defensiva."]
+    },
+    {
+      "n": 13,
+      "en": "At intersections, crosswalks, and railroad crossings, you should always:",
+      "es": "En intersecciones, cruces peatonales y cruces de ferrocarril, siempre debe:",
+      "opts_en": ["Stop, listen, and proceed if you cannot hear anything.", "Look to the sides of your vehicle.", "Concentrate on the road directly ahead."],
+      "opts_es": ["Detenerse, escuchar y avanzar si no oye nada.", "Mirar a los costados de su vehículo.", "Concentrarse en el camino justo delante."]
+    },
+    {
+      "n": 14,
+      "en": "When changing lanes on a freeway, you should:",
+      "es": "Al cambiar de carril en una autopista, debe:",
+      "opts_en": ["Signal for at least five seconds.", "Slow down before you start to change lanes.", "Assume there is enough space for your vehicle, if you signal first."],
+      "opts_es": ["Señalizar durante al menos cinco segundos.", "Reducir la velocidad antes de empezar el cambio de carril.", "Suponer que hay espacio suficiente para su vehículo si señaliza primero."]
+    },
+    {
+      "n": 15,
+      "en": "You should allow more space in front of your vehicle when following large trucks because:",
+      "es": "Debe dejar más espacio delante de su vehículo al seguir camiones grandes porque:",
+      "opts_en": ["You need the extra room to see around the truck.", "Their heavier weight allows them to stop more quickly than you.", "If you follow too closely, you will get caught in wind draft caused by the truck."],
+      "opts_es": ["Necesita ese espacio extra para ver más allá del camión.", "Su mayor peso les permite detenerse más rápido que usted.", "Si sigue demasiado cerca quedará atrapado en la corriente de aire que genera el camión."]
+    },
+    {
+      "n": 16,
+      "en": "Which of these statements is true about road construction zones?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre las zonas de obra en la vía?",
+      "opts_en": ["Fines are the same for violations committed in construction zones.", "You are responsible for the safety of the road workers.", "Slow down only if you think workers are present."],
+      "opts_es": ["Las multas son iguales para infracciones cometidas en zonas de obra.", "Usted es responsable de la seguridad de los trabajadores de la vía.", "Reducir la velocidad solo si cree que hay trabajadores presentes."]
+    },
+    {
+      "n": 17,
+      "en": "What is the difference between traffic lights with red arrows and those with solid red lights?",
+      "es": "¿Cuál es la diferencia entre los semáforos con flecha roja y los de luz roja continua?",
+      "opts_en": ["Red arrows are only used to stop traffic which is turning left.", "Red arrows are only used for protected turn lanes.", "You cannot turn against a red arrow, even if you stop first."],
+      "opts_es": ["Las flechas rojas solo se usan para detener al tráfico que gira a la izquierda.", "Las flechas rojas solo se usan en carriles de giro protegido.", "No puede girar contra una flecha roja, aunque se detenga primero."]
+    },
+    {
+      "n": 18,
+      "en": "You should not start across an intersection if you know you will block the intersection when the light turns red:",
+      "es": "No debe empezar a cruzar una intersección si sabe que la bloqueará cuando el semáforo se ponga en rojo:",
+      "opts_en": ["Under any circumstances.", "Unless you entered the intersection on a green arrow.", "Unless you entered the intersection on a green light."],
+      "opts_es": ["Bajo ninguna circunstancia.", "Salvo que haya entrado a la intersección con flecha verde.", "Salvo que haya entrado a la intersección con luz verde."]
+    }
+  ]
+}

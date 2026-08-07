@@ -1,0 +1,76 @@
+{
+  "folio": 38,
+  "section": "Passenger Transport Endorsement",
+  "questions": [
+    {
+      "n": 11,
+      "en": "Buses are allowed to carry less than 100 pounds of ____ in the passenger area.",
+      "es": "Los autobuses pueden llevar menos de 100 libras de ____ en la zona de pasajeros.",
+      "opts_en": ["Small arms ammunition (ORM-D).", "Labeled radioactive materials.", "Liquid Class 6 poisons."],
+      "opts_es": ["Municiones de armas pequeñas (ORM-D).", "Materiales radiactivos etiquetados.", "Venenos líquidos de Clase 6."]
+    },
+    {
+      "n": 12,
+      "en": "A bus with riders aboard becomes disabled. The bus may be towed or pushed to a safe place to discharge the passengers only:",
+      "es": "Un autobús con pasajeros a bordo queda averiado. Solo puede ser remolcado o empujado a un lugar seguro para bajar a los pasajeros:",
+      "opts_en": ["If the distance is less than 1 mile.", "If getting off the bus sooner would be unsafe.", "By a licensed tow truck."],
+      "opts_es": ["Si la distancia es menor a 1 milla.", "Si bajar del autobús antes sería inseguro.", "Mediante una grúa con licencia."]
+    },
+    {
+      "n": 13,
+      "en": "If there is no traffic light or attendant, stop for a drawbridge about ____ feet from the draw.",
+      "es": "Si no hay semáforo ni encargado, deténgase ante un puente levadizo a unos ____ pies del tramo móvil.",
+      "opts_en": ["25.", "50.", "100."],
+      "opts_es": ["25.", "50.", "100."]
+    },
+    {
+      "n": 14,
+      "en": "Which of these actions will result in the best control on a curve?",
+      "es": "¿Cuál de estas acciones da el mejor control en una curva?",
+      "opts_en": ["Brake all the way through a curve.", "Slow to a safe speed before entering a curve, then accelerate slightly through it.", "Slow to a safe speed before entering a curve, then coast through it."],
+      "opts_es": ["Frenar durante toda la curva.", "Reducir a una velocidad segura antes de entrar y luego acelerar ligeramente al recorrerla.", "Reducir a una velocidad segura antes de entrar y luego recorrerla en punto muerto."]
+    },
+    {
+      "n": 15,
+      "en": "When driving a bus across railroad tracks, you:",
+      "es": "Al cruzar vías de ferrocarril con un autobús, usted:",
+      "opts_en": ["Only need to slow down at tracks with crossing gates in the upright position.", "May sometimes need to stop more than 75 feet from the tracks.", "Should never change gears if your bus has a manual transmission."],
+      "opts_es": ["Solo necesita reducir la velocidad en cruces con barreras en posición vertical.", "A veces puede necesitar detenerse a más de 75 pies de las vías.", "Nunca debe cambiar de marcha si su autobús tiene transmisión manual."]
+    },
+    {
+      "n": 16,
+      "en": "If you work for an interstate carrier, you must complete an after-trip inspection report for each bus listing:",
+      "es": "Si trabaja para un transportista interestatal, debe completar un informe de inspección posterior al viaje para cada autobús, indicando:",
+      "opts_en": ["Any defects that would affect safety or result in a breakdown.", "Fuel usage, distance traveled, and total mileage.", "Any problems that occurred with riders."],
+      "opts_es": ["Cualquier defecto que afecte la seguridad o pueda provocar una avería.", "El consumo de combustible, la distancia recorrida y el kilometraje total.", "Cualquier problema ocurrido con los pasajeros."]
+    },
+    {
+      "n": 17,
+      "en": "You should not let riders stand:",
+      "es": "No debe permitir que los pasajeros vayan de pie:",
+      "opts_en": ["In front of the standee line.", "Between the wheel wells.", "Within two feet of an emergency exit."],
+      "opts_es": ["Delante de la línea de pasajeros de pie.", "Entre los pasos de rueda.", "A menos de dos pies de una salida de emergencia."]
+    },
+    {
+      "n": 18,
+      "en": "Which of these statements is true about seeing ahead?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre mirar hacia adelante?",
+      "opts_en": ["Good drivers shift their attention back and forth, near and far.", "Good drivers keep their attention on one place for 12-15 seconds at a time.", "Good drivers look 3-5 seconds ahead of their vehicle at highway speeds."],
+      "opts_es": ["Los buenos conductores alternan la atención entre lo cercano y lo lejano.", "Los buenos conductores mantienen la atención en un solo punto de 12 a 15 segundos.", "Los buenos conductores miran de 3 a 5 segundos por delante a velocidad de carretera."]
+    },
+    {
+      "n": 19,
+      "en": "You are driving a 30 foot bus on a highway at 45 mph. The road is dry and visibility is good. A safe distance between you and the vehicle ahead of you should be at least:",
+      "es": "Conduce un autobús de 30 pies por carretera a 45 mph. El camino está seco y la visibilidad es buena. La distancia segura respecto al vehículo de adelante debe ser de al menos:",
+      "opts_en": ["3 seconds.", "4 seconds.", "5 seconds."],
+      "opts_es": ["3 segundos.", "4 segundos.", "5 segundos."]
+    },
+    {
+      "n": 20,
+      "en": "Many buses have curved (convex or \"spot\") mirrors. These mirrors:",
+      "es": "Muchos autobuses tienen espejos curvos (convexos o “spot”). Estos espejos:",
+      "opts_en": ["Are against the law in some states.", "Make things seem smaller and farther away than they really are.", "Do not need to be checked often because they show a larger area."],
+      "opts_es": ["Están prohibidos por ley en algunos estados.", "Hacen que las cosas parezcan más pequeñas y lejanas de lo que están.", "No necesitan revisarse con frecuencia porque muestran un área mayor."]
+    }
+  ]
+}

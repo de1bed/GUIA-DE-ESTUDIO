@@ -1,0 +1,76 @@
+{
+  "folio": 40,
+  "section": "Passenger Transport Endorsement",
+  "questions": [
+    {
+      "n": 11,
+      "en": "When you discharge an unruly rider, you should choose a place:",
+      "es": "Cuando haga bajar a un pasajero conflictivo, debe elegir un lugar:",
+      "opts_en": ["Near a police station.", "That is safe as possible.", "Convenient to you."],
+      "opts_es": ["Cerca de una comisaría.", "Que sea lo más seguro posible.", "Que le resulte cómodo a usted."]
+    },
+    {
+      "n": 12,
+      "en": "If your bus has an emergency exit door, it must:",
+      "es": "Si su autobús tiene una puerta de salida de emergencia, esta debe:",
+      "opts_en": ["Be closed when operating the bus.", "Always have a red door light and it must be lighted.", "Sound an alarm when opened."],
+      "opts_es": ["Estar cerrada mientras opera el autobús.", "Tener siempre una luz roja de puerta y estar encendida.", "Sonar una alarma al abrirse."]
+    },
+    {
+      "n": 13,
+      "en": "You may sometimes transport small arms ammunition or emergency hospital supplies on a bus. The total weight of these hazardous materials must not exceed ____ pounds.",
+      "es": "A veces puede transportar municiones de armas pequeñas o suministros hospitalarios de emergencia en un autobús. El peso total de estos materiales peligrosos no debe exceder ____ libras.",
+      "opts_en": ["5.", "50.", "500."],
+      "opts_es": ["5.", "50.", "500."]
+    },
+    {
+      "n": 14,
+      "en": "You are driving a 40 foot bus at 30 mph. The road is dry and visibility is good. You should keep a safety space in front of your bus that is at least ___ seconds.",
+      "es": "Conduce un autobús de 40 pies a 30 mph. El camino está seco y la visibilidad es buena. Debe mantener delante del autobús un espacio de seguridad de al menos ___ segundos.",
+      "opts_en": ["8.", "4.", "3."],
+      "opts_es": ["8.", "4.", "3."]
+    },
+    {
+      "n": 15,
+      "en": "A hazard is defined as:",
+      "es": "Un peligro se define como:",
+      "opts_en": ["Another driver only.", "A condition of the roadway or weather only.", "Any condition which may cause your trip to be unsafe."],
+      "opts_es": ["Únicamente otro conductor.", "Únicamente una condición del camino o del clima.", "Cualquier condición que pueda hacer inseguro su viaje."]
+    },
+    {
+      "n": 16,
+      "en": "Which of the following types of emergency equipment must you have on your bus?",
+      "es": "¿Cuál de los siguientes equipos de emergencia debe llevar en su autobús?",
+      "opts_en": ["Reflectors, fire extinguisher, tire repair kit.", "First aid kit, spare electric fuses, fire extinguisher.", "Fire extinguisher, spare electric fuses, reflectors."],
+      "opts_es": ["Reflectores, extintor y kit de reparación de llantas.", "Botiquín de primeros auxilios, fusibles eléctricos de repuesto y extintor.", "Extintor, fusibles eléctricos de repuesto y reflectores."]
+    },
+    {
+      "n": 17,
+      "en": "If a rider wants to get on the bus with a car battery or can of gasoline, you should:",
+      "es": "Si un pasajero quiere subir al autobús con una batería de auto o un bidón de gasolina, debe:",
+      "opts_en": ["Not allow the rider to get on.", "Tell the rider to sit in the rear of the bus.", "Put the battery or gasoline in the cargo compartment."],
+      "opts_es": ["No permitir que el pasajero suba.", "Decirle que se siente al fondo del autobús.", "Poner la batería o la gasolina en el compartimiento de carga."]
+    },
+    {
+      "n": 18,
+      "en": "Carry-on baggage:",
+      "es": "El equipaje de mano:",
+      "opts_en": ["Always needs to be stored in the overhead compartments or under the seats.", "Can never be left in a doorway or aisle.", "Should always be inspected by the driver as it is carried onto the bus."],
+      "opts_es": ["Siempre debe guardarse en los compartimientos superiores o bajo los asientos.", "Nunca puede dejarse en una puerta o pasillo.", "Siempre debe ser inspeccionado por el conductor al subir al autobús."]
+    },
+    {
+      "n": 19,
+      "en": "You should check your mirrors:",
+      "es": "Debe revisar los espejos:",
+      "opts_en": ["Immediately after starting a lane change.", "As you prepare to stop.", "Regularly as part of your scan for potential hazards."],
+      "opts_es": ["Inmediatamente después de iniciar un cambio de carril.", "Cuando se prepara para detenerse.", "Con regularidad, como parte de su exploración en busca de peligros."]
+    },
+    {
+      "n": 20,
+      "en": "Buses may have recapped or regrooved tires:",
+      "es": "Los autobuses pueden llevar llantas recauchutadas o reranuradas:",
+      "opts_en": ["Only as the outside tire on a set of duals.", "On any or all of the wheels.", "Anywhere except the front wheels."],
+      "opts_es": ["Solo como llanta exterior de un juego de llantas dobles.", "En cualquiera o en todas las ruedas.", "En cualquier lugar excepto las ruedas delanteras."]
+    }
+  ]
+}

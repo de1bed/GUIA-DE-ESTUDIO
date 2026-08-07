@@ -1,0 +1,77 @@
+{
+  "folio": 4,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 33,
+      "en": "If you have a heavy load that is slowing you down on an upgrade, you should:",
+      "es": "Si lleva una carga pesada que lo hace ir más lento en una subida, debe:",
+      "opts_en": ["Exit the road until traffic is lighter.", "Drive on the shoulder so others can pass easily.", "Shift into a lower gear."],
+      "opts_es": ["Salir de la carretera hasta que haya menos tráfico.", "Circular por el acotamiento para que los demás rebasen con facilidad.", "Cambiar a una marcha más baja."]
+    },
+    {
+      "n": 34,
+      "en": "Which of these is a good thing to remember about drinking alcohol?",
+      "es": "¿Cuál de estas es una buena idea que recordar sobre el consumo de alcohol?",
+      "opts_en": ["The driver can control how fast his/her body gets rid of alcohol.", "Small quantities of alcohol improve reaction time.", "Alcohol first affects judgment and self-control."],
+      "opts_es": ["El conductor puede controlar qué tan rápido su cuerpo elimina el alcohol.", "Las cantidades pequeñas de alcohol mejoran el tiempo de reacción.", "El alcohol afecta primero al juicio y al autocontrol."]
+    },
+    {
+      "n": 35,
+      "en": "\"Perception distance\" is the distance your vehicle travels from the time your:",
+      "es": "La “distancia de percepción” es la que recorre su vehículo desde el momento en que:",
+      "opts_en": ["Eyes see a hazard to the time your foot pushes the brake pedal.", "Brain tells your foot to push the brake pedal to the time your foot responds.", "Eyes see a hazard to the time your brain knows it is a hazard."],
+      "opts_es": ["Sus ojos ven un peligro hasta que su pie pisa el pedal del freno.", "Su cerebro ordena al pie pisar el freno hasta que el pie responde.", "Sus ojos ven un peligro hasta que su cerebro reconoce que es un peligro."]
+    },
+    {
+      "n": 36,
+      "en": "The distance that you should look ahead of your vehicle while driving is about _____ mile at highway speeds.",
+      "es": "La distancia a la que debe mirar por delante del vehículo al conducir es de unos _____ de milla a velocidad de carretera.",
+      "opts_en": ["1/8.", "1/4.", "1/2."],
+      "opts_es": ["1/8.", "1/4.", "1/2."]
+    },
+    {
+      "n": 37,
+      "en": "You can see this sign on a vehicle ahead of you. What does it mean?",
+      "es": "Ve este letrero en un vehículo delante de usted. ¿Qué significa?",
+      "opts_en": ["Slow-moving vehicle.", "Hazardous materials on board.", "Student driver."],
+      "opts_es": ["Vehículo de movimiento lento.", "Materiales peligrosos a bordo.", "Conductor en formación."],
+      "figure": true
+    },
+    {
+      "n": 38,
+      "en": "The braking effect of the engine is greatest when the engine is ____ the governed RPMs and the transmission is in the ____ gears.",
+      "es": "El efecto de frenado del motor es mayor cuando el motor está ____ las RPM reguladas y la transmisión está en las marchas ____.",
+      "opts_en": ["Above, lower.", "Below, higher.", "Near, lower."],
+      "opts_es": ["Por encima de, más bajas.", "Por debajo de, más altas.", "Cerca de, más bajas."]
+    },
+    {
+      "n": 39,
+      "en": "How many missing or broken leaves in any leaf spring will cause a commercial vehicle to be placed out of service?",
+      "es": "¿Cuántas hojas faltantes o rotas en un muelle de hojas hacen que un vehículo comercial quede fuera de servicio?",
+      "opts_en": ["One-fourth of the total number.", "One-third of the total number.", "One-half of the total number."],
+      "opts_es": ["Un cuarto del total.", "Un tercio del total.", "La mitad del total."]
+    },
+    {
+      "n": 40,
+      "en": "Which of these statements is not true about backing a heavy vehicle?",
+      "es": "¿Cuál de estas afirmaciones no es verdadera sobre retroceder con un vehículo pesado?",
+      "opts_en": ["You should back and turn toward the driver's side whenever possible.", "You should use a helper and communicate with hand signals.", "You should back slowly until you slightly bump the dock."],
+      "opts_es": ["Debe retroceder y girar hacia el lado del conductor siempre que sea posible.", "Debe usar un ayudante y comunicarse con señales de mano.", "Debe retroceder despacio hasta tocar levemente el andén."]
+    },
+    {
+      "n": 41,
+      "en": "How do you correct a rear wheel-braking skid when driving on ice or snow?",
+      "es": "¿Cómo se corrige un derrape de frenado de las ruedas traseras al conducir sobre hielo o nieve?",
+      "opts_en": ["Apply more power to the wheels.", "Stop accelerating.", "Downshift to the next lower gear."],
+      "opts_es": ["Aplicar más potencia a las ruedas.", "Dejar de acelerar.", "Bajar a la siguiente marcha más corta."]
+    },
+    {
+      "n": 42,
+      "en": "Which of these statements is true about shipping hazardous materials?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre el envío de materiales peligrosos?",
+      "opts_en": ["A four-inch, circular, red, hazardous materials label must be on the container.", "Gas cylinders that will not hold a label must be shipped under cover.", "A four-inch, diamond-shaped, hazardous materials label must be on the container."],
+      "opts_es": ["El envase debe llevar una etiqueta circular roja de cuatro pulgadas de materiales peligrosos.", "Los cilindros de gas que no admitan etiqueta deben transportarse cubiertos.", "El envase debe llevar una etiqueta romboidal de cuatro pulgadas de materiales peligrosos."]
+    }
+  ]
+}

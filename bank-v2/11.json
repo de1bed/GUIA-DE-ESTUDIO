@@ -1,0 +1,198 @@
+{
+  "folio": 11,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 33,
+      "en": "The purpose of a retarder is to:",
+      "es": "El propósito de un retardador es:",
+      "opts_en": [
+        "Apply extra braking power to the non-drive axles.",
+        "Help prevent skids and reduce brake wear.",
+        "Help slow the vehicle while driving and reduce brake wear."
+      ],
+      "opts_es": [
+        "Aplicar potencia de frenado adicional a los ejes no motrices.",
+        "Ayudar a evitar derrapes y reducir el desgaste de los frenos.",
+        "Ayudar a frenar el vehículo mientras conduce y reducir el desgaste de los frenos."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 34,
+      "en": "You should signal continuously while turning because:",
+      "es": "Debe mantener la señal encendida durante todo el giro porque:",
+      "opts_en": [
+        "You need both hands on the steering wheel to turn safely.",
+        "It is illegal to turn off your signal before completing a turn.",
+        "Most vehicles have self-canceling signals."
+      ],
+      "opts_es": [
+        "Necesita ambas manos en el volante para girar con seguridad.",
+        "Es ilegal apagar la señal antes de completar el giro.",
+        "La mayoría de los vehículos tiene señales que se cancelan solas."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 35,
+      "en": "Why is a broken exhaust system dangerous?",
+      "es": "¿Por qué es peligroso un sistema de escape roto?",
+      "opts_en": [
+        "Poisonous fumes could enter the cab or sleeper berth.",
+        "You could pollute the air with exhaust smoke.",
+        "Loud noise could damage the driver's ears."
+      ],
+      "opts_es": [
+        "Gases venenosos podrían entrar a la cabina o al camarote.",
+        "Podría contaminar el aire con humo del escape.",
+        "El ruido fuerte podría dañar los oídos del conductor."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 36,
+      "en": "You are checking your steering and exhaust systems in a pre-trip inspection. Which of these problems should be fixed before the vehicle is driven?",
+      "es": "Está revisando la dirección y el escape en una inspección previa al viaje. ¿Cuál de estos problemas debe repararse antes de conducir el vehículo?",
+      "opts_en": [
+        "Oil on the tie rod.",
+        "Gray smoke from the exhaust.",
+        "Steering wheel play — more than 10° (2 inches on a 20-inch wheel)."
+      ],
+      "opts_es": [
+        "Aceite en la barra de dirección.",
+        "Humo gris del escape.",
+        "Juego del volante mayor a 10° (2 pulgadas en un volante de 20 pulgadas)."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 37,
+      "en": "Which of these statements is true about double clutching and shifting?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre el doble embrague y los cambios?",
+      "opts_en": [
+        "Double clutching should not be used when the road is slippery.",
+        "Double clutching should only be used with a heavy load.",
+        "You can use the tachometer to tell you when to shift."
+      ],
+      "opts_es": [
+        "No debe usarse doble embrague cuando el camino está resbaloso.",
+        "El doble embrague solo debe usarse con carga pesada.",
+        "Puede usar el tacómetro para saber cuándo cambiar de marcha."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 38,
+      "en": "CDL medical certificates must be renewed every:",
+      "es": "Los certificados médicos CDL deben renovarse cada:",
+      "opts_en": [
+        "Year.",
+        "Two years.",
+        "Four years."
+      ],
+      "opts_es": [
+        "Año.",
+        "Dos años.",
+        "Cuatro años."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 39,
+      "en": "You are driving a new truck with a manual transmission. What gear will you probably have to use to take a long, steep, downhill grade?",
+      "es": "Conduce un camión nuevo con transmisión manual. ¿Qué marcha tendrá que usar probablemente para bajar una pendiente larga y empinada?",
+      "opts_en": [
+        "The same gear you would use to climb the hill.",
+        "A higher gear than you would use to climb the hill.",
+        "A lower gear than you would use to climb the hill."
+      ],
+      "opts_es": [
+        "La misma marcha que usaría para subir la cuesta.",
+        "Una marcha más alta que la que usaría para subir la cuesta.",
+        "Una marcha más baja que la que usaría para subir la cuesta."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 40,
+      "en": "You are starting your vehicle in motion from a stop. As you apply power to the drive wheels, they start to spin. You should:",
+      "es": "Está poniendo el vehículo en marcha desde una parada. Al aplicar potencia a las ruedas motrices, estas empiezan a patinar. Debe:",
+      "opts_en": [
+        "Take your foot off the accelerator.",
+        "Take your foot off the accelerator and apply the brakes.",
+        "Try a lower gear."
+      ],
+      "opts_es": [
+        "Quitar el pie del acelerador.",
+        "Quitar el pie del acelerador y aplicar los frenos.",
+        "Probar una marcha más baja."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 41,
+      "en": "Why will your vehicle's speed naturally increase on downgrades?",
+      "es": "¿Por qué aumenta naturalmente la velocidad de su vehículo en las bajadas?",
+      "opts_en": [
+        "The engine runs smoother.",
+        "Gravity.",
+        "Lack of traction."
+      ],
+      "opts_es": [
+        "El motor funciona más suave.",
+        "La gravedad.",
+        "La falta de tracción."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 42,
+      "en": "Stab braking:",
+      "es": "El frenado tipo “stab”:",
+      "opts_en": [
+        "Involves applying the brakes and then releasing them after the wheels lock up.",
+        "Should be used on vehicles without antilock brake systems.",
+        "Should only be used with hydraulic brakes."
+      ],
+      "opts_es": [
+        "Consiste en aplicar los frenos y luego soltarlos después de que las ruedas se bloquean.",
+        "Debe usarse en vehículos sin sistema antibloqueo de frenos.",
+        "Solo debe usarse con frenos hidráulicos."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 43,
+      "en": "You must complete a written vehicle inspection report each day. You must sign the report:",
+      "es": "Debe completar un informe escrito de inspección del vehículo cada día. Debe firmar el informe:",
+      "opts_en": [
+        "If the previous driver noted any defects.",
+        "Only when defects are noted that are certified to be repaired.",
+        "Only when the noted defects are certified not needing repair."
+      ],
+      "opts_es": [
+        "Si el conductor anterior anotó algún defecto.",
+        "Solo cuando se anoten defectos que se certifiquen como reparados.",
+        "Solo cuando los defectos anotados se certifiquen como que no requieren reparación."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 44,
+      "en": "Placards must be:",
+      "es": "Los rótulos deben:",
+      "opts_en": [
+        "Displayed on all vehicles transporting any amount of hazardous materials.",
+        "Placed only on the front and rear of a vehicle.",
+        "Placed on all four sides of a vehicle."
+      ],
+      "opts_es": [
+        "Mostrarse en todo vehículo que transporte cualquier cantidad de materiales peligrosos.",
+        "Colocarse solo en el frente y la parte trasera del vehículo.",
+        "Colocarse en los cuatro lados del vehículo."
+      ],
+      "key": "C"
+    }
+  ]
+}

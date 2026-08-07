@@ -1,0 +1,87 @@
+{
+  "folio": 31,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 46,
+      "en": "Which of these statements is true about double-clutching and shifting?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre el doble embrague y los cambios?",
+      "opts_en": [
+        "Double-clutching should not be used when the road is slippery.",
+        "Double-clutching should only be used with a heavy load.",
+        "You can use the tachometer to tell you when to shift."
+      ],
+      "opts_es": [
+        "No debe usarse doble embrague cuando el camino está resbaloso.",
+        "El doble embrague solo debe usarse con carga pesada.",
+        "Puede usar el tacómetro para saber cuándo cambiar de marcha."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 47,
+      "en": "Whenever you double your speed, it will take about _____ times as much distance to stop.",
+      "es": "Cada vez que duplica su velocidad, necesitará aproximadamente _____ veces más distancia para detenerse.",
+      "opts_en": [
+        "Two.",
+        "Three.",
+        "Four."
+      ],
+      "opts_es": [
+        "Dos.",
+        "Tres.",
+        "Cuatro."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 48,
+      "en": "You are starting your vehicle in motion from a stop. As you apply power to the drive wheels, they start to spin. You should:",
+      "es": "Está poniendo el vehículo en marcha desde una parada. Al aplicar potencia a las ruedas motrices, estas empiezan a patinar. Debe:",
+      "opts_en": [
+        "Take your foot off the accelerator.",
+        "Take your foot off the accelerator and apply the brakes.",
+        "Try a lower gear."
+      ],
+      "opts_es": [
+        "Quitar el pie del acelerador.",
+        "Quitar el pie del acelerador y aplicar los frenos.",
+        "Probar una marcha más baja."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 49,
+      "en": "If your brakes get wet while driving on a rainy day, what can happen when you apply the brakes?",
+      "es": "Si los frenos se mojan mientras conduce en un día lluvioso, ¿qué puede ocurrir al aplicarlos?",
+      "opts_en": [
+        "Hydroplaning.",
+        "Excessive brake wear.",
+        "Trailer jackknife."
+      ],
+      "opts_es": [
+        "Hidroplaneo.",
+        "Desgaste excesivo de los frenos.",
+        "Tijereteo del remolque."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 50,
+      "en": "To avoid a crash, you had to drive onto the right shoulder. You are now driving at 40 mph on the shoulder. How should you move back onto the pavement?",
+      "es": "Para evitar un choque tuvo que salirse al acotamiento derecho. Ahora circula a 40 mph sobre el acotamiento. ¿Cómo debe volver al pavimento?",
+      "opts_en": [
+        "If the shoulder is clear, stay on it until your vehicle comes to a stop. Then move back onto the pavement when it is safe.",
+        "Brake hard to slow the vehicle, then steer sharply on the pavement when it is safe.",
+        "Keep moving at your present speed and steer very gently back onto the pavement when it is safe."
+      ],
+      "opts_es": [
+        "Si el acotamiento está despejado, permanecer en él hasta detenerse por completo y luego volver al pavimento cuando sea seguro.",
+        "Frenar fuerte para reducir la velocidad y luego girar bruscamente al pavimento cuando sea seguro.",
+        "Mantener la velocidad actual y volver al pavimento girando muy suavemente cuando sea seguro."
+      ],
+      "note": "El orden de las opciones difiere del de la pregunta 20 de la hoja 21, que plantea el mismo caso.",
+      "key": "A"
+    }
+  ]
+}

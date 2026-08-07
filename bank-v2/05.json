@@ -1,0 +1,152 @@
+{
+  "folio": 5,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 43,
+      "en": "You wish to turn right from a two-lane, two-way street into another. Your vehicle is so long that you must swing wide to complete the turn. Which of these figures shows how you should make the turn?",
+      "es": "Desea girar a la derecha de una calle de dos carriles y doble sentido hacia otra. Su vehículo es tan largo que debe abrirse para completar el giro. ¿Cuál de estas figuras muestra cómo debe hacer el giro?",
+      "opts_en": [
+        "Figure A.",
+        "Figure B.",
+        "Figure C."
+      ],
+      "opts_es": [
+        "Figura A.",
+        "Figura B.",
+        "Figura C."
+      ],
+      "figure": true,
+      "key": "B"
+    },
+    {
+      "n": 44,
+      "en": "Which of these is a good thing to do when you steer to avoid a crash?",
+      "es": "¿Cuál de estas es una buena práctica al girar para evitar un choque?",
+      "opts_en": [
+        "Don't turn the steering wheel any more than needed.",
+        "Avoid counter steering.",
+        "Apply the brakes while turning."
+      ],
+      "opts_es": [
+        "No girar el volante más de lo necesario.",
+        "Evitar el contravolanteo.",
+        "Aplicar los frenos mientras gira."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 45,
+      "en": "If you must drive into the oncoming lane to turn, you should:",
+      "es": "Si debe invadir el carril contrario para girar, debe:",
+      "opts_en": [
+        "Allow enough space to get completely across the intersection.",
+        "Back up to allow oncoming traffic to pass.",
+        "Complete your turn without stopping."
+      ],
+      "opts_es": [
+        "Dejar espacio suficiente para cruzar por completo la intersección.",
+        "Retroceder para dejar pasar al tráfico que viene de frente.",
+        "Completar el giro sin detenerse."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 46,
+      "en": "Which of these statements is not true about engine belts in hot weather?",
+      "es": "¿Cuál de estas afirmaciones no es verdadera sobre las bandas del motor en clima caluroso?",
+      "opts_en": [
+        "Cracking is likely to occur but is not a safety threat.",
+        "You can check the tightness of the belts by pressing on them.",
+        "Loose belts will not turn the water pump and/or fan on properly."
+      ],
+      "opts_es": [
+        "El agrietamiento es probable pero no representa un riesgo de seguridad.",
+        "Puede comprobar la tensión de las bandas presionándolas.",
+        "Las bandas flojas no harán girar correctamente la bomba de agua ni el ventilador."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 47,
+      "en": "The best drivers are those who watch and prepare for hazards. This is called being:",
+      "es": "Los mejores conductores son los que observan y se preparan ante los peligros. A esto se le llama ser:",
+      "opts_en": [
+        "Offensive.",
+        "Defensive.",
+        "Objective."
+      ],
+      "opts_es": [
+        "Ofensivo.",
+        "Defensivo.",
+        "Objetivo."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 48,
+      "en": "What will help keep an engine cool in hot weather?",
+      "es": "¿Qué ayuda a mantener frío el motor en clima caluroso?",
+      "opts_en": [
+        "Driving faster to force more air into the radiator.",
+        "Running the air conditioner.",
+        "Making sure the engine has the right amount of oil."
+      ],
+      "opts_es": [
+        "Conducir más rápido para forzar más aire al radiador.",
+        "Encender el aire acondicionado.",
+        "Asegurarse de que el motor tenga la cantidad correcta de aceite."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 49,
+      "en": "How far should a driver look ahead of the vehicle while driving?",
+      "es": "¿Qué tan lejos debe mirar un conductor por delante del vehículo mientras conduce?",
+      "opts_en": [
+        "1-2 seconds.",
+        "5-8 seconds.",
+        "12-15 seconds."
+      ],
+      "opts_es": [
+        "1-2 segundos.",
+        "5-8 segundos.",
+        "12-15 segundos."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 50,
+      "en": "You are checking your tires during a pre-trip inspection. Which of these statements is true?",
+      "es": "Está revisando las llantas durante una inspección previa al viaje. ¿Cuál de estas afirmaciones es verdadera?",
+      "opts_en": [
+        "Tires of mismatched sizes should not be used on the same vehicle.",
+        "Radial and bias-ply tires can be used together on the same vehicle.",
+        "2-32 inch tread depth is safe for the front tires."
+      ],
+      "opts_es": [
+        "No deben usarse llantas de tamaños distintos en el mismo vehículo.",
+        "Las llantas radiales y de capas diagonales pueden usarse juntas en el mismo vehículo.",
+        "Una profundidad de dibujo de 2/32 de pulgada es segura para las llantas delanteras."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 1,
+      "section": "Air Brake Test",
+      "en": "The most important thing to do when a low air pressure warning comes on is:",
+      "es": "Lo más importante que debe hacer cuando se enciende la advertencia de baja presión de aire es:",
+      "opts_en": [
+        "Up shift and drive to a safe place.",
+        "Downshift and drive to a safe place.",
+        "Stop and safely park as soon as possible."
+      ],
+      "opts_es": [
+        "Subir de marcha y conducir hasta un lugar seguro.",
+        "Bajar de marcha y conducir hasta un lugar seguro.",
+        "Detenerse y estacionarse con seguridad lo antes posible."
+      ],
+      "missing_from_pageforms": true
+    }
+  ]
+}

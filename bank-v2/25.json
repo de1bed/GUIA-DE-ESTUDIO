@@ -1,0 +1,183 @@
+{
+  "folio": 25,
+  "section": "Air Brake Test",
+  "questions": [
+    {
+      "n": 5,
+      "en": "If your truck or bus has dual parking control valves, you can use pressure from a separate tank to:",
+      "es": "Si su camión o autobús tiene válvulas dobles de control de estacionamiento, puede usar la presión de un tanque separado para:",
+      "opts_en": [
+        "Release spring emergency/parking brakes to move a short distance.",
+        "Apply more brake pressure if the main tank is getting low.",
+        "Balance the service brake system whenever you are parked."
+      ],
+      "opts_es": [
+        "Liberar los frenos de resorte de emergencia o estacionamiento para avanzar una distancia corta.",
+        "Aplicar más presión de freno si el tanque principal se está quedando bajo.",
+        "Equilibrar el sistema de frenos de servicio siempre que esté estacionado."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 6,
+      "en": "The driver must be able to see a low air pressure warning which comes on before pressure in the service air tanks falls below ____ psi.",
+      "es": "El conductor debe poder ver una advertencia de baja presión que se enciende antes de que la presión en los tanques de servicio caiga por debajo de ____ psi.",
+      "opts_en": [
+        "40.",
+        "60.",
+        "80."
+      ],
+      "opts_es": [
+        "40.",
+        "60.",
+        "80."
+      ],
+      "note": "El original lleva una anotación manuscrita “NEW LAW” junto a la opción 60: la clave impresa puede reflejar una norma anterior.",
+      "key": "B"
+    },
+    {
+      "n": 7,
+      "en": "Excessive use of the service brakes results in overheating, which can lead to:",
+      "es": "El uso excesivo de los frenos de servicio provoca sobrecalentamiento, que puede causar:",
+      "opts_en": [
+        "Improper adjustment of the S-cam.",
+        "Increased contact between the brake drums and brake linings.",
+        "Expansion of the brake drums."
+      ],
+      "opts_es": [
+        "Ajuste incorrecto de la leva en S.",
+        "Mayor contacto entre los tambores y las balatas.",
+        "Expansión de los tambores de freno."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 8,
+      "en": "Total stopping distance for vehicles with air brakes is longer than that for vehicles with hydraulic brakes due to ____ distance.",
+      "es": "La distancia total de frenado en vehículos con frenos de aire es mayor que en los de frenos hidráulicos debido a la distancia de ____.",
+      "opts_en": [
+        "Brake lag.",
+        "Reaction.",
+        "Effective braking."
+      ],
+      "opts_es": [
+        "Retraso del freno.",
+        "Reacción.",
+        "Frenado efectivo."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 9,
+      "en": "The proper method of braking when going down long and/or steep grades, after selecting the proper gear, is to brake until your speed is about ____ miles per hour below your \"safe\" speed, then release your brakes.",
+      "es": "El método correcto de frenado en bajadas largas o empinadas, tras elegir la marcha adecuada, es frenar hasta que su velocidad esté unas ____ millas por hora por debajo de su velocidad “segura” y luego soltar los frenos.",
+      "opts_en": [
+        "5.",
+        "10.",
+        "15."
+      ],
+      "opts_es": [
+        "5.",
+        "10.",
+        "15."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 10,
+      "en": "To check the free play of manual slack adjusters on S-cam brakes, you should park on level ground:",
+      "es": "Para comprobar el juego libre de los ajustadores manuales de holgura en frenos de leva en S, debe estacionar en terreno plano:",
+      "opts_en": [
+        "Chock the wheels and turn off the parking brakes.",
+        "With the parking brake and then apply the service brake.",
+        "And drain off air pressure before adjusting vehicle movement."
+      ],
+      "opts_es": [
+        "Calzar las ruedas y liberar los frenos de estacionamiento.",
+        "Con el freno de estacionamiento puesto y luego aplicar el freno de servicio.",
+        "Y purgar la presión de aire antes de ajustar el movimiento del vehículo."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 11,
+      "en": "Before driving a truck or bus with a dual air brake system, the pressure in each system should be at least ____ psi.",
+      "es": "Antes de conducir un camión o autobús con sistema doble de frenos de aire, la presión en cada sistema debe ser de al menos ____ psi.",
+      "opts_en": [
+        "80.",
+        "100.",
+        "120."
+      ],
+      "opts_es": [
+        "80.",
+        "100.",
+        "120."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 12,
+      "en": "What is emergency stab braking?",
+      "es": "¿Qué es el frenado de emergencia tipo “stab”?",
+      "opts_en": [
+        "Press hard on the brake pedal and apply full hand valve until you stop.",
+        "Use light steady pressure on the brake pedal.",
+        "Brake as hard as you can, release the brakes when the wheels lock, and reapply the brakes again when the wheels start rolling."
+      ],
+      "opts_es": [
+        "Pisar fuerte el pedal y aplicar la válvula manual a fondo hasta detenerse.",
+        "Aplicar presión ligera y constante sobre el pedal del freno.",
+        "Frenar con toda la fuerza posible, soltar los frenos cuando las ruedas se bloqueen y volver a aplicarlos cuando las ruedas empiecen a rodar."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 13,
+      "en": "The parking or emergency brake on a heavy vehicle can only be held in position by something that cannot leak away, like:",
+      "es": "El freno de estacionamiento o de emergencia de un vehículo pesado solo puede mantenerse aplicado por algo que no pueda fugarse, como:",
+      "opts_en": [
+        "Spring pressure.",
+        "Air pressure.",
+        "Hydraulic pressure."
+      ],
+      "opts_es": [
+        "La presión de un resorte.",
+        "La presión de aire.",
+        "La presión hidráulica."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 14,
+      "en": "Which of these is not a proper time to apply the parking brake:",
+      "es": "¿Cuál de estos no es un momento adecuado para aplicar el freno de estacionamiento?",
+      "opts_en": [
+        "When you will only be stopped for less than one hour.",
+        "When you are going to test the parking brake.",
+        "When you come down a steep grade and your brakes are very hot."
+      ],
+      "opts_es": [
+        "Cuando solo va a estar detenido menos de una hora.",
+        "Cuando va a probar el freno de estacionamiento.",
+        "Cuando acaba de bajar una pendiente empinada y los frenos están muy calientes."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 15,
+      "en": "Some air brake systems have an alcohol evaporator. What may happen if you don't keep the unit filled with alcohol?",
+      "es": "Algunos sistemas de frenos de aire tienen un evaporador de alcohol. ¿Qué puede pasar si no mantiene la unidad llena de alcohol?",
+      "opts_en": [
+        "The S-cam may not rotate back when you release the brake pedal.",
+        "Ice may form in the air storage tanks and cause the brakes to fail.",
+        "Ice may form on the brake drums and warp them."
+      ],
+      "opts_es": [
+        "La leva en S podría no regresar al soltar el pedal del freno.",
+        "Puede formarse hielo en los tanques de aire y provocar la falla de los frenos.",
+        "Puede formarse hielo en los tambores y deformarlos."
+      ],
+      "key": "B"
+    }
+  ]
+}

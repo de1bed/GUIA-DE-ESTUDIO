@@ -1,0 +1,166 @@
+{
+  "folio": 35,
+  "section": "Passenger Transport Endorsement",
+  "questions": [
+    {
+      "n": 1,
+      "en": "The posted speed for a turn:",
+      "es": "La velocidad señalizada para una curva:",
+      "opts_en": [
+        "May be too slow for a bus.",
+        "May be unsafe for a bus.",
+        "Is a safe speed for any bus."
+      ],
+      "opts_es": [
+        "Puede ser demasiado lenta para un autobús.",
+        "Puede ser insegura para un autobús.",
+        "Es una velocidad segura para cualquier autobús."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 2,
+      "en": "When you inspect your bus, make sure that:",
+      "es": "Cuando inspecciona su autobús, asegúrese de que:",
+      "opts_en": [
+        "Rider signaling devices are working.",
+        "Emergency exit handles have been removed.",
+        "Closed access panels are open."
+      ],
+      "opts_es": [
+        "Los dispositivos de aviso de los pasajeros funcionen.",
+        "Se hayan retirado las manijas de las salidas de emergencia.",
+        "Los paneles de acceso cerrados estén abiertos."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 3,
+      "en": "You are driving on a slippery road during the day. How much space does the Commercial Driver Handbook say you should keep ahead of you?",
+      "es": "Conduce en un camino resbaloso durante el día. ¿Cuánto espacio dice el Manual del Conductor Comercial que debe dejar por delante?",
+      "opts_en": [
+        "Add \"one second to the space needed in good road conditions\".",
+        "Allow \"one car length for every 10 mph\".",
+        "Allow \"much more space\" than needed for ideal driving conditions."
+      ],
+      "opts_es": [
+        "Añadir “un segundo al espacio necesario en buenas condiciones del camino”.",
+        "Dejar “el largo de un auto por cada 10 mph”.",
+        "Dejar “mucho más espacio” del necesario en condiciones ideales de conducción."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 4,
+      "en": "You are driving a 40 foot bus at 50 mph. The road is dry and visibility is good. You should keep at least ____ seconds of space in front of your bus to be safe.",
+      "es": "Conduce un autobús de 40 pies a 50 mph. El camino está seco y la visibilidad es buena. Debe mantener al menos ____ segundos de espacio delante del autobús para estar seguro.",
+      "opts_en": [
+        "5.",
+        "6.",
+        "8."
+      ],
+      "opts_es": [
+        "5.",
+        "6.",
+        "8."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 5,
+      "en": "When you are driving, a hazard is:",
+      "es": "Cuando conduce, un peligro es:",
+      "opts_en": [
+        "Caused by conditions you cannot control.",
+        "Less important than an emergency.",
+        "Anyone or anything that may cause an unsafe condition."
+      ],
+      "opts_es": [
+        "Algo causado por condiciones que no puede controlar.",
+        "Menos importante que una emergencia.",
+        "Cualquier persona o cosa que pueda provocar una condición insegura."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 6,
+      "en": "The maximum distance you can stop away from a railroad crossing is:",
+      "es": "La distancia máxima a la que puede detenerse de un cruce de ferrocarril es:",
+      "opts_en": [
+        "20 feet.",
+        "50 feet.",
+        "70 feet."
+      ],
+      "opts_es": [
+        "20 pies.",
+        "50 pies.",
+        "70 pies."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 7,
+      "en": "Which of the following types of emergency equipment must you have on your bus?",
+      "es": "¿Cuál de los siguientes equipos de emergencia debe llevar en su autobús?",
+      "opts_en": [
+        "Reflectors, fire extinguisher, tire repair kit.",
+        "Fire extinguisher, spare electric fuses, reflectors.",
+        "First aid kit, spare electric fuses, fire extinguisher."
+      ],
+      "opts_es": [
+        "Reflectores, extintor y kit de reparación de llantas.",
+        "Extintor, fusibles eléctricos de repuesto y reflectores.",
+        "Botiquín de primeros auxilios, fusibles eléctricos de repuesto y extintor."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 8,
+      "en": "A bus must stop at least ____ feet before the draw of a drawbridge that does not have a signal light or an attendant.",
+      "es": "Un autobús debe detenerse al menos a ____ pies del tramo móvil de un puente levadizo que no tenga semáforo ni encargado.",
+      "opts_en": [
+        "10.",
+        "30.",
+        "50."
+      ],
+      "opts_es": [
+        "10.",
+        "30.",
+        "50."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 9,
+      "en": "When driving a bus, you should look _____ seconds ahead of you.",
+      "es": "Al conducir un autobús, debe mirar _____ segundos por delante.",
+      "opts_en": [
+        "3-6.",
+        "7-10.",
+        "12-15."
+      ],
+      "opts_es": [
+        "3-6.",
+        "7-10.",
+        "12-15."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 10,
+      "en": "When driving a bus, the emergency roof hatches:",
+      "es": "Al conducir un autobús, las escotillas de emergencia del techo:",
+      "opts_en": [
+        "Must always be completely closed and locked while the bus is moving.",
+        "May be locked in a partially open position for fresh air.",
+        "May be left in a closed but unlocked position."
+      ],
+      "opts_es": [
+        "Siempre deben estar completamente cerradas y aseguradas mientras el autobús está en movimiento.",
+        "Pueden asegurarse en posición parcialmente abierta para dar aire fresco.",
+        "Pueden dejarse cerradas pero sin asegurar."
+      ],
+      "key": "B"
+    }
+  ]
+}

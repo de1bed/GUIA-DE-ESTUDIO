@@ -1,0 +1,83 @@
+{
+  "folio": 2,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 11,
+      "en": "What should you do before driving in the mountains?",
+      "es": "¿Qué debe hacer antes de conducir en montaña?",
+      "opts_en": ["Know the escape ramp locations on your route.", "Unhook your steering axle brakes.", "Carry tire chains in your vehicle."],
+      "opts_es": ["Conocer la ubicación de las rampas de escape en su ruta.", "Desconectar los frenos del eje de dirección.", "Llevar cadenas para llantas en el vehículo."]
+    },
+    {
+      "n": 12,
+      "en": "If you do not have a CB radio, what is the first thing you should do at an accident scene?",
+      "es": "Si no tiene radio CB, ¿qué es lo primero que debe hacer en el lugar de un accidente?",
+      "opts_en": ["Protect the area.", "Notify authorities.", "Care for the injured."],
+      "opts_es": ["Proteger la zona.", "Avisar a las autoridades.", "Atender a los heridos."]
+    },
+    {
+      "n": 13,
+      "en": "Which of these systems should receive extra attention during a winter weather inspection?",
+      "es": "¿A cuál de estos sistemas debe prestar atención adicional en una inspección de invierno?",
+      "opts_en": ["Suspension.", "Steering.", "Exhaust."],
+      "opts_es": ["La suspensión.", "La dirección.", "El escape."]
+    },
+    {
+      "n": 14,
+      "en": "Which of these statements is true about double clutching and shifting?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre el doble embrague y los cambios?",
+      "opts_en": ["Double clutching should not be used when the road is slippery.", "Double clutching should only be used with a heavy load.", "You can use the tachometer to tell you when to shift."],
+      "opts_es": ["No debe usarse doble embrague cuando el camino está resbaloso.", "El doble embrague solo debe usarse con carga pesada.", "Puede usar el tacómetro para saber cuándo cambiar de marcha."]
+    },
+    {
+      "n": 15,
+      "en": "Which of these statements is the proper way to signal for a lane change?",
+      "es": "¿Cuál de estas es la forma correcta de señalizar un cambio de carril?",
+      "opts_en": ["Signal just as you begin to change lanes, and drift over slowly.", "Signal early, and change lanes slowly and smoothly.", "Signal before you change lanes, and then move over quickly."],
+      "opts_es": ["Señalizar justo al empezar a cambiar de carril y desplazarse despacio.", "Señalizar con antelación y cambiar de carril despacio y con suavidad.", "Señalizar antes de cambiar de carril y luego pasarse rápidamente."]
+    },
+    {
+      "n": 16,
+      "en": "Which of these is not caused by rough acceleration?",
+      "es": "¿Cuál de estos no lo provoca una aceleración brusca?",
+      "opts_en": ["Tire damage.", "Mechanical damage.", "Damage to coupling."],
+      "opts_es": ["Daño a las llantas.", "Daño mecánico.", "Daño al acoplamiento."]
+    },
+    {
+      "n": 17,
+      "en": "For your safety, when you place your reflective triangles you should:",
+      "es": "Por su seguridad, al colocar los triángulos reflectantes debe:",
+      "opts_en": ["Carry the triangles at your side.", "Hold the triangles with the reflective side between you and oncoming traffic.", "Keep them out of sight while you walk to the locations where you will place them."],
+      "opts_es": ["Llevar los triángulos a un costado del cuerpo.", "Sostener los triángulos con el lado reflectante entre usted y el tráfico que se aproxima.", "Mantenerlos fuera de la vista mientras camina hacia donde va a colocarlos."]
+    },
+    {
+      "n": 18,
+      "en": "One reason that dry bulk tanks require special care is:",
+      "es": "Una razón por la que las cisternas de carga seca a granel exigen cuidado especial es:",
+      "opts_en": ["They can only be filled halfway.", "They can easily catch fire.", "The load can shift."],
+      "opts_es": ["Solo pueden llenarse hasta la mitad.", "Pueden incendiarse con facilidad.", "La carga puede desplazarse."]
+    },
+    {
+      "n": 19,
+      "en": "To avoid a crash, you had to drive onto the right shoulder. You are now driving at 40 mph on the shoulder. How should you move back onto the pavement?",
+      "es": "Para evitar un choque tuvo que salirse al acotamiento derecho. Ahora circula a 40 mph sobre el acotamiento. ¿Cómo debe volver al pavimento?",
+      "opts_en": ["Brake hard to slow the vehicle, then steer sharply on the pavement when it is safe.", "Keep moving at your present speed and steer very gently back onto the pavement when it is safe.", "If the shoulder is clear, stay on it until your vehicle comes to a stop. Then move back onto the pavement when it is safe."],
+      "opts_es": ["Frenar fuerte para reducir la velocidad y luego girar bruscamente al pavimento cuando sea seguro.", "Mantener la velocidad actual y volver al pavimento girando muy suavemente cuando sea seguro.", "Si el acotamiento está despejado, permanecer en él hasta detenerse por completo y luego volver al pavimento cuando sea seguro."]
+    },
+    {
+      "n": 20,
+      "en": "Which of the following statements is true?",
+      "es": "¿Cuál de las siguientes afirmaciones es verdadera?",
+      "opts_en": ["Most people are more alert at night than during the day.", "Most hazards are easier to see at night than during the day.", "Many heavy vehicle accidents occur between midnight and 6am."],
+      "opts_es": ["La mayoría de la gente está más alerta de noche que de día.", "La mayoría de los peligros se ven más fácil de noche que de día.", "Muchos accidentes de vehículos pesados ocurren entre la medianoche y las 6 a. m."]
+    },
+    {
+      "n": 21,
+      "en": "The Commercial Driver Handbook suggests several things to do when you pass a vehicle. Which of these is not one of them?",
+      "es": "El Manual del Conductor Comercial sugiere varias cosas al rebasar un vehículo. ¿Cuál de estas no es una de ellas?",
+      "opts_en": ["Lightly tap your horn, if needed.", "At night, turn on your high beams while you pass the vehicle.", "Assume the other driver does not see you."],
+      "opts_es": ["Tocar el claxon suavemente si es necesario.", "De noche, encender las luces altas mientras rebasa el vehículo.", "Suponer que el otro conductor no lo ve."]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "folio": 47,
+  "section": "Commercial Driver Examination",
+  "questions": [
+    {
+      "n": 1,
+      "en": "You should use your horn when:",
+      "es": "Debe usar el claxon cuando:",
+      "opts_en": [
+        "Another vehicle is in your way.",
+        "It may help prevent an accident.",
+        "Another driver makes a mistake."
+      ],
+      "opts_es": [
+        "Otro vehículo le estorba el paso.",
+        "Pueda ayudar a evitar un accidente.",
+        "Otro conductor comete un error."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 2,
+      "en": "You may cross double, yellow lines to pass another vehicle if the:",
+      "es": "Puede cruzar la doble línea amarilla para rebasar a otro vehículo si:",
+      "opts_en": [
+        "Vehicle in front of you moves to the right to let you pass.",
+        "Yellow line next to your side of the road is broken.",
+        "Yellow line next to the other side of the road is broken."
+      ],
+      "opts_es": [
+        "El vehículo de adelante se orilla a la derecha para dejarlo pasar.",
+        "La línea amarilla de su lado del camino es discontinua.",
+        "La línea amarilla del otro lado del camino es discontinua."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 3,
+      "en": "You are driving on a road with only one lane in each direction. You want to pass another vehicle, but there is a curve approaching which blocks your view of the road ahead. You must:",
+      "es": "Conduce por un camino de un solo carril en cada sentido. Quiere rebasar a otro vehículo, pero se aproxima una curva que le impide ver el camino. Debe:",
+      "opts_en": [
+        "Not pass the vehicle.",
+        "Drive on the shoulder of the road.",
+        "Signal longer than five seconds to pass safely."
+      ],
+      "opts_es": [
+        "No rebasar al vehículo.",
+        "Circular por el acotamiento.",
+        "Señalizar por más de cinco segundos para rebasar con seguridad."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 4,
+      "en": "You must notify DMV within 5 days if you:",
+      "es": "Debe notificar al DMV en un plazo de 5 días si usted:",
+      "opts_en": [
+        "Sell or transfer your vehicle.",
+        "Are cited for a traffic violation.",
+        "Paint your vehicle a different color."
+      ],
+      "opts_es": [
+        "Vende o transfiere su vehículo.",
+        "Recibe una infracción de tránsito.",
+        "Pinta su vehículo de otro color."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 5,
+      "en": "Highways are typically most slippery:",
+      "es": "Las carreteras suelen estar más resbalosas:",
+      "opts_en": [
+        "During a heavy rainstorm in the middle of summer.",
+        "When it first starts to rain after a dry spell.",
+        "After it has been raining for a long time."
+      ],
+      "opts_es": [
+        "Durante una tormenta fuerte a mitad del verano.",
+        "Cuando empieza a llover tras un periodo seco.",
+        "Después de que ha llovido durante mucho tiempo."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 6,
+      "en": "It is illegal for a person 21 years of age or older to drive with a blood alcohol concentration (BAC) that is ____ or higher.",
+      "es": "Es ilegal que una persona de 21 años o más conduzca con una concentración de alcohol en sangre (BAC) de ____ o mayor.",
+      "opts_en": [
+        "0.08% - Eight hundredths of one percent.",
+        "0.10% - One tenth of one percent.",
+        "0.05% - Five hundredths of one percent."
+      ],
+      "opts_es": [
+        "0.08 % — ocho centésimas de un por ciento.",
+        "0.10 % — una décima de un por ciento.",
+        "0.05 % — cinco centésimas de un por ciento."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 7,
+      "en": "When you park on a level road next to a curb:",
+      "es": "Cuando se estaciona en un camino plano junto a una acera:",
+      "opts_en": [
+        "Your wheels must be within 18 inches of the curb.",
+        "Your front wheels must be turned towards the side of the road.",
+        "You do not have to set your parking brake."
+      ],
+      "opts_es": [
+        "Sus ruedas deben quedar a menos de 18 pulgadas de la acera.",
+        "Sus ruedas delanteras deben quedar giradas hacia el borde del camino.",
+        "No tiene que aplicar el freno de estacionamiento."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 8,
+      "en": "If you have trouble seeing other vehicles because of dust or smoke blowing across the roadway, you should drive slower and turn on your:",
+      "es": "Si le cuesta ver otros vehículos por polvo o humo que cruza la vía, debe conducir más despacio y encender:",
+      "opts_en": [
+        "Defroster.",
+        "Parking lights.",
+        "Headlights."
+      ],
+      "opts_es": [
+        "El desempañador.",
+        "Las luces de estacionamiento.",
+        "Los faros delanteros."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 9,
+      "en": "Which of the following will help you avoid being hit from behind?",
+      "es": "¿Cuál de las siguientes le ayudará a evitar que lo golpeen por detrás?",
+      "opts_en": [
+        "Signaling at least 100 feet before turning.",
+        "Decreasing your following distance.",
+        "Changing lanes frequently."
+      ],
+      "opts_es": [
+        "Señalizar al menos 100 pies antes de girar.",
+        "Reducir su distancia de seguimiento.",
+        "Cambiar de carril con frecuencia."
+      ],
+      "key": "A"
+    }
+  ]
+}

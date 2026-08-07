@@ -1,0 +1,150 @@
+{
+  "folio": 45,
+  "section": "Commercial Driver Examination",
+  "questions": [
+    {
+      "n": 1,
+      "en": "Which of the following is true about safety belts and accidents?",
+      "es": "¿Cuál de las siguientes es verdadera sobre los cinturones de seguridad y los accidentes?",
+      "opts_en": [
+        "They don't need to be used on residential streets.",
+        "They keep you from being thrown clear to safety, which lowers your chances of surviving accidents.",
+        "They increase your chances of survival in most types of accidents."
+      ],
+      "opts_es": [
+        "No hace falta usarlos en calles residenciales.",
+        "Impiden que salga despedido a un lugar seguro, lo que reduce sus posibilidades de sobrevivir.",
+        "Aumentan sus posibilidades de sobrevivir en la mayoría de los accidentes."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 2,
+      "en": "You are stopped at an intersection. The traffic light just turned green. Should you go immediately?",
+      "es": "Está detenido en una intersección. El semáforo acaba de ponerse en verde. ¿Debe avanzar de inmediato?",
+      "opts_en": [
+        "Yes, but yield to any vehicle or person still in the intersection.",
+        "Yes, or you could be given a ticket for causing gridlock.",
+        "No, because you must first wait 5 seconds before proceeding."
+      ],
+      "opts_es": [
+        "Sí, pero cediendo el paso a cualquier vehículo o persona que siga en la intersección.",
+        "Sí, o podrían multarlo por provocar un embotellamiento.",
+        "No, porque primero debe esperar 5 segundos antes de avanzar."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 3,
+      "en": "Whose responsibility is it to know how your medications affect your driving?",
+      "es": "¿De quién es la responsabilidad de saber cómo afectan sus medicamentos a su conducción?",
+      "opts_en": [
+        "Your pharmacist's.",
+        "Your physician's.",
+        "Yours."
+      ],
+      "opts_es": [
+        "De su farmacéutico.",
+        "De su médico.",
+        "Suya."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 4,
+      "en": "You see a car approaching from the rear. When you check your mirror again to change lanes, you no longer see the car. You should:",
+      "es": "Ve un auto que se acerca por detrás. Al revisar el espejo otra vez para cambiar de carril, ya no lo ve. Debe:",
+      "opts_en": [
+        "Look over your shoulder to be sure the car isn't in your blind spot.",
+        "Turn your signal on and change lanes slowly.",
+        "Check your outside mirror to see if the car is in your blind spot."
+      ],
+      "opts_es": [
+        "Mirar por encima del hombro para asegurarse de que el auto no esté en su punto ciego.",
+        "Encender la direccional y cambiar de carril despacio.",
+        "Revisar el espejo exterior para ver si el auto está en su punto ciego."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 5,
+      "en": "You are approaching a sharp curve in the road. You should:",
+      "es": "Se aproxima a una curva cerrada. Debe:",
+      "opts_en": [
+        "Start braking before you enter the curve.",
+        "Start braking as soon as you enter the curve.",
+        "Accelerate into the curve and brake out of it."
+      ],
+      "opts_es": [
+        "Empezar a frenar antes de entrar a la curva.",
+        "Empezar a frenar en cuanto entra a la curva.",
+        "Acelerar al entrar a la curva y frenar al salir."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 6,
+      "en": "You must notify DMV within 5 days if you:",
+      "es": "Debe notificar al DMV en un plazo de 5 días si usted:",
+      "opts_en": [
+        "Are cited for a traffic violation.",
+        "Sell or transfer your vehicle.",
+        "Paint your vehicle a different color."
+      ],
+      "opts_es": [
+        "Recibe una infracción de tránsito.",
+        "Vende o transfiere su vehículo.",
+        "Pinta su vehículo de otro color."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 7,
+      "en": "It is illegal for a person 21 years of age or older to drive with a blood alcohol concentration (BAC) that is ____ or higher.",
+      "es": "Es ilegal que una persona de 21 años o más conduzca con una concentración de alcohol en sangre (BAC) de ____ o mayor.",
+      "opts_en": [
+        "0.08% - Eight hundredths of one percent.",
+        "0.10% - One tenth of one percent.",
+        "0.05% - Five hundredths of one percent."
+      ],
+      "opts_es": [
+        "0.08 % — ocho centésimas de un por ciento.",
+        "0.10 % — una décima de un por ciento.",
+        "0.05 % — cinco centésimas de un por ciento."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 8,
+      "en": "Which of these is a legal U-turn?",
+      "es": "¿Cuál de estos es un cambio de sentido (vuelta en U) legal?",
+      "opts_en": [
+        "On a highway where there is a paved opening for a turn.",
+        "150 feet away from a hill or curve.",
+        "Over two sets of double, yellow lines in the roadway."
+      ],
+      "opts_es": [
+        "En una carretera donde hay una abertura pavimentada para dar vuelta.",
+        "A 150 pies de una cuesta o curva.",
+        "Cruzando dos juegos de doble línea amarilla en la vía."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 9,
+      "en": "It is very foggy. You should slow down and turn on your:",
+      "es": "Hay mucha niebla. Debe reducir la velocidad y encender:",
+      "opts_en": [
+        "High beam lights.",
+        "Low beam lights.",
+        "Emergency flashers."
+      ],
+      "opts_es": [
+        "Las luces altas.",
+        "Las luces bajas.",
+        "Las intermitentes de emergencia."
+      ],
+      "key": "B"
+    }
+  ]
+}

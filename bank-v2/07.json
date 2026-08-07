@@ -1,0 +1,118 @@
+{
+  "folio": 7,
+  "section": "Air Brake Test",
+  "questions": [
+    {
+      "n": 14,
+      "en": "The safety valve is usually set to reduce air pressure at _____ psi.",
+      "es": "La válvula de seguridad normalmente está ajustada para liberar presión de aire a _____ psi.",
+      "opts_en": [
+        "50.",
+        "100.",
+        "150."
+      ],
+      "opts_es": [
+        "50.",
+        "100.",
+        "150."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 15,
+      "en": "The air compressor should stop pumping at about _____ psi.",
+      "es": "El compresor de aire debe dejar de bombear aproximadamente a _____ psi.",
+      "opts_en": [
+        "100.",
+        "125.",
+        "150."
+      ],
+      "opts_es": [
+        "100.",
+        "125.",
+        "150."
+      ],
+      "key": "B"
+    },
+    {
+      "n": 16,
+      "en": "What is emergency stab braking?",
+      "es": "¿Qué es el frenado de emergencia tipo “stab”?",
+      "opts_en": [
+        "Press hard on the brake and apply full hand valve until you stop.",
+        "Use light steady pressure on the brake pedal.",
+        "Brake hard, release the brakes when the wheels lock, and reapply the brakes when the wheels start rolling."
+      ],
+      "opts_es": [
+        "Pisar fuerte el freno y aplicar la válvula manual a fondo hasta detenerse.",
+        "Aplicar presión ligera y constante sobre el pedal del freno.",
+        "Frenar fuerte, soltar los frenos cuando las ruedas se bloqueen y volver a aplicarlos cuando las ruedas empiecen a rodar."
+      ],
+      "key": "C"
+    },
+    {
+      "n": 17,
+      "en": "Your vehicle has a dual air brake system. If a low air pressure warning comes on for the secondary system, you should:",
+      "es": "Su vehículo tiene un sistema doble de frenos de aire. Si se enciende la advertencia de baja presión del sistema secundario, debe:",
+      "opts_en": [
+        "Stop the vehicle and continue only when the system is fixed.",
+        "Reduce your speed, and test the remaining system while driving.",
+        "Reduce your speed, and drive to the nearest garage for repairs."
+      ],
+      "opts_es": [
+        "Detener el vehículo y continuar solo cuando el sistema esté reparado.",
+        "Reducir la velocidad y probar el sistema restante mientras conduce.",
+        "Reducir la velocidad y conducir al taller más cercano para repararlo."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 18,
+      "en": "All air brake equipped vehicles have:",
+      "es": "Todos los vehículos equipados con frenos de aire tienen:",
+      "opts_en": [
+        "An air supply pressure gauge.",
+        "An air use gauge.",
+        "A backup hydraulic system."
+      ],
+      "opts_es": [
+        "Un medidor de presión del suministro de aire.",
+        "Un medidor de consumo de aire.",
+        "Un sistema hidráulico de respaldo."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 19,
+      "en": "When you apply the brakes, the brake shoes/linings are pressed against the:",
+      "es": "Cuando aplica los frenos, las zapatas o balatas se presionan contra:",
+      "opts_en": [
+        "Brake drum or disc.",
+        "Slack adjuster.",
+        "S-cam."
+      ],
+      "opts_es": [
+        "El tambor o disco de freno.",
+        "El ajustador de holgura.",
+        "La leva en S."
+      ],
+      "key": "A"
+    },
+    {
+      "n": 20,
+      "en": "If your truck's air compressor has its own oil supply, when should you first check the oil level?",
+      "es": "Si el compresor de aire de su camión tiene su propio suministro de aceite, ¿cuándo debe revisar el nivel de aceite por primera vez?",
+      "opts_en": [
+        "Before driving.",
+        "During your first en route inspection.",
+        "Immediately after you stop driving."
+      ],
+      "opts_es": [
+        "Antes de conducir.",
+        "Durante la primera inspección en ruta.",
+        "Inmediatamente después de dejar de conducir."
+      ],
+      "key": "A"
+    }
+  ]
+}

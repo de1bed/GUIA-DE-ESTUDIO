@@ -1,0 +1,76 @@
+{
+  "folio": 20,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 1,
+      "en": "You are driving a 40-foot vehicle at 35 mph. The road is dry and visibility is good. What is the least amount of space you should keep in front of your vehicle to be safe?",
+      "es": "Conduce un vehículo de 40 pies a 35 mph. El camino está seco y la visibilidad es buena. ¿Cuál es el espacio mínimo que debe mantener delante de su vehículo para estar seguro?",
+      "opts_en": ["3 seconds.", "4 seconds.", "5 seconds."],
+      "opts_es": ["3 segundos.", "4 segundos.", "5 segundos."]
+    },
+    {
+      "n": 2,
+      "en": "Which of these statements is not true about backing a heavy vehicle?",
+      "es": "¿Cuál de estas afirmaciones no es verdadera sobre retroceder con un vehículo pesado?",
+      "opts_en": ["You should back and turn toward the driver's side whenever possible.", "You should use a helper and communicate with hand signals.", "You should back slowly until you slightly bump into the dock."],
+      "opts_es": ["Debe retroceder y girar hacia el lado del conductor siempre que sea posible.", "Debe usar un ayudante y comunicarse con señales de mano.", "Debe retroceder despacio hasta tocar levemente el andén."]
+    },
+    {
+      "n": 3,
+      "en": "Which statement is true?",
+      "es": "¿Cuál afirmación es verdadera?",
+      "opts_en": ["Most people are more alert at night than during the day.", "Most hazards are easier to see at night than during the day.", "Many heavy vehicle accidents occur between midnight and 6am."],
+      "opts_es": ["La mayoría de la gente está más alerta de noche que de día.", "La mayoría de los peligros se ven más fácil de noche que de día.", "Muchos accidentes de vehículos pesados ocurren entre la medianoche y las 6 a. m."]
+    },
+    {
+      "n": 4,
+      "en": "You should try to park your vehicle so:",
+      "es": "Debe tratar de estacionar su vehículo de modo que:",
+      "opts_en": ["You can pull forward when you leave.", "There is at least one curb next to your vehicle.", "Your vehicle is protected by trees or some other overhang."],
+      "opts_es": ["Pueda avanzar hacia adelante al salir.", "Haya al menos una acera junto a su vehículo.", "Su vehículo quede protegido por árboles u otro saliente."]
+    },
+    {
+      "n": 5,
+      "en": "The distance that you should look ahead of your vehicle while driving is about ____ mile at highway speeds.",
+      "es": "La distancia a la que debe mirar por delante del vehículo al conducir es de unos ____ de milla a velocidad de carretera.",
+      "opts_en": ["1/8.", "1/4.", "1/2."],
+      "opts_es": ["1/8.", "1/4.", "1/2."]
+    },
+    {
+      "n": 6,
+      "en": "Which of these statements is the proper way to signal for a lane change?",
+      "es": "¿Cuál de estas es la forma correcta de señalizar un cambio de carril?",
+      "opts_en": ["Signal just as you begin to change lanes, and drift over slowly.", "Signal early, and change lanes slowly and smoothly.", "Signal before you change lanes, and then move over quickly."],
+      "opts_es": ["Señalizar justo al empezar a cambiar de carril y desplazarse despacio.", "Señalizar con antelación y cambiar de carril despacio y con suavidad.", "Señalizar antes de cambiar de carril y luego pasarse rápidamente."]
+    },
+    {
+      "n": 7,
+      "en": "If you do not have a CB radio, what is the first thing you should do at an accident scene?",
+      "es": "Si no tiene radio CB, ¿qué es lo primero que debe hacer en el lugar de un accidente?",
+      "opts_en": ["Protect the area.", "Notify authorities.", "Care for the injured."],
+      "opts_es": ["Proteger la zona.", "Avisar a las autoridades.", "Atender a los heridos."]
+    },
+    {
+      "n": 8,
+      "en": "Which of the following may be a sign of tire failure?",
+      "es": "¿Cuál de los siguientes puede ser una señal de falla de una llanta?",
+      "opts_en": ["A loud hissing noise.", "Gentle thumping.", "Wheels fishtailing."],
+      "opts_es": ["Un silbido fuerte.", "Un golpeteo suave.", "Las ruedas colean (fishtailing)."]
+    },
+    {
+      "n": 9,
+      "en": "You are checking your tires during a pre-trip inspection. Which of these statements is true?",
+      "es": "Está revisando las llantas durante una inspección previa al viaje. ¿Cuál de estas afirmaciones es verdadera?",
+      "opts_en": ["Tires of mismatched sizes should not be used on the same vehicle.", "Radial and bias-ply tires can be used together on the same vehicle.", "2-32 inch tread depth is safe for the front tires."],
+      "opts_es": ["No deben usarse llantas de tamaños distintos en el mismo vehículo.", "Las llantas radiales y de capas diagonales pueden usarse juntas en el mismo vehículo.", "Una profundidad de dibujo de 2/32 de pulgada es segura para las llantas delanteras."]
+    },
+    {
+      "n": 10,
+      "en": "The best drivers are those who watch and prepare for hazards. This is called being:",
+      "es": "Los mejores conductores son los que observan y se preparan ante los peligros. A esto se le llama ser:",
+      "opts_en": ["Offensive.", "Defensive.", "Objective."],
+      "opts_es": ["Ofensivo.", "Defensivo.", "Objetivo."]
+    }
+  ]
+}

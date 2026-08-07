@@ -1,0 +1,97 @@
+{
+  "folio": 18,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 33,
+      "en": "Which of these statements is true about double clutching and shifting?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre el doble embrague y los cambios?",
+      "opts_en": ["Double clutching should not be used when the road is slippery.", "Double clutching should only be used with a heavy load.", "You can use the tachometer to tell you when to shift."],
+      "opts_es": ["No debe usarse doble embrague cuando el camino está resbaloso.", "El doble embrague solo debe usarse con carga pesada.", "Puede usar el tacómetro para saber cuándo cambiar de marcha."]
+    },
+    {
+      "n": 34,
+      "en": "Which of these statements is true about bad weather driving conditions?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre conducir con mal clima?",
+      "opts_en": ["When the temperature drops, bridges will freeze before roads.", "The road is more slippery as rain continues than when rain begins.", "Driving conditions become more dangerous as the temperature rises."],
+      "opts_es": ["Cuando baja la temperatura, los puentes se congelan antes que las carreteras.", "El camino está más resbaloso conforme sigue lloviendo que cuando empieza a llover.", "Las condiciones de conducción se vuelven más peligrosas conforme sube la temperatura."]
+    },
+    {
+      "n": 35,
+      "en": "You are driving a heavy vehicle with a manual transmission. You have to stop the vehicle on the shoulder while driving on an uphill grade. Which of these is a good rule to follow when putting the vehicle back in motion?",
+      "es": "Conduce un vehículo pesado con transmisión manual y debe detenerse en el acotamiento en una subida. ¿Cuál de estas es una buena regla al volver a ponerlo en marcha?",
+      "opts_en": ["Keep the clutch slipping while slowly accelerating.", "Let the vehicle roll backwards a few feet before you engage the clutch.", "Use the parking brake to hold the vehicle until the clutch engages."],
+      "opts_es": ["Mantener el embrague patinando mientras acelera despacio.", "Dejar que el vehículo ruede unos pies hacia atrás antes de acoplar el embrague.", "Usar el freno de estacionamiento para sostener el vehículo hasta que acople el embrague."]
+    },
+    {
+      "n": 36,
+      "en": "How far should a driver look ahead of the vehicle while driving?",
+      "es": "¿Qué tan lejos debe mirar un conductor por delante del vehículo mientras conduce?",
+      "opts_en": ["5-8 seconds.", "12-15 seconds.", "18-21 seconds."],
+      "opts_es": ["5-8 segundos.", "12-15 segundos.", "18-21 segundos."]
+    },
+    {
+      "n": 37,
+      "en": "When driving through roadway work zones, you should:",
+      "es": "Al circular por zonas de obras, debe:",
+      "opts_en": ["Reduce your speed only if workers are close to the roadway.", "Turn on your parking lights.", "Watch for sharp pavement drop-offs."],
+      "opts_es": ["Reducir la velocidad solo si hay trabajadores cerca de la vía.", "Encender las luces de estacionamiento.", "Estar atento a desniveles bruscos del pavimento."]
+    },
+    {
+      "n": 38,
+      "en": "The total weight of the power unit, the trailer, and the cargo is called:",
+      "es": "El peso total de la unidad motriz, el remolque y la carga se llama:",
+      "opts_en": ["Gross vehicle weight.", "Gross combination weight.", "Gross axle weight."],
+      "opts_es": ["Peso bruto vehicular.", "Peso bruto combinado.", "Peso bruto por eje."]
+    },
+    {
+      "n": 39,
+      "en": "Which of these statements is true about warning other drivers of a stopped vehicle?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre advertir a otros conductores de un vehículo detenido?",
+      "opts_en": ["Move the rear reflective triangle back if the driver's vision is obscured within 500 feet.", "Keep the vehicle's taillights on to warn other drivers.", "Put out your emergency warning devices within 5 minutes."],
+      "opts_es": ["Alejar más el triángulo trasero si la visión del conductor está obstruida en los primeros 500 pies.", "Mantener encendidas las luces traseras para advertir a otros conductores.", "Colocar los dispositivos de advertencia en un plazo de 5 minutos."]
+    },
+    {
+      "n": 40,
+      "en": "Which of these statements is true about causes of vehicle fires?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre las causas de incendios en vehículos?",
+      "opts_en": ["Under-inflated tires will not cause a vehicle fire.", "Carrying a properly charged fire extinguisher will help prevent fires.", "Poor trailer ventilation can cause flammable cargo to catch on fire."],
+      "opts_es": ["Las llantas con poca presión no provocan incendios.", "Llevar un extintor bien cargado ayuda a prevenir incendios.", "La mala ventilación del remolque puede hacer que la carga inflamable se incendie."]
+    },
+    {
+      "n": 41,
+      "en": "CDL medical certificates must be renewed every:",
+      "es": "Los certificados médicos CDL deben renovarse cada:",
+      "opts_en": ["Year.", "Two years.", "Four years."],
+      "opts_es": ["Año.", "Dos años.", "Cuatro años."]
+    },
+    {
+      "n": 42,
+      "en": "Which of these statements is true about brakes?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre los frenos?",
+      "opts_en": ["Brakes absorb more heat to stop heavier or faster-moving vehicles.", "Brake drums cool very quickly when the vehicle is moving very fast.", "Brake fade is not caused by heat."],
+      "opts_es": ["Los frenos absorben más calor para detener vehículos más pesados o más rápidos.", "Los tambores se enfrían muy rápido cuando el vehículo va muy rápido.", "La pérdida de eficacia del freno no la causa el calor."]
+    },
+    {
+      "n": 43,
+      "en": "Which of these statements is correct about emergency or evasive action?",
+      "es": "¿Cuál de estas afirmaciones es correcta sobre una maniobra de emergencia o evasiva?",
+      "opts_en": ["Stopping is always the safest thing to do in an emergency.", "To turn quickly, you must have a firm grip on the steering wheel.", "You can usually stop quicker than you can turn to miss an obstacle."],
+      "opts_es": ["Detenerse siempre es lo más seguro en una emergencia.", "Para girar rápido debe sujetar el volante con firmeza.", "Normalmente puede detenerse más rápido de lo que puede girar para esquivar un obstáculo."]
+    },
+    {
+      "n": 44,
+      "en": "Which of these statements is true about rear drive wheel braking skids?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre los derrapes de frenado de las ruedas motrices traseras?",
+      "opts_en": ["Locked wheels usually have more traction than rolling wheels.", "Front wheels slide sideways to try to \"catch up\" with rear wheels.", "Trailers can push the towing vehicle sideways."],
+      "opts_es": ["Las ruedas bloqueadas suelen tener más tracción que las que ruedan.", "Las ruedas delanteras se deslizan de lado para “alcanzar” a las traseras.", "Los remolques pueden empujar de lado al vehículo que los arrastra."]
+    },
+    {
+      "n": 45,
+      "en": "After starting the engine, the:",
+      "es": "Después de arrancar el motor:",
+      "opts_en": ["Coolant temperature gauge should begin a gradual rise to normal.", "Oil pressure gauge should take 3-5 minutes to rise to normal.", "Engine temperature gauge will take 3-5 minutes to rise to normal."],
+      "opts_es": ["El medidor de temperatura del refrigerante debe empezar a subir gradualmente a lo normal.", "El medidor de presión de aceite debe tardar de 3 a 5 minutos en llegar a lo normal.", "El medidor de temperatura del motor tardará de 3 a 5 minutos en llegar a lo normal."]
+    }
+  ]
+}

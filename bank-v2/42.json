@@ -1,0 +1,63 @@
+{
+  "folio": 42,
+  "section": "Class C Examination",
+  "questions": [
+    {
+      "n": 11,
+      "en": "You must notify DMV within 5 days if you:",
+      "es": "Debe notificar al DMV en un plazo de 5 días si usted:",
+      "opts_en": ["Are cited for a traffic violation.", "Sell or transfer your vehicle.", "Paint your vehicle a different color."],
+      "opts_es": ["Recibe una infracción de tránsito.", "Vende o transfiere su vehículo.", "Pinta su vehículo de otro color."]
+    },
+    {
+      "n": 12,
+      "en": "To turn left from a one-way street with multiple lanes onto a two-way street, start the turn in:",
+      "es": "Para girar a la izquierda desde una calle de sentido único con varios carriles hacia una calle de doble sentido, inicie el giro desde:",
+      "opts_en": ["The far left lane.", "Any lane available.", "The lane closest to the middle of the street."],
+      "opts_es": ["El carril del extremo izquierdo.", "Cualquier carril disponible.", "El carril más cercano al centro de la calle."]
+    },
+    {
+      "n": 13,
+      "en": "Tailgating other drivers (driving too close to their rear bumper):",
+      "es": "Seguir demasiado cerca a otros conductores (pegado a su defensa trasera):",
+      "opts_en": ["Can frustrate other drivers and make them angry.", "Cannot result in a traffic citation.", "Reduces accidents by preventing you from being \"cut off\"."],
+      "opts_es": ["Puede frustrar a otros conductores y enojarlos.", "No puede derivar en una infracción de tránsito.", "Reduce accidentes porque evita que se le metan delante."]
+    },
+    {
+      "n": 14,
+      "en": "Drivers are required to obey instructions from:",
+      "es": "Los conductores están obligados a obedecer las indicaciones de:",
+      "opts_en": ["Security guards patrolling parking lots.", "Other drivers whose vehicles are broken down on the roadway.", "Signal persons at construction sites."],
+      "opts_es": ["Guardias de seguridad que patrullan estacionamientos.", "Otros conductores cuyos vehículos están averiados en la vía.", "Señaleros en zonas de obra."]
+    },
+    {
+      "n": 15,
+      "en": "Backing your vehicle is:",
+      "es": "Retroceder con su vehículo es:",
+      "opts_en": ["Always dangerous to do.", "Not dangerous if you have a helper.", "Only dangerous in large vehicles."],
+      "opts_es": ["Siempre peligroso.", "No peligroso si tiene un ayudante.", "Peligroso solo en vehículos grandes."]
+    },
+    {
+      "n": 16,
+      "en": "A freeway onramp is marked with this sign. Which of the following vehicles may use this lane?",
+      "es": "Una rampa de acceso a la autopista está señalizada con este letrero. ¿Cuál de los siguientes vehículos puede usar ese carril?",
+      "opts_en": ["A convertible with an adult and two children.", "A carpool van containing only the driver.", "A sport utility vehicle containing an adult, child, and family pet."],
+      "opts_es": ["Un convertible con un adulto y dos niños.", "Una camioneta de uso compartido que lleva solo al conductor.", "Una camioneta deportiva con un adulto, un niño y la mascota de la familia."],
+      "figure": true
+    },
+    {
+      "n": 17,
+      "en": "You want to park uphill on a two-way road and there is no curb. Which way do you turn your front wheels?",
+      "es": "Quiere estacionarse cuesta arriba en un camino de doble sentido y no hay acera. ¿Hacia dónde gira las ruedas delanteras?",
+      "opts_en": ["So they face straight ahead.", "Right — towards the side of the road.", "Left — towards the center of the road."],
+      "opts_es": ["De modo que queden rectas.", "A la derecha, hacia el borde del camino.", "A la izquierda, hacia el centro del camino."]
+    },
+    {
+      "n": 18,
+      "en": "If a driver unexpectedly merges into the lane in front of you cutting you off, you should:",
+      "es": "Si un conductor se incorpora inesperadamente al carril delante de usted y le corta el paso, debe:",
+      "opts_en": ["Quickly move into the lane next to you.", "Drive onto the shoulder of the road.", "Take your foot off the gas pedal."],
+      "opts_es": ["Cambiarse rápidamente al carril contiguo.", "Salirse al acotamiento.", "Quitar el pie del acelerador."]
+    }
+  ]
+}

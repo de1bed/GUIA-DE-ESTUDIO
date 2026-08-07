@@ -1,0 +1,63 @@
+{
+  "folio": 44,
+  "section": "Commercial Driver Examination",
+  "questions": [
+    {
+      "n": 11,
+      "en": "When driving a vehicle with air bags, you are safest when seated:",
+      "es": "Al conducir un vehículo con bolsas de aire, está más seguro sentado:",
+      "opts_en": ["At least 10 inches away from the steering wheel.", "Within 6½ inches of the steering wheel.", "With your head positioned directly above the steering wheel."],
+      "opts_es": ["A por lo menos 10 pulgadas del volante.", "A menos de 6½ pulgadas del volante.", "Con la cabeza justo por encima del volante."]
+    },
+    {
+      "n": 12,
+      "en": "You must carefully watch for bicycles in traffic lanes because they:",
+      "es": "Debe vigilar con cuidado a las bicicletas en los carriles porque:",
+      "opts_en": ["Must ride facing oncoming traffic.", "Could be hidden in your blind spots.", "Usually have the right-of-way."],
+      "opts_es": ["Deben circular de frente al tráfico.", "Pueden quedar ocultas en sus puntos ciegos.", "Normalmente tienen la preferencia de paso."]
+    },
+    {
+      "n": 13,
+      "en": "Merging onto a road is safest if you:",
+      "es": "Incorporarse a una vía es más seguro si usted:",
+      "opts_en": ["Slowly move into the nearest lane so other drivers will make room for you.", "Drive on the shoulder of the road until there is an opening.", "Wait for a large enough gap in traffic to enter the road."],
+      "opts_es": ["Entra despacio al carril más cercano para que los demás le hagan espacio.", "Circula por el acotamiento hasta que se abra un hueco.", "Espera un hueco suficientemente amplio en el tráfico para entrar a la vía."]
+    },
+    {
+      "n": 14,
+      "en": "Weaving in and out of freeway lanes during heavy traffic:",
+      "es": "Zigzaguear entre carriles de la autopista con tráfico denso:",
+      "opts_en": ["Improves traffic flow by creating space for others to merge.", "Causes further traffic congestion by slowing down other vehicles.", "Will get you to your destination safer and faster."],
+      "opts_es": ["Mejora el flujo del tráfico porque crea espacio para que otros se incorporen.", "Provoca más congestión porque hace más lentos a los demás vehículos.", "Lo llevará a su destino de forma más segura y rápida."]
+    },
+    {
+      "n": 15,
+      "en": "Which of the following children requires a child passenger restraint system?",
+      "es": "¿Cuál de los siguientes niños requiere un sistema de sujeción infantil?",
+      "opts_en": ["A six-year old weighing 60 pounds.", "A five-year old weighing 55 pounds.", "A five-year old weighing 65 pounds."],
+      "opts_es": ["Un niño de seis años que pesa 60 libras.", "Un niño de cinco años que pesa 55 libras.", "Un niño de cinco años que pesa 65 libras."],
+      "note": "La ley de sujeción infantil de California cambió después de 2003; contrasta esta respuesta con la normativa vigente."
+    },
+    {
+      "n": 16,
+      "en": "When should you use your headlights?",
+      "es": "¿Cuándo debe usar los faros delanteros?",
+      "opts_en": ["One hour before sunset until one hour after sunrise.", "Any time you can't see at least two miles ahead.", "Any time you have trouble seeing others or being seen."],
+      "opts_es": ["Desde una hora antes del atardecer hasta una hora después del amanecer.", "Siempre que no pueda ver al menos dos millas por delante.", "Siempre que le cueste ver a los demás o que lo vean a usted."]
+    },
+    {
+      "n": 17,
+      "en": "It is illegal for a person 21 years of age or older to drive with a blood alcohol concentration (BAC) that is _____ or higher:",
+      "es": "Es ilegal que una persona de 21 años o más conduzca con una concentración de alcohol en sangre (BAC) de _____ o mayor:",
+      "opts_en": ["0.10% - one tenth of one percent.", "0.08% - eight hundredths of one percent.", "0.05% - five hundredths of one percent."],
+      "opts_es": ["0.10 % — una décima de un por ciento.", "0.08 % — ocho centésimas de un por ciento.", "0.05 % — cinco centésimas de un por ciento."]
+    },
+    {
+      "n": 18,
+      "en": "Solid yellow lines separate:",
+      "es": "Las líneas amarillas continuas separan:",
+      "opts_en": ["Traffic lanes on one-way streets.", "Bicycle lanes from regular traffic.", "Vehicles traveling in opposite directions."],
+      "opts_es": ["Carriles de circulación en calles de sentido único.", "Los carriles de bicicleta del tráfico normal.", "Vehículos que circulan en sentidos opuestos."]
+    }
+  ]
+}

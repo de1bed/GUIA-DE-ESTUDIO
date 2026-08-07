@@ -1,0 +1,91 @@
+{
+  "folio": 22,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 22,
+      "en": "What should you do before driving in the mountains?",
+      "es": "¿Qué debe hacer antes de conducir en montaña?",
+      "opts_en": ["Know the escape ramp locations on your route.", "Unhook your steering axle brakes.", "Carry tire chains in your vehicle."],
+      "opts_es": ["Conocer la ubicación de las rampas de escape en su ruta.", "Desconectar los frenos del eje de dirección.", "Llevar cadenas para llantas en el vehículo."]
+    },
+    {
+      "n": 23,
+      "en": "What should you do if a car coming toward you at night keeps its high beams on?",
+      "es": "¿Qué debe hacer si un auto que viene hacia usted de noche mantiene las luces altas encendidas?",
+      "opts_en": ["Flash your high beams quickly at the other driver.", "Look to the right edge of your lane or right side of the road.", "Slow down and look straight ahead in your lane."],
+      "opts_es": ["Destellar rápidamente sus luces altas al otro conductor.", "Mirar hacia el borde derecho de su carril o el lado derecho del camino.", "Reducir la velocidad y mirar al frente dentro de su carril."]
+    },
+    {
+      "n": 24,
+      "en": "Which of these statements is not true about engine belts in hot weather?",
+      "es": "¿Cuál de estas afirmaciones no es verdadera sobre las bandas del motor en clima caluroso?",
+      "opts_en": ["Cracking is likely to occur but is not a safety threat.", "You can check the tightness of the belts by pressing on them.", "Loose belts will not turn the water pump and/or fan on properly."],
+      "opts_es": ["El agrietamiento es probable pero no representa un riesgo de seguridad.", "Puede comprobar la tensión de las bandas presionándolas.", "Las bandas flojas no harán girar correctamente la bomba de agua ni el ventilador."]
+    },
+    {
+      "n": 25,
+      "en": "Which of these is a good thing to remember about drinking alcohol?",
+      "es": "¿Cuál de estas es una buena idea que recordar sobre el consumo de alcohol?",
+      "opts_en": ["The driver can control how fast his/her body gets rid of alcohol.", "Small quantities of alcohol improve reaction time.", "Alcohol first affects judgment and self-control."],
+      "opts_es": ["El conductor puede controlar qué tan rápido su cuerpo elimina el alcohol.", "Las cantidades pequeñas de alcohol mejoran el tiempo de reacción.", "El alcohol afecta primero al juicio y al autocontrol."]
+    },
+    {
+      "n": 26,
+      "en": "What is the best advice for drivers to follow when a heavy fog occurs?",
+      "es": "¿Cuál es el mejor consejo que deben seguir los conductores cuando hay niebla densa?",
+      "opts_en": ["Do not drive too slowly, or other drivers may hit you.", "Alternate your low and high beams to improve your vision."],
+      "opts_es": ["No conducir demasiado despacio, o los demás conductores podrían chocarlo.", "Alternar las luces bajas y altas para mejorar la visión."],
+      "note": "El original solo imprime dos opciones en esta pregunta; falta la tercera. En la hoja 3 la misma pregunta lleva una tercera opción: “Estacionarse en un área de descanso o parada de camiones hasta que la niebla se disipe”."
+    },
+    {
+      "n": 27,
+      "en": "For your safety, when you place your reflective triangles you should:",
+      "es": "Por su seguridad, al colocar los triángulos reflectantes debe:",
+      "opts_en": ["Carry the triangles at your side.", "Hold the triangles with the reflective side between you and oncoming traffic.", "Keep them out of sight while you walk to the locations where you will place them."],
+      "opts_es": ["Llevar los triángulos a un costado del cuerpo.", "Sostener los triángulos con el lado reflectante entre usted y el tráfico que se aproxima.", "Mantenerlos fuera de la vista mientras camina hacia donde va a colocarlos."]
+    },
+    {
+      "n": 28,
+      "en": "One reason that dry bulk tanks require special care is:",
+      "es": "Una razón por la que las cisternas de carga seca a granel exigen cuidado especial es:",
+      "opts_en": ["They can only be filled halfway.", "They can easily catch fire.", "The load can shift."],
+      "opts_es": ["Solo pueden llenarse hasta la mitad.", "Pueden incendiarse con facilidad.", "La carga puede desplazarse."]
+    },
+    {
+      "n": 29,
+      "en": "Which of these statements is not true?",
+      "es": "¿Cuál de estas afirmaciones no es verdadera?",
+      "opts_en": ["Alcohol goes directly from the stomach to the blood stream.", "A drinker can control how fast his or her body absorbs and gets rid of alcohol.", "BAC is determined by how fast you drink, how much you drink, and how much you weigh."],
+      "opts_es": ["El alcohol pasa directamente del estómago al torrente sanguíneo.", "Quien bebe puede controlar qué tan rápido su cuerpo absorbe y elimina el alcohol.", "La concentración de alcohol en sangre depende de qué tan rápido bebe, cuánto bebe y cuánto pesa."]
+    },
+    {
+      "n": 30,
+      "en": "How far should a driver look ahead of the vehicle while driving?",
+      "es": "¿Qué tan lejos debe mirar un conductor por delante del vehículo mientras conduce?",
+      "opts_en": ["1-2 seconds.", "5-8 seconds.", "12-15 seconds."],
+      "opts_es": ["1-2 segundos.", "5-8 segundos.", "12-15 segundos."]
+    },
+    {
+      "n": 31,
+      "en": "Which of the following is not a type of retarder?",
+      "es": "¿Cuál de los siguientes no es un tipo de retardador?",
+      "opts_en": ["Electric.", "Hydraulic.", "Robotic."],
+      "opts_es": ["Eléctrico.", "Hidráulico.", "Robótico."]
+    },
+    {
+      "n": 32,
+      "en": "Which of these statements is true about shipping hazardous materials?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre el envío de materiales peligrosos?",
+      "opts_en": ["A four-inch, circular, red, hazardous materials label must be on the container.", "Gas cylinders that will not hold a label must be shipped under cover.", "A four-inch, diamond-shaped, hazardous materials label must be on the container."],
+      "opts_es": ["El envase debe llevar una etiqueta circular roja de cuatro pulgadas de materiales peligrosos.", "Los cilindros de gas que no admitan etiqueta deben transportarse cubiertos.", "El envase debe llevar una etiqueta romboidal de cuatro pulgadas de materiales peligrosos."]
+    },
+    {
+      "n": 33,
+      "en": "What will help keep an engine cool in hot weather?",
+      "es": "¿Qué ayuda a mantener frío el motor en clima caluroso?",
+      "opts_en": ["Driving faster to force more air into the radiator.", "Running the air conditioner.", "Making sure the engine has the right amount of oil."],
+      "opts_es": ["Conducir más rápido para forzar más aire al radiador.", "Encender el aire acondicionado.", "Asegurarse de que el motor tenga la cantidad correcta de aceite."]
+    }
+  ]
+}

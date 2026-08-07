@@ -1,0 +1,88 @@
+{
+  "folio": 24,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 44,
+      "en": "Which of these is not caused by rough acceleration?",
+      "es": "¿Cuál de estos no lo provoca una aceleración brusca?",
+      "opts_en": ["Tire damage.", "Mechanical damage.", "Damage to coupling."],
+      "opts_es": ["Daño a las llantas.", "Daño mecánico.", "Daño al acoplamiento."]
+    },
+    {
+      "n": 45,
+      "en": "How do you correct a rear wheel braking skid when driving on ice or snow?",
+      "es": "¿Cómo se corrige un derrape de frenado de las ruedas traseras al conducir sobre hielo o nieve?",
+      "opts_en": ["Apply more power to the wheels.", "Stop accelerating.", "Downshift to the next lower gear."],
+      "opts_es": ["Aplicar más potencia a las ruedas.", "Dejar de acelerar.", "Bajar a la siguiente marcha más corta."]
+    },
+    {
+      "n": 46,
+      "en": "If you must drive into the oncoming lane to turn, you should:",
+      "es": "Si debe invadir el carril contrario para girar, debe:",
+      "opts_en": ["Allow enough space to get completely across the intersection.", "Back up to allow oncoming traffic to pass.", "Complete your turn without stopping."],
+      "opts_es": ["Dejar espacio suficiente para cruzar por completo la intersección.", "Retroceder para dejar pasar al tráfico que viene de frente.", "Completar el giro sin detenerse."]
+    },
+    {
+      "n": 47,
+      "en": "Retarders:",
+      "es": "Los retardadores:",
+      "opts_en": ["Allow you to disconnect the steering axle brakes.", "Cannot be used on interstate highways.", "Can cause the drive wheels to skid when they have poor traction."],
+      "opts_es": ["Permiten desconectar los frenos del eje de dirección.", "No pueden usarse en carreteras interestatales.", "Pueden hacer que las ruedas motrices patinen cuando tienen poca tracción."]
+    },
+    {
+      "n": 48,
+      "en": "You can see this sign on a vehicle ahead of you. What does the sign mean?",
+      "es": "Ve este letrero en un vehículo delante de usted. ¿Qué significa?",
+      "opts_en": ["Slow moving vehicle.", "Hazardous materials on board.", "Student driver."],
+      "opts_es": ["Vehículo de movimiento lento.", "Materiales peligrosos a bordo.", "Conductor en formación."],
+      "figure": true
+    },
+    {
+      "n": 49,
+      "en": "When you must stop on a one-way or divided highway, you should place your reflective triangles at which of the following locations?",
+      "es": "Cuando deba detenerse en una carretera de un solo sentido o dividida, ¿en cuál de las siguientes ubicaciones debe colocar los triángulos reflectantes?",
+      "opts_en": ["10 feet, 100 feet, and 500 feet toward approaching traffic.", "10 feet, 100 feet, and 200 feet toward approaching traffic.", "10 feet, 50 feet, and 100 feet toward approaching traffic."],
+      "opts_es": ["10 pies, 100 pies y 500 pies hacia el tráfico que se aproxima.", "10 pies, 100 pies y 200 pies hacia el tráfico que se aproxima.", "10 pies, 50 pies y 100 pies hacia el tráfico que se aproxima."]
+    },
+    {
+      "n": 50,
+      "en": "\"Perception distance\" is the distance your vehicle travels from the time your:",
+      "es": "La “distancia de percepción” es la que recorre su vehículo desde el momento en que:",
+      "opts_en": ["Eyes see a hazard to the time your foot pushes the brake pedal.", "Brain tells your foot to push the brake pedal to the time your foot responds.", "Eyes see a hazard to the time your brain knows it is a hazard."],
+      "opts_es": ["Sus ojos ven un peligro hasta que su pie pisa el pedal del freno.", "Su cerebro ordena al pie pisar el freno hasta que el pie responde.", "Sus ojos ven un peligro hasta que su cerebro reconoce que es un peligro."]
+    },
+    {
+      "n": 1,
+      "section": "Air Brake Test",
+      "en": "The brake pedal in an air brake system:",
+      "es": "El pedal del freno en un sistema de frenos de aire:",
+      "opts_en": ["Controls the speed of the air compressor.", "Controls the air pressure applied to put on the brakes.", "Connects the slack adjusters by a series of rods and linkages."],
+      "opts_es": ["Controla la velocidad del compresor de aire.", "Controla la presión de aire aplicada para accionar los frenos.", "Conecta los ajustadores de holgura mediante varillas y articulaciones."]
+    },
+    {
+      "n": 2,
+      "section": "Air Brake Test",
+      "en": "If you must make an emergency stop, you should brake so you:",
+      "es": "Si debe hacer una parada de emergencia, debe frenar de modo que:",
+      "opts_en": ["Use the hand brake before the brake pedal.", "Use the full power of the brakes to lock them.", "Can steer and your vehicle stays in a straight line."],
+      "opts_es": ["Use el freno de mano antes que el pedal.", "Use toda la potencia de los frenos hasta bloquearlos.", "Pueda dirigir y el vehículo se mantenga en línea recta."]
+    },
+    {
+      "n": 3,
+      "section": "Air Brake Test",
+      "en": "The brake system that applies and releases the brakes when the driver uses the brake pedal is the ___ brake system.",
+      "es": "El sistema que aplica y libera los frenos cuando el conductor usa el pedal es el sistema de frenos ___.",
+      "opts_en": ["Emergency.", "Service.", "Parking."],
+      "opts_es": ["De emergencia.", "De servicio.", "De estacionamiento."]
+    },
+    {
+      "n": 4,
+      "section": "Air Brake Test",
+      "en": "Under normal conditions, to engage the parking brakes the driver must first:",
+      "es": "En condiciones normales, para aplicar los frenos de estacionamiento el conductor primero debe:",
+      "opts_en": ["Turn off the engine only.", "Let the air out of the air brake system.", "Be sure that the air brake system is fully pressurized."],
+      "opts_es": ["Apagar únicamente el motor.", "Dejar salir el aire del sistema de frenos.", "Asegurarse de que el sistema de frenos de aire esté totalmente presurizado."]
+    }
+  ]
+}

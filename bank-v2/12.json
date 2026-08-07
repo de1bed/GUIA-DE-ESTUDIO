@@ -1,0 +1,65 @@
+{
+  "folio": 12,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 45,
+      "en": "For a first offense of driving a commercial vehicle under the influence of alcohol or drugs, you will lose your CDL for at least:",
+      "es": "Por una primera infracción de conducir un vehículo comercial bajo los efectos del alcohol o las drogas, perderá su CDL por al menos:",
+      "opts_en": ["6 months.", "2 years.", "1 year."],
+      "opts_es": ["6 meses.", "2 años.", "1 año."]
+    },
+    {
+      "n": 46,
+      "en": "Which of these is not part of the engine compartment pre-trip inspection?",
+      "es": "¿Cuál de estos no forma parte de la inspección previa al viaje del compartimiento del motor?",
+      "opts_en": ["Engine oil level.", "Valve clearance.", "Checking for worn electrical wiring insulation."],
+      "opts_es": ["El nivel de aceite del motor.", "La holgura de las válvulas.", "Revisar el aislamiento desgastado del cableado eléctrico."]
+    },
+    {
+      "n": 47,
+      "en": "You should avoid driving through deep puddles or flowing water. But if you can't, which of these steps can help keep your brakes working?",
+      "es": "Debe evitar conducir por charcos profundos o agua corriente. Pero si no puede, ¿cuál de estos pasos ayuda a mantener los frenos funcionando?",
+      "opts_en": ["Pressing on both the brake pedal and accelerator firmly after coming out of water.", "Gently putting on the brakes while driving through water.", "Turning on your brake heaters."],
+      "opts_es": ["Pisar con firmeza el pedal del freno y el acelerador al salir del agua.", "Aplicar suavemente los frenos mientras cruza el agua.", "Encender los calentadores de freno."]
+    },
+    {
+      "n": 48,
+      "en": "You are required to stop at a railroad grade crossing when:",
+      "es": "Está obligado a detenerse en un cruce a nivel de ferrocarril cuando:",
+      "opts_en": ["The crossing is located in a city or town with frequent train traffic.", "There are no flagmen, warning signals, or gates at the crossing.", "The cargo makes a stop mandatory under state or federal regulations."],
+      "opts_es": ["El cruce está en una ciudad o pueblo con tráfico frecuente de trenes.", "No hay señaleros, señales de advertencia ni barreras en el cruce.", "La carga obliga a detenerse según la normativa estatal o federal."]
+    },
+    {
+      "n": 49,
+      "en": "You wish to turn right from a two-lane, two-way street into another. Your vehicle is so long that you must swing wide to complete the turn. Which of these figures shows how you should make the turn?",
+      "es": "Desea girar a la derecha de una calle de dos carriles y doble sentido hacia otra. Su vehículo es tan largo que debe abrirse para completar el giro. ¿Cuál de estas figuras muestra cómo debe hacer el giro?",
+      "opts_en": ["Figure A.", "Figure B.", "Figure C."],
+      "opts_es": ["Figura A.", "Figura B.", "Figura C."],
+      "figure": true
+    },
+    {
+      "n": 50,
+      "en": "Containerized loads:",
+      "es": "Las cargas en contenedor:",
+      "opts_en": ["Should come with their own tie down devices or locks.", "Do not need to be inspected or secured by the driver.", "Are generally used for freight carried part way by rail or ship."],
+      "opts_es": ["Deben venir con sus propios amarres o seguros.", "No necesitan que el conductor las inspeccione ni las asegure.", "Suelen usarse para carga que viaja parte del trayecto por tren o barco."]
+    },
+    {
+      "n": 1,
+      "section": "Air Brake Test",
+      "en": "For air brake systems in good condition, the air compressor should start pumping at about ____ psi.",
+      "es": "En sistemas de frenos de aire en buen estado, el compresor debe empezar a bombear aproximadamente a ____ psi.",
+      "opts_en": ["100.", "125.", "150."],
+      "opts_es": ["100.", "125.", "150."]
+    },
+    {
+      "n": 2,
+      "section": "Air Brake Test",
+      "en": "If your truck or bus has dual parking control valves, you can use pressure from a separate tank to:",
+      "es": "Si su camión o autobús tiene válvulas dobles de control de estacionamiento, puede usar la presión de un tanque separado para:",
+      "opts_en": ["Balance the service brake system when you are parked.", "Stay parked twice as long without using up service air pressure.", "Release spring emergency/parking brakes to move a short distance."],
+      "opts_es": ["Equilibrar el sistema de frenos de servicio mientras está estacionado.", "Permanecer estacionado el doble de tiempo sin gastar la presión de servicio.", "Liberar los frenos de resorte de emergencia o estacionamiento para avanzar una distancia corta."]
+    }
+  ]
+}

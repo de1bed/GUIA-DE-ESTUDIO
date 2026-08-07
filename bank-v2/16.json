@@ -1,0 +1,83 @@
+{
+  "folio": 16,
+  "section": "General Knowledge Test",
+  "questions": [
+    {
+      "n": 10,
+      "en": "Which of these is especially true about your tires in hot weather?",
+      "es": "¿Cuál de estas es especialmente cierta sobre las llantas en clima caluroso?",
+      "opts_en": ["You should check tire mounting and air pressure before driving.", "If a tire is too hot to touch, you should hose it down with water.", "A small amount of air should be let out so air pressure remains steady."],
+      "opts_es": ["Debe revisar el montaje y la presión de las llantas antes de conducir.", "Si una llanta está demasiado caliente para tocarla, debe mojarla con agua.", "Debe dejar salir un poco de aire para que la presión se mantenga estable."]
+    },
+    {
+      "n": 11,
+      "en": "Why is a broken exhaust system dangerous?",
+      "es": "¿Por qué es peligroso un sistema de escape roto?",
+      "opts_en": ["Poisonous fumes could enter the cab or sleeper berth.", "You could pollute the air with exhaust smoke.", "Oil on the tie rod may catch on fire."],
+      "opts_es": ["Gases venenosos podrían entrar a la cabina o al camarote.", "Podría contaminar el aire con humo del escape.", "El aceite en la barra de dirección podría incendiarse."]
+    },
+    {
+      "n": 12,
+      "en": "Which of these statements is true regarding the use of drugs while driving?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre el uso de medicamentos al conducir?",
+      "opts_en": ["Prescription drugs are allowed if a doctor says the drugs will not affect safe driving ability.", "No prescription or non-prescription drugs are allowed at any time, for any reason.", "Use of amphetamines like \"speed\" is allowed if you are using the drugs to stay awake."],
+      "opts_es": ["Los medicamentos recetados se permiten si un médico indica que no afectarán su capacidad de conducir con seguridad.", "No se permite ningún medicamento, con o sin receta, en ningún momento ni por ningún motivo.", "Se permiten anfetaminas como el “speed” si las usa para mantenerse despierto."]
+    },
+    {
+      "n": 13,
+      "en": "Which of these statements is true about speed management?",
+      "es": "¿Cuál de estas afirmaciones es verdadera sobre el manejo de la velocidad?",
+      "opts_en": ["Shady parts of the road allow better traction than open areas.", "Road surfaces will freeze before bridges.", "On slippery roads, it takes longer to stop and is harder to turn without skidding."],
+      "opts_es": ["Las zonas sombreadas del camino dan mejor tracción que las despejadas.", "La superficie del camino se congela antes que los puentes.", "En caminos resbalosos se tarda más en detenerse y es más difícil girar sin derrapar."]
+    },
+    {
+      "n": 14,
+      "en": "Truck escape ramps:",
+      "es": "Las rampas de escape para camiones:",
+      "opts_en": ["Cannot be used by certain types of heavy vehicles.", "Are not for buses.", "Help avoid damage to vehicles."],
+      "opts_es": ["No pueden usarlas ciertos tipos de vehículos pesados.", "No son para autobuses.", "Ayudan a evitar daños a los vehículos."]
+    },
+    {
+      "n": 15,
+      "en": "To determine a person's blood alcohol concentration, you must know how:",
+      "es": "Para determinar la concentración de alcohol en sangre de una persona, debe saber:",
+      "opts_en": ["Often the person drinks alcohol (tolerance level).", "Much the person weighs.", "Old the person is."],
+      "opts_es": ["Con qué frecuencia bebe alcohol (nivel de tolerancia).", "Cuánto pesa la persona.", "Qué edad tiene la persona."]
+    },
+    {
+      "n": 16,
+      "en": "You are driving a long vehicle that makes wide turns. You want to turn left from one street into another. Both are two-lane, two-way streets. You should:",
+      "es": "Conduce un vehículo largo que gira abierto. Quiere girar a la izquierda de una calle a otra; ambas son de dos carriles y doble sentido. Debe:",
+      "opts_en": ["Begin turning your vehicle as soon as you enter the intersection.", "Turn into the left lane. Move to the right lane when traffic is clear.", "Begin turning your vehicle when halfway through the intersection."],
+      "opts_es": ["Empezar a girar en cuanto entra a la intersección.", "Girar hacia el carril izquierdo y pasarse al derecho cuando el tráfico esté despejado.", "Empezar a girar cuando esté a mitad de la intersección."]
+    },
+    {
+      "n": 17,
+      "en": "You are driving in heavy traffic at 35 mph. The speed limit is 55 mph. The safest speed for your vehicle is:",
+      "es": "Conduce en tráfico denso a 35 mph. El límite de velocidad es 55 mph. La velocidad más segura para su vehículo es:",
+      "opts_en": ["25 mph.", "45 mph.", "35 mph."],
+      "opts_es": ["25 mph.", "45 mph.", "35 mph."]
+    },
+    {
+      "n": 18,
+      "en": "Which of these lights cannot be checked at the same time?",
+      "es": "¿Cuál de estos grupos de luces no puede revisarse al mismo tiempo?",
+      "opts_en": ["Headlights, brake lights, and clearance lights.", "Turn signals, taillights, and clearance lights.", "Turn signals, brake lights, and four-way flashers."],
+      "opts_es": ["Faros, luces de freno y luces de gálibo.", "Direccionales, luces traseras y luces de gálibo.", "Direccionales, luces de freno e intermitentes de emergencia."]
+    },
+    {
+      "n": 19,
+      "en": "Merging onto a road is safest if you:",
+      "es": "Incorporarse a una vía es más seguro si usted:",
+      "opts_en": ["Slowly drive into the nearest lane so other vehicles will give you room.", "Gain speed on the shoulder and then merge quickly.", "Wait for a large enough gap in traffic to enter the road."],
+      "opts_es": ["Entra despacio al carril más cercano para que los demás le cedan espacio.", "Toma velocidad en el acotamiento y luego se incorpora rápido.", "Espera un hueco suficientemente amplio en el tráfico para entrar a la vía."]
+    },
+    {
+      "n": 20,
+      "en": "Which of these statements is not true about backing a heavy vehicle?",
+      "es": "¿Cuál de estas afirmaciones no es verdadera sobre retroceder con un vehículo pesado?",
+      "opts_en": ["You should back and turn towards the driver's side whenever possible.", "You should use a helper and communicate with hand signals.", "You should back slowly until you slightly bump into the dock."],
+      "opts_es": ["Debe retroceder y girar hacia el lado del conductor siempre que sea posible.", "Debe usar un ayudante y comunicarse con señales de mano.", "Debe retroceder despacio hasta tocar levemente el andén."]
+    }
+  ]
+}

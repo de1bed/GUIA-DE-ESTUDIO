@@ -1,0 +1,49 @@
+{
+  "folio": 14,
+  "section": "Air Brake Test",
+  "questions": [
+    {
+      "n": 15,
+      "en": "The driver must be able to see a low air pressure warning which comes on before pressure in the service air tanks falls below ____ psi.",
+      "es": "El conductor debe poder ver una advertencia de baja presión que se enciende antes de que la presión en los tanques de servicio caiga por debajo de ____ psi.",
+      "opts_en": ["40.", "60.", "80."],
+      "opts_es": ["40.", "60.", "80."],
+      "note": "El original lleva escrito a mano “NEW LAW” junto a esta pregunta. El manual vigente fija un rango de 55 a 75 psi en lugar de una cifra fija."
+    },
+    {
+      "n": 16,
+      "en": "What is emergency controlled braking?",
+      "es": "¿Qué es el frenado controlado de emergencia?",
+      "opts_en": ["You apply the brakes as hard as you can without locking the wheels.", "You brake as hard as you can, release the brakes when the wheels lock, and reapply the brakes when the wheels start rolling.", "Apply the hand valve for one second, and then push the brake pedal hard."],
+      "opts_es": ["Aplicar los frenos con toda la fuerza posible sin llegar a bloquear las ruedas.", "Frenar con toda la fuerza posible, soltar los frenos cuando las ruedas se bloqueen y volver a aplicarlos cuando empiecen a rodar.", "Aplicar la válvula manual un segundo y luego pisar fuerte el pedal del freno."]
+    },
+    {
+      "n": 17,
+      "en": "You are on a steep downgrade and have reached your \"safe\" speed of 40 mph. You would apply the service brakes until your speed drops to ___ mph.",
+      "es": "Va en una bajada empinada y alcanzó su velocidad “segura” de 40 mph. Aplicaría los frenos de servicio hasta que la velocidad baje a ___ mph.",
+      "opts_en": ["25.", "30.", "35."],
+      "opts_es": ["25.", "30.", "35."]
+    },
+    {
+      "n": 18,
+      "en": "If your truck's air compressor has its own oil supply, when should you first check the oil level?",
+      "es": "Si el compresor de aire de su camión tiene su propio suministro de aceite, ¿cuándo debe revisar el nivel de aceite por primera vez?",
+      "opts_en": ["During your first en route inspection.", "Immediately after stopping.", "Before driving."],
+      "opts_es": ["Durante la primera inspección en ruta.", "Inmediatamente después de detenerse.", "Antes de conducir."]
+    },
+    {
+      "n": 19,
+      "en": "How should you check that the trailer brakes come on when air pressure in the system drops below a certain level?",
+      "es": "¿Cómo debe comprobar que los frenos del remolque se aplican cuando la presión del sistema baja de cierto nivel?",
+      "opts_en": ["Park on a slight incline, drain off air pressure, set parking brakes, and check for movement.", "Chock the wheels, apply the parking brake, shut the engine off, and pump the brake pedal to reduce air tank pressure.", "Wait for normal air pressure, release the parking brake, move the truck forward slowly, and apply the brake pedal firmly."],
+      "opts_es": ["Estacionar en una pendiente leve, purgar la presión, aplicar los frenos de estacionamiento y comprobar si hay movimiento.", "Calzar las ruedas, aplicar el freno de estacionamiento, apagar el motor y bombear el pedal para reducir la presión de los tanques.", "Esperar a la presión normal, soltar el freno de estacionamiento, avanzar despacio y pisar el pedal con firmeza."]
+    },
+    {
+      "n": 20,
+      "en": "Repeatedly pressing and releasing (fanning) the brake pedal may result in:",
+      "es": "Pisar y soltar repetidamente el pedal del freno (bombearlo) puede provocar:",
+      "opts_en": ["The loss of brake air pressure.", "A build up of brake air pressure.", "No change in brake air pressure."],
+      "opts_es": ["La pérdida de presión de aire de los frenos.", "Una acumulación de presión de aire de los frenos.", "Ningún cambio en la presión de aire de los frenos."]
+    }
+  ]
+}

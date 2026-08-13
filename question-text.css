@@ -233,6 +233,10 @@
   font-size: 13px;
 }
 
+/* Las preguntas sin clave se distinguen a simple vista: así el botón ausente
+   se lee como un dato del cuestionario y no como una falla del portal. */
+.q-item.q-unkeyed { border-left: 3px solid #f4b941; }
+
 /* La misma presentación dentro del examen personalizado */
 .custom-answer-options {
   display: flex;

@@ -120,8 +120,13 @@ function questionMarkup(file, number, { answers, key, graded, unanswerable }) {
         : `La respuesta correcta es <b>${correct}</b>.`
   }</p>`;
 
-  const verify = isBlank || !correct ? '' :
-    `<button class="q-verify" data-verify="${number}">${show ? 'Ocultar respuesta' : 'Verificar respuesta'}</button>`;
+  /* Antes, una pregunta sin clave simplemente no mostraba nada: el botón
+     "Verificar respuesta" aparecía en unas preguntas y en otras no, sin
+     explicación. Ahora el hueco se declara en lugar de quedar mudo. */
+  const verify = isBlank ? ''
+    : correct
+      ? `<button class="q-verify" data-verify="${number}">${show ? 'Ocultar respuesta' : 'Verificar respuesta'}</button>`
+      : `<p class="missing-note">Sin clave verificada todavía · esta pregunta aún no tiene respuesta contrastada contra el manual, por eso no hay botón de verificación.</p>`;
 
   /* Si la clave se contrasto contra el manual, se cita el pasaje. */
   const audit = show ? auditOf(file, number) : null;
@@ -135,7 +140,7 @@ function questionMarkup(file, number, { answers, key, graded, unanswerable }) {
     <small>${esc(audit.nota)}</small>
   </figure>`;
 
-  return `<article class="q-item ${rowState} ${question ? '' : 'q-compact'}">
+  return `<article class="q-item ${rowState} ${question ? '' : 'q-compact'} ${!isBlank && !correct ? 'q-unkeyed' : ''}">
     <header><b>${number}</b>${isBlank ? '<span class="q-blank">El original imprime “??” y no incluye pregunta</span>' : heading}</header>
     <div class="q-opts">${options}</div>
     ${question?.figure ? '<small class="q-figure">Esta pregunta depende de la figura impresa: consulta el escaneo.</small>' : ''}
@@ -171,7 +176,10 @@ function renderSourceExam() {
           : 'Esta hoja aún no tiene el texto transcrito: responde leyendo el escaneo de la izquierda.'}</p>
         <div class="answer-sheet-grid">${form.numbers.map(n => questionMarkup(sourceExamPage, n, { answers, key, graded, unanswerable })).join('')}</div>
         <div class="source-answer-progress"><strong>${answered}/${form.numbers.length}</strong> respondidas · <strong>${keyCount}/${form.numbers.length}</strong> con clave</div>
-        ${keyCount ? `<button class="grade-source" id="gradeSource">${graded ? 'Ocultar revisión' : 'Revisar respuestas'}</button>` : '<div class="key-pending">Clave en verificación contra el manual.</div>'}
+        ${keyCount ? `<button class="grade-source" id="gradeSource">${graded ? 'Ocultar revisión' : 'Revisar respuestas'}</button>` : ''}
+        ${keyCount === form.numbers.length ? '' : `<div class="key-pending">${keyCount
+          ? `${form.numbers.length - keyCount} de ${form.numbers.length} preguntas de esta hoja siguen sin clave: en ellas no aparece el botón “Verificar respuesta”.`
+          : 'Ninguna pregunta de esta hoja tiene clave todavía, por eso no hay botón “Verificar respuesta” ni revisión.'} Clave en verificación contra el manual.</div>`}
         ${graded ? `<div class="source-score"><strong>${score}/${keyCount}</strong><span>correctas entre las preguntas con clave</span></div>` : ''}
       </aside>
     </div>`;

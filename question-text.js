@@ -17,16 +17,25 @@ const AUDIT = (window.ANSWER_AUDIT?.entradas || []);
 const auditOf = (file, number) =>
   AUDIT.find(e => (2 * e.archivo - 1) === Number(file) && e.n === Number(number));
 
+/* Claves que el folleto no traía: unas se copian de otra hoja que repite la
+   misma pregunta, otras se dedujeron de los manuales. Se guardan aparte para
+   poder decir siempre de dónde salió cada respuesta. */
+const IA = window.CLAVES_IA || {};
+const iaOf = (file, number) => IA[String(file)]?.[String(number)];
+
 /* Correcciones a pageForms comprobadas contra los escaneos:
    - la hoja 5 abre la Seccion 3 con una pregunta que la tabla no listaba;
    - la hoja 43 se titula "Commercial Driver Examination" en el original,
      no "Class C Examination", y eso alimenta el filtro por seccion. */
 Object.keys(pageForms).forEach(page => delete pageForms[page]);
 Object.entries(BANK).forEach(([page, data]) => {
+  const claveDe = q => q.key || iaOf(page, q.n)?.clave;
   pageForms[page] = {
     section: data.section,
     numbers: data.questions.map(q => q.n),
-    key: Object.fromEntries(data.questions.filter(q => q.key).map(q => [q.n, q.key])),
+    key: Object.fromEntries(data.questions.filter(claveDe).map(q => [q.n, claveDe(q)])),
+    /* Sólo las que venían impresas en el folleto. */
+    keyFolleto: Object.fromEntries(data.questions.filter(q => q.key).map(q => [q.n, q.key])),
   };
 });
 verifiedQuestionBank = Object.entries(pageForms).flatMap(([page, form]) =>
@@ -39,6 +48,7 @@ verifiedQuestionBank = Object.entries(pageForms).flatMap(([page, form]) =>
    quedaron desfasados al recuperar la pregunta que faltaba en la hoja 5. */
 const TOTAL_SPACES = Object.values(pageForms).reduce((sum, form) => sum + form.numbers.length, 0);
 const TOTAL_KEYS = Object.values(pageForms).reduce((sum, form) => sum + Object.keys(form.key || {}).length, 0);
+const TOTAL_FOLLETO = Object.values(pageForms).reduce((sum, form) => sum + Object.keys(form.keyFolleto || {}).length, 0);
 const SHEET_COUNT = Object.keys(pageForms).length;
 const BOOKLET_SHEETS = SHEET_COUNT;
 
@@ -140,11 +150,29 @@ function questionMarkup(file, number, { answers, key, graded, unanswerable }) {
     <small>${esc(audit.nota)}</small>
   </figure>`;
 
+  /* Procedencia: nunca se presenta una respuesta deducida como si viniera
+     impresa en el folleto. */
+  const ia = show ? iaOf(file, number) : null;
+  const origen = !ia ? '' : ia.origen === 'duplicado'
+    ? `<figure class="q-origin duplicado">
+        <figcaption>↔ Clave del folleto original, tomada de otra hoja</figcaption>
+        <small>${esc(ia.nota)}</small>
+      </figure>`
+    : `<figure class="q-origin ia ${ia.certeza}">
+        <figcaption>RESPUESTA CON IA BASADA EN LOS MANUALES · ${{
+          confirmada: 'el manual lo dice literalmente',
+          deducida: 'deducida por descarte, revisable',
+          cambio: 'la norma cambió desde 2003',
+        }[ia.certeza] || 'contrastada'}</figcaption>
+        <blockquote>${esc(ia.cita)}</blockquote>
+        <small>${esc(ia.nota)} · ${esc(ia.manual)}, pág. ${ia.pagina}</small>
+      </figure>`;
+
   return `<article class="q-item ${rowState} ${question ? '' : 'q-compact'} ${!isBlank && !correct ? 'q-unkeyed' : ''}">
     <header><b>${number}</b>${isBlank ? '<span class="q-blank">El original imprime “??” y no incluye pregunta</span>' : heading}</header>
     <div class="q-opts">${options}</div>
     ${question?.figure ? '<small class="q-figure">Esta pregunta depende de la figura impresa: consulta el escaneo.</small>' : ''}
-    ${verdict}${source}${verify}
+    ${verdict}${source}${origen}${verify}
   </article>`;
 }
 
@@ -158,6 +186,7 @@ function renderSourceExam() {
   const answered = form.numbers.filter(n => answers[n]).length;
   const score = form.numbers.filter(n => key[n] && answers[n] === key[n]).length;
   const keyCount = Object.keys(key).length;
+  const folletoCount = Object.keys(form.keyFolleto || {}).length;
   const folio = folioOf(sourceExamPage);
   const transcribed = Boolean(bankPage(sourceExamPage));
 
@@ -176,6 +205,9 @@ function renderSourceExam() {
           : 'Esta hoja aún no tiene el texto transcrito: responde leyendo el escaneo de la izquierda.'}</p>
         <div class="answer-sheet-grid">${form.numbers.map(n => questionMarkup(sourceExamPage, n, { answers, key, graded, unanswerable })).join('')}</div>
         <div class="source-answer-progress"><strong>${answered}/${form.numbers.length}</strong> respondidas · <strong>${keyCount}/${form.numbers.length}</strong> con clave</div>
+        ${folletoCount === keyCount ? '' : `<p class="key-origin-note">${folletoCount
+          ? `${folletoCount} de estas claves venían impresas en el folleto; las otras ${keyCount - folletoCount} se completaron leyendo los manuales.`
+          : 'Ninguna clave de esta hoja venía impresa en el folleto: todas se completaron leyendo los manuales.'} Cada respuesta dice su procedencia al verificarla.</p>`}
         ${keyCount ? `<button class="grade-source" id="gradeSource">${graded ? 'Ocultar revisión' : 'Revisar respuestas'}</button>` : ''}
         ${keyCount === form.numbers.length ? '' : `<div class="key-pending">${keyCount
           ? `${form.numbers.length - keyCount} de ${form.numbers.length} preguntas de esta hoja siguen sin clave: en ellas no aparece el botón “Verificar respuesta”.`

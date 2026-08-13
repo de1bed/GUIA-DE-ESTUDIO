@@ -237,6 +237,51 @@
    se lee como un dato del cuestionario y no como una falla del portal. */
 .q-item.q-unkeyed { border-left: 3px solid #f4b941; }
 
+/* Procedencia de la clave. Se distingue de .q-source (la auditoría original)
+   para que nunca se confunda una respuesta deducida con una impresa. */
+.q-origin {
+  margin: 10px 0 0;
+  padding: 9px 12px;
+  border-left: 3px solid #8a93a0;
+  border-radius: 0 7px 7px 0;
+  background: #f4f6f8;
+}
+
+.q-origin figcaption {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: #4a5560;
+}
+
+.q-origin blockquote {
+  margin: 7px 0 5px;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 1.45;
+  color: #2c3742;
+}
+
+.q-origin small { font-size: 11.5px; color: #5b6b78; line-height: 1.4; display: block; }
+
+.q-origin.ia { border-left-color: #6c4fd6; background: #f5f2fd; }
+.q-origin.ia figcaption { color: #4b32a8; }
+.q-origin.ia.deducida { border-left-color: #d68910; background: #fff8ec; }
+.q-origin.ia.deducida figcaption { color: #8a5a08; }
+.q-origin.ia.cambio { border-left-color: #c0392b; background: #fdf1ef; }
+.q-origin.ia.cambio figcaption { color: #8e2b20; }
+
+.key-origin-note {
+  margin: 8px 0 0;
+  padding: 9px 11px;
+  border-radius: 6px;
+  background: #f5f2fd;
+  color: #4b32a8;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
 /* La misma presentación dentro del examen personalizado */
 .custom-answer-options {
   display: flex;
